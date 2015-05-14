@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:HGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   width="{mx.core.FlexGlobals.topLevelApplication.width}"
+			   height="{mx.core.FlexGlobals.topLevelApplication.height}" 
+			   verticalAlign="middle"
+			   horizontalAlign="center">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+		import flash.display.DisplayObjectContainer;
+		import mx.managers.PopUpManager;
+		import services.SettingsService;
+		import flash.events.Event;
+		import spark.components.CheckBox;
+		
+		private var _isShown:Boolean;
+		
+		public function get isShown():Boolean 
+		{ 
+			return _isShown;
+		}
+		
+		public function show(parent:DisplayObjectContainer):void
+		{
+			updateValues();
+			PopUpManager.addPopUp(this, parent,true);
+			_isShown = true;
+		}
+		
+		public function hide():void
+		{
+			PopUpManager.removePopUp(this);
+			_isShown = false;
+		}
+		
+		private function updateValues():void
+		{
+			skipIntro_chBox.selected = SettingsService.skipIntro;
+		}
+		
+		private function onSkipIntroChange(event:Event):void
+		{
+			SettingsService.skipIntro = (event.currentTarget as CheckBox).selected;
+		}
+		
+		]]>
+	</fx:Script>
+	<s:CheckBox id="skipIntro_chBox" label="Не показывать видео" change="onSkipIntroChange(event)" />
+</s:HGroup>

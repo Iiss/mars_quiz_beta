@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			  >
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here 
+		 width="{mx.core.FlexGlobals.topLevelApplication.width}"
+			   height="{mx.core.FlexGlobals.topLevelApplication.height}"
+		-->
+	</fx:Declarations>
+	<s:Rect width="100%" height="100%">
+        <s:fill>
+			<s:SolidColor color="0x000000" />
+		</s:fill>
+    </s:Rect>
+	<s:Group width="100%" height="100%">
+		<s:layout>
+			<s:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
+		</s:layout>
+		<s:Label color="#FFFFFF" fontSize="24" text="Tap to unlock"/>
+	</s:Group>
+</s:Group>

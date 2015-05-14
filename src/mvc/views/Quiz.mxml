@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   xmlns:views="mvc.views.*">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here  -->
+	</fx:Declarations>
+	 <s:Rect width="100%" height="100%">
+        <s:fill>
+			<s:SolidColor color="0x000000" />
+		</s:fill>
+    </s:Rect>
+	<s:BitmapImage 
+		id="task_img"
+		width="{mx.core.FlexGlobals.topLevelApplication.width}"
+		height="{mx.core.FlexGlobals.topLevelApplication.height}" verticalAlign="middle" horizontalAlign="center"
+		scaleMode="letterbox"
+		fillMode="scale"
+		smooth="true"/>
+	<s:Group
+		width="100%"
+		height="100%">
+		<s:layout>
+			<s:VerticalLayout 
+				horizontalAlign="center"
+				verticalAlign="bottom"
+				paddingBottom="20"
+				paddingLeft="50" paddingRight="50"/>
+		</s:layout>
+		<s:BorderContainer 
+			width="580"
+			color="#ffffff"
+			backgroundColor="#000000"
+			backgroundAlpha=".8">
+			<s:VGroup width="100%"
+				paddingTop="16"
+				paddingBottom="10"
+				paddingLeft="10"
+				paddingRight="10">
+				<s:Label
+					width="100%"
+					id="quiestion_txt"
+					color="#cccccc" 
+					minHeight="50"
+					fontSize="14"
+					maxDisplayedLines="20"
+					lineBreak="toFit"/>
+				<s:List id="answers_list"
+					itemRenderer="mvc.renderers.StringAnswerRenderer"
+					borderVisible="false"
+					contentBackgroundAlpha="0">
+					<s:layout>
+						<s:TileLayout
+							columnWidth="275"
+							rowHeight="50"
+							requestedColumnCount="2"/>
+					</s:layout>
+				</s:List>
+			</s:VGroup>
+		</s:BorderContainer>
+	</s:Group>
+	<s:VGroup width="100%" horizontalAlign="center" paddingTop="0" paddingLeft="-170">
+		<views:TimerView/>
+	</s:VGroup>
+	
+</s:Group>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo">
+	<s:layout>
+		<s:VerticalLayout horizontalAlign="center"/>
+	</s:layout>
+	<fx:Script>
+		<![CDATA[
+		import mvc.models.QuizModel;
+		
+		public function updateScore(model:QuizModel):void
+		{
+			value_label.text = model.score.toString() + '/' + model.quizList.length.toString();
+		}
+		
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Label text="Ваш результат"/>
+	<s:Label id="value_label" text="0/0"/>
+	<s:Button id="replay_btn" label="Еще раз..."/>
+</s:Group>
