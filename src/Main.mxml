@@ -72,7 +72,7 @@
         @namespace mx "library://ns.adobe.com/flex/mx";
 		
 		@font-face {
-			src: url("D:/Bicubik.OTF");
+			src: url("../lib/assets/Bicubik.OTF");
 			fontFamily: "SciFiFont";
 			embedAsCFF: true;
 		}

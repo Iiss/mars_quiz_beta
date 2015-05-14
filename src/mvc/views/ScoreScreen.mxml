@@ -2,9 +2,6 @@
 <s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
                xmlns:s="library://ns.adobe.com/flex/spark" 
                xmlns:mx="library://ns.adobe.com/flex/halo">
-	<s:layout>
-		<s:VerticalLayout horizontalAlign="center"/>
-	</s:layout>
 	<fx:Script>
 		<![CDATA[
 		import mvc.models.QuizModel;
@@ -19,7 +16,8 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
-	<s:Label text="Ваш результат"/>
-	<s:Label id="value_label" text="0/0"/>
-	<s:Button id="replay_btn" label="Еще раз..."/>
+	<s:BitmapImage source="@Embed(source='../../../lib/assets/result_frame.png')"/>
+	<s:Label text="Ваш результат" y="48" width="100%" textAlign="center" fontSize="30" color="0x5BC5E6" />
+	<s:Label id="value_label" text="0/0" y="124" width="100%" textAlign="center" fontSize="60" color="0x5BC5E6" />
+	<s:Button id="replay_btn" label="Еще раз..." fontSize="28" x="40" y="226" width="512" skinClass="skins.ButtonSkin"/>
 </s:Group>

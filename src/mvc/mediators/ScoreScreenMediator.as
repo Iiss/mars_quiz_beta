@@ -14,7 +14,7 @@ package mvc.mediators
 	 */
 	public class ScoreScreenMediator extends Mediator
 	{
-		private const RESTART_DELAY:int=10000;
+		private const RESTART_DELAY:int=20000;
 		
 		[Inject]
 		public var quizModel:QuizModel;

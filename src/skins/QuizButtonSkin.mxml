@@ -37,9 +37,8 @@
 			
 			<s:Label id="labelDisplay" 
 				color="0x5BC5E6" 
-				color.down="0xffffff"
+				color.down="0xffffff" 
 				width="100%"
-				textAlign="center"
 				maxDisplayedLines="{-1}"
 				lineBreak="toFit"/>	
 		</s:HGroup>
