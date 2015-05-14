@@ -52,8 +52,8 @@
 					contentBackgroundAlpha="0">
 					<s:layout>
 						<s:TileLayout
-							columnWidth="275"
-							rowHeight="50"
+							columnWidth="435"
+							rowHeight="78"
 							requestedColumnCount="2"/>
 					</s:layout>
 				</s:List>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   minWidth="200" minHeight="78">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Metadata>
+		[HostComponent("spark.components.Button")]
+	</fx:Metadata>
+	
+	 <s:states>
+        <s:State name="up"/>
+        <s:State name="over"/>
+        <s:State name="down"/>
+        <s:State name="disabled"/>
+    </s:states>
+	
+	<s:BitmapImage 
+		source="@Embed(source='../../lib/assets/BlueButton_up.png',scaleGridLeft='100',scaleGridRight='340',scaleGridTop='50',scaleGridBottom='60')"
+		width="100%" height="100%" 
+		includeIn="up,over,disabled"/>
+		
+	<s:BitmapImage 
+		source="@Embed(source='../../lib/assets/BlueButton_down.png',scaleGridLeft='100',scaleGridRight='340',scaleGridTop='50',scaleGridBottom='60')"
+		width="100%" height="100%" 
+		includeIn="down" />
+		
+		<s:HGroup 
+			width="100%" height="100%"
+			verticalAlign="middle" 
+			paddingLeft="32" 
+			paddingRight="32"
+			paddingTop="4">
+			
+			<s:Label id="labelDisplay" 
+				color="0x5BC5E6" 
+				color.down="0xffffff" 
+				width="100%"
+				maxDisplayedLines="{-1}"
+				lineBreak="toFit"/>	
+		</s:HGroup>
+</s:Skin>
