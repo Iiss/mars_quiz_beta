@@ -60,7 +60,7 @@ package mvc.mediators
 				
 				view.quiestion_txt.text = task.question;
 				view.answers_list.dataProvider = task.answers;
-				view.task_img.source = task.img;
+			//	view.task_img.source = task.img; //--temporary disabled
 				view.task_group.enabled = true;
 			}
 		}
@@ -86,14 +86,12 @@ package mvc.mediators
 			{
 				(btn.parent as StringAnswerRenderer).currentState='error';
 			}
-			//endof temp
 			
 			TweenNano.delayedCall(1, _dispatchNext);
 		}
 		
 		private function _dispatchNext():void
 		{
-			//temp
 			if (_parent)
 			{
 				for (var i:int = 0; i < _parent.numChildren; i++)
@@ -101,7 +99,6 @@ package mvc.mediators
 					(_parent.getChildAt(i) as StringAnswerRenderer).currentState = 'default';
 				}
 			}
-			//endof temp
 			
 			dispatch(new QuizEvent(QuizEvent.SHOW_NEXT_TASK));
 		}
