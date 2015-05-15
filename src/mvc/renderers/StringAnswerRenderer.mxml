@@ -11,6 +11,49 @@
 		<s:State name="error"/>
 		<s:State name="correct"/>
 	</s:states>
-	<s:Button label="{data.toString()}" color="#000000" width="100%" height="100%"
-		skinClass="skins.QuizButtonSkin" chromeColor.error="#FF0000" chromeColor.correct="#00FF00"/>
+
+	<s:Button label="{data.toString()}" 
+		width="100%" height="100%"
+		skinClass="skins.QuizButtonSkin"
+		includeIn="default" />
+	
+	<s:BitmapImage 
+		source="@Embed(source='../../../lib/assets/GreenButton.png',scaleGridLeft='100',scaleGridRight='340',scaleGridTop='50',scaleGridBottom='60')"
+		width="100%" height="100%" 
+		includeIn="correct" />
+		
+		<s:HGroup 
+			width="100%" height="100%"
+			verticalAlign="middle" 
+			paddingLeft="32" 
+			paddingRight="32"
+			paddingTop="4"
+			includeIn="correct">
+			
+			<s:Label text="{data.toString()}" 
+				color="0xffffff" 
+				width="100%"
+				maxDisplayedLines="{-1}"
+				lineBreak="toFit"/>	
+	</s:HGroup>
+	
+	<s:BitmapImage 
+		source="@Embed(source='../../../lib/assets/RedButton.png',scaleGridLeft='100',scaleGridRight='340',scaleGridTop='50',scaleGridBottom='60')"
+		width="100%" height="100%" 
+		includeIn="error" />
+		
+		<s:HGroup 
+			width="100%" height="100%"
+			verticalAlign="middle" 
+			paddingLeft="32" 
+			paddingRight="32"
+			paddingTop="4"
+			includeIn="error">
+			
+			<s:Label text="ОШИБКА" 
+				color="0xff0000" 
+				width="100%"
+				fontSize="45"
+				textAlign="center"/>	
+	</s:HGroup>
 </s:ItemRenderer>
