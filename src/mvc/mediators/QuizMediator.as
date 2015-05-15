@@ -56,11 +56,12 @@ package mvc.mediators
 			
 			if (task)
 			{
-				eventMap.mapListener(view.answers_list, MouseEvent.MOUSE_DOWN, _onAnswerClick);
+				eventMap.mapListener(view.answers_list, MouseEvent.CLICK, _onAnswerClick);
 				
 				view.quiestion_txt.text = task.question;
 				view.answers_list.dataProvider = task.answers;
 				view.task_img.source = task.img;
+				view.task_group.enabled = true;
 			}
 		}
 		
@@ -69,13 +70,15 @@ package mvc.mediators
 			var btn:spark.components.Button = (e.target as spark.components.Button);
 			if (!btn) return;
 			
-			eventMap.unmapListener(view.answers_list, MouseEvent.MOUSE_DOWN, _onAnswerClick);
+			view.task_group.enabled = false;
+			
+			eventMap.unmapListener(view.answers_list, MouseEvent.CLICK, _onAnswerClick);
 			
 			var quizEvent:QuizEvent = new QuizEvent(QuizEvent.ANSWER_SELECTED);
 				quizEvent.key = view.answers_list.selectedIndex;
 				dispatch(quizEvent);
 				
-			//temp
+			
 			_parent = btn.parent.parent;
 			(_parent.getChildAt(quizModel.currentTask.key) as StringAnswerRenderer).currentState='correct';
 			

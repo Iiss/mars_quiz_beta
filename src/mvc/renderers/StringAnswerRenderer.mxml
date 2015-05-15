@@ -16,7 +16,7 @@
 	<s:Button label="{data.toString()}" 
 		width="100%" height="100%"
 		skinClass="skins.QuizButtonSkin"
-		includeIn="default" />
+		includeIn="default"/>
 	
 	<s:BitmapImage 
 		source="@Embed(source='../../../lib/assets/GreenButton.png',scaleGridLeft='100',scaleGridRight='340',scaleGridTop='50',scaleGridBottom='60')"
