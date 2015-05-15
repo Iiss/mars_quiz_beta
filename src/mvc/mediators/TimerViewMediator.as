@@ -42,7 +42,8 @@ package mvc.mediators
 			var minStr:String = min > 9 ? min.toString(): '0' + min.toString();
 			var secStr:String = sec > 9 ? sec.toString(): '0' + sec.toString();
 			
-			view.label.text = minStr + ':' + secStr;
+			view.min_label.text = minStr;
+			view.sec_label.text = secStr;
 		}
 	}
 }

@@ -6,8 +6,14 @@
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
 	<s:Image source="@Embed(source='../../../lib/assets/timer_bg.png')"/>
-	<s:Label id="label" x="329" y="68"
-			   color="#FFFFFF"
-			   fontSize="36">
-</s:Label>
+	<s:Label  x="385" y="68" text=":" color="#FFFFFF"
+			fontSize="36"/>
+	<s:Label id="min_label" x="320" y="68"
+			color="#FFFFFF" textAlign="right" text="00"
+			fontSize="36" width="61" />
+			   
+	<s:Label id="sec_label" x="397" y="68"
+			   color="#FFFFFF" textAlign="left" text="11"
+			   fontSize="36"/>
+
 </s:Group>
