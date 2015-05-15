@@ -9,28 +9,20 @@
 	
 	<s:BitmapImage 
 		source="@Embed(source='../../../lib/assets/question_bg1.jpg')" 
-		width="{task_img.width}"
-		height="{task_img.height}"
+		width="{scanlines.width}"
+		height="{scanlines.height}"
 		scaleMode="zoom"
 		fillMode="scale"/>
 		
-	<s:BitmapImage visible="false"
-		id="task_img"
-		width="{mx.core.FlexGlobals.topLevelApplication.width}"
-		height="{mx.core.FlexGlobals.topLevelApplication.height}"
-		verticalAlign="middle" horizontalAlign="center"
-		scaleMode="letterbox"
-		fillMode="scale"
-		smooth="true"/>
 	<s:Rect width="100%" height="100%" alpha=".75">
         <s:fill>
 			<s:SolidColor color="0x000000"/>
 		</s:fill>
     </s:Rect>
 	
-	<s:VGroup 
-		width="{task_img.width}"
-		height="{task_img.height}"
+	<s:VGroup id="scanlines"
+		width="{mx.core.FlexGlobals.topLevelApplication.width}"
+		height="{mx.core.FlexGlobals.topLevelApplication.height}"
 		horizontalAlign="center" verticalAlign="middle"
 		paddingTop="280" paddingLeft="40">
 		
