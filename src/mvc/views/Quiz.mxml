@@ -6,61 +6,66 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here  -->
 	</fx:Declarations>
-	 <s:Rect width="100%" height="100%">
-        <s:fill>
-			<s:SolidColor color="0x000000" />
-		</s:fill>
-    </s:Rect>
+	
 	<s:BitmapImage 
+		source="@Embed(source='../../../lib/assets/question_bg1.jpg')" 
+		width="{task_img.width}"
+		height="{task_img.height}"
+		scaleMode="zoom"
+		fillMode="scale"/>
+		
+	<s:BitmapImage visible="false"
 		id="task_img"
 		width="{mx.core.FlexGlobals.topLevelApplication.width}"
 		height="{mx.core.FlexGlobals.topLevelApplication.height}" verticalAlign="middle" horizontalAlign="center"
 		scaleMode="letterbox"
 		fillMode="scale"
 		smooth="true"/>
-	<s:Group
-		width="100%"
-		height="100%">
-		<s:layout>
-			<s:VerticalLayout 
-				horizontalAlign="center"
-				verticalAlign="bottom"
-				paddingBottom="20"
-				paddingLeft="50" paddingRight="50"/>
-		</s:layout>
-		<s:BorderContainer 
-			width="580"
-			color="#ffffff"
-			backgroundColor="#000000"
-			backgroundAlpha=".8">
-			<s:VGroup width="100%"
-				paddingTop="16"
-				paddingBottom="10"
-				paddingLeft="10"
-				paddingRight="10">
-				<s:Label
-					width="100%"
-					id="quiestion_txt"
-					color="#cccccc" 
-					minHeight="50"
-					fontSize="14"
-					maxDisplayedLines="20"
-					lineBreak="toFit"/>
-				<s:List id="answers_list"
+	<s:Rect width="100%" height="100%" alpha=".75">
+        <s:fill>
+			<s:SolidColor color="0x000000"/>
+		</s:fill>
+    </s:Rect>
+	
+	<s:VGroup 
+		width="{task_img.width}"
+		height="{task_img.height}"
+		horizontalAlign="center" verticalAlign="middle"
+		paddingTop="280" paddingLeft="40">
+		
+		<s:BitmapImage source="@Embed(source='../../../lib/assets/scanlines.png')"/>
+	</s:VGroup>	
+	
+	<s:VGroup width="100%" height="100%" 
+		verticalAlign="middle" horizontalAlign="center"
+		paddingTop="100">
+		<s:Group>
+			<s:BitmapImage source="@Embed(source='../../../lib/assets/question_ frame.png')"/>
+			
+			<s:Label id="quiestion_txt"
+				width="808"
+				color="#5BC5E6" 
+				fontSize="25" x="72" y="47"
+				maxDisplayedLines="20"
+				lineBreak="toFit"/>
+					
+			<s:List id="answers_list"
+					x="40" y="145"
 					itemRenderer="mvc.renderers.StringAnswerRenderer"
 					borderVisible="false"
 					contentBackgroundAlpha="0">
 					<s:layout>
 						<s:TileLayout
-							columnWidth="435"
+							columnWidth="431"
 							rowHeight="78"
+							horizontalGap="10"
 							requestedColumnCount="2"/>
 					</s:layout>
-				</s:List>
-			</s:VGroup>
-		</s:BorderContainer>
-	</s:Group>
-	<s:VGroup width="100%" horizontalAlign="center" paddingTop="0" paddingLeft="-170">
+			</s:List>
+		</s:Group>
+	</s:VGroup>
+	
+	<s:VGroup width="100%" horizontalAlign="center" paddingLeft="-170">
 		<views:TimerView/>
 	</s:VGroup>
 	
