@@ -66,6 +66,9 @@ package mvc.mediators
 		
 		private function _onAnswerClick(e:MouseEvent):void
 		{
+			var btn:spark.components.Button = (e.target as spark.components.Button);
+			if (!btn) return;
+			
 			eventMap.unmapListener(view.answers_list, MouseEvent.MOUSE_DOWN, _onAnswerClick);
 			
 			var quizEvent:QuizEvent = new QuizEvent(QuizEvent.ANSWER_SELECTED);
@@ -73,9 +76,7 @@ package mvc.mediators
 				dispatch(quizEvent);
 				
 			//temp
-			var btn:spark.components.Button = (e.target as spark.components.Button);
 			_parent = btn.parent.parent;
-			
 			(_parent.getChildAt(quizModel.currentTask.key) as StringAnswerRenderer).currentState='correct';
 			
 			if (!(quizModel.currentTask && (quizModel.currentTask.key == quizEvent.key)))
