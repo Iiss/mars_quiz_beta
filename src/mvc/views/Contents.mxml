@@ -7,6 +7,7 @@
 	</fx:Declarations>
 	<s:Label text="Выберите категорию"/>
 	<s:List id="contentsList" labelField="name"/>
-	<s:Button skinClass="skins.PageButtonSkin"/>
-	<s:Button skinClass="skins.PageButtonSkin" scaleX="-1" />
+	<s:Button id="nexPageBtn" skinClass="skins.PageButtonSkin"/>
+	<s:Button id="prevPageBtn" skinClass="skins.PageButtonSkin" scaleX="-1" />
+	<s:ButtonBar id="pagesBar" />
 </s:VGroup>
