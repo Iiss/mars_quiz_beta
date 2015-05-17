@@ -48,7 +48,6 @@ package mvc.mediators
 			eventMap.mapListener(view.contentsList, MouseEvent.MOUSE_DOWN, _onChapterClick);
 			eventMap.mapListener(view.prevPageBtn, MouseEvent.CLICK, _showPrevPage);
 			eventMap.mapListener(view.nexPageBtn, MouseEvent.CLICK, _showNextPage);
-			eventMap.mapListener(view.pagesBar, MouseEvent.CLICK, _showPage);
 			
 		}
 		
@@ -75,7 +74,7 @@ package mvc.mediators
 				markers.addItem(i);
 			}
 			
-			view.pagesBar.dataProvider = markers;
+			view.pagesBar.totalPages = _totalPages;
 			
 			gotoPage(0);
 		}

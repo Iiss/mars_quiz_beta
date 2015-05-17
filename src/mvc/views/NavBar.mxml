@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:HGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+		import mvc.views.PageMarker;
+		
+		private var _totalPages:int = 0;
+		private var _selectedIndex:int = -1;
+		
+		public function get totalPages():int { return _totalPages; }
+		public function set totalPages(value:int):void
+		{
+			if (value == _totalPages) return;
+			if (value < 0) value = 0;
+			
+			_totalPages = value;
+			selectedIndex = -1;
+			
+			removeAllElements();
+			
+			for (var i:int = 0; i < _totalPages; i++)
+			{
+				var m:PageMarker = new PageMarker();
+				m.percentWidth = 100;
+				m.percentHeight = 100;
+				addElement(m);
+			}
+		}
+		
+		public function get selectedIndex():int { return _selectedIndex; }
+		public function set selectedIndex(value:int):void
+		{
+			if (value == _selectedIndex) return;
+			if (value < -1) value = -1;
+			if (value >= _totalPages) value = _totalPages - 1;
+			
+			if (_selectedIndex > -1)
+			{
+				(getElementAt(_selectedIndex) as PageMarker).selected = false;
+			}
+			
+			_selectedIndex = value;
+			
+			(getElementAt(_selectedIndex) as PageMarker).selected = true;
+		}
+		
+		]]>
+	</fx:Script>
+</s:HGroup>
