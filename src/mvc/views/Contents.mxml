@@ -7,4 +7,6 @@
 	</fx:Declarations>
 	<s:Label text="Выберите категорию"/>
 	<s:List id="contentsList" labelField="name"/>
+	<s:Button skinClass="skins.PageButtonSkin"/>
+	<s:Button skinClass="skins.PageButtonSkin" scaleX="-1" />
 </s:VGroup>
