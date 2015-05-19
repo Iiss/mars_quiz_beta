@@ -119,7 +119,7 @@
 	</s:VGroup>
 	
 	<s:VGroup width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">
-		<views:Contents includeIn="default"/>
+		<views:Contents includeIn="default" width="100%" height="100%"/>
 		<mx:ProgressBar indeterminate="true" label="Загрузка" includeIn="loading_state"/>
 		<views:Quiz includeIn="quiz_ready_state"/>
 		<views:ScoreScreen includeIn="quiz_finish_state"/>

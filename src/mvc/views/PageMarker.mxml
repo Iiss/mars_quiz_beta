@@ -33,7 +33,7 @@
 			<s:SolidColor color="0x00c2fa"/>
 		</s:fill>
 		<s:filters>
-			<s:GlowFilter alpha=".34" color="0x00c6ff" blurX="7" blurY="7"/>
+			<s:GlowFilter alpha=".34" color="0x00c6ff" blurX="7" blurY="7" strength="2.5" />
 		</s:filters>
 	</s:Rect>
 </s:Group>
