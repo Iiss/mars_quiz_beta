@@ -8,7 +8,11 @@ package mvc.mediators
 	import mvc.models.ContentsModel;
 	import mvc.views.Contents;
 	import mx.collections.ArrayList;
+	import mx.core.UIComponent;
 	import robotlegs.bender.bundles.mvcs.Mediator;
+	import flash.events.FocusEvent;
+	import spark.components.Scroller;
+	import spark.layouts.VerticalLayout;
 	/**
 	 * ...
 	 * @author liss
@@ -23,8 +27,9 @@ package mvc.mediators
 		
 		private static const SCREENSAVER_DELAY:int = 300000;
 		private static const PAGE_SIZE:int = 5;
-		private var _currentPage:int = 0;
-		private var _totalPages:int = 0;
+		private static var _currentPage:int = 0;
+		private static var _totalPages:int = 0;
+		private var _pagingUI:Array;
 		
 		private var time:int;
 		
@@ -39,16 +44,17 @@ package mvc.mediators
 			
 			time = getTimer();
 			
+			_pagingUI =[view.nexPageBtn,view.prevPageBtn,view.pagesBar]
+			
 			//MODEL
 			eventMap.mapListener(contentsModel, Event.CHANGE, _onContentsChanged);
 			eventMap.mapListener(view, Event.ENTER_FRAME, _onEnterFrame);
 			eventMap.mapListener(view.stage, MouseEvent.CLICK, _onStageClick);
 			
 			//VIEW
-			eventMap.mapListener(view.contentsList, MouseEvent.MOUSE_DOWN, _onChapterClick);
+			eventMap.mapListener(view.contentsList, MouseEvent.CLICK, _onChapterClick);
 			eventMap.mapListener(view.prevPageBtn, MouseEvent.CLICK, _showPrevPage);
 			eventMap.mapListener(view.nexPageBtn, MouseEvent.CLICK, _showNextPage);
-			
 		}
 		
 		private function _onChapterClick(e:MouseEvent):void
@@ -59,7 +65,7 @@ package mvc.mediators
 				quizEvent.quizId = (view.contentsList.selectedItem as ChapterModel).id;
 				
 				view.contentsList.selectedItem = null;
-				
+				view.contentsList.scroller.focusManager.deactivate();
 				dispatch(quizEvent);
 			}
 		}
@@ -74,9 +80,26 @@ package mvc.mediators
 				markers.addItem(i);
 			}
 			
-			view.pagesBar.totalPages = _totalPages;
+			validatePagingUI();
 			
+			view.pagesBar.totalPages = _totalPages;
 			gotoPage(0);
+		}
+		
+		private function validatePagingUI():void
+		{
+			var bigContent:Boolean = contentsModel.chapters.length > PAGE_SIZE;
+			
+			VerticalLayout(view.contentsList.layout).requestedMinRowCount = bigContent ? 5 : 1;
+			
+			for (var i:int = 0; i < _pagingUI.length; i++)
+			{
+				var comp:UIComponent = _pagingUI[i] as UIComponent;
+				if (comp)
+				{
+					comp.visible = comp.includeInLayout = bigContent;
+				}		
+			}
 		}
 		
 		public function gotoPage(pageNum:int):void
@@ -125,6 +148,7 @@ package mvc.mediators
 				dispatch(new QuizEvent(QuizEvent.SHOW_SCREENSAVER));
 			}
 		}
+		
 	}
 
 }

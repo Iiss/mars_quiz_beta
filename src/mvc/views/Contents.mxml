@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<s:VGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+<s:HGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
                xmlns:s="library://ns.adobe.com/flex/spark" 
                xmlns:mx="library://ns.adobe.com/flex/halo"
-			   xmlns:views="mvc.views.*">
+			   xmlns:views="mvc.views.*"
+			   verticalAlign="middle"
+			   gap="55">
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
-	<s:Label text="Выберите категорию"/>
-	<s:List id="contentsList" labelField="name"/>
-	<s:Button id="nexPageBtn" skinClass="skins.PageButtonSkin"/>
+	
 	<s:Button id="prevPageBtn" skinClass="skins.PageButtonSkin" scaleX="-1" />
-	<views:NavBar id="pagesBar" width="500" height="10"/>
-</s:VGroup>
+	
+	<s:Group id="listFrame" width="626">
+		<s:BitmapImage source="@Embed(source='../../../lib/assets/header.png')"/>
+		
+		<s:Label text="Выберите категорию" 
+			x="77" y="35"
+			fontSize="28" scaleX="1.05" scaleY=".95"
+			color="0xffffff"/>
+			
+		<s:List id="contentsList"
+			y="93"
+			width="100%" maxHeight="455"
+			itemRenderer="mvc.renderers.ContentsItemRenderer"
+			borderVisible="false"
+			contentBackgroundAlpha="0">
+			<s:layout>
+				<s:VerticalLayout 
+					gap="14" 
+					paddingLeft="0" paddingRight="0"
+					requestedMinRowCount="1"/>
+			</s:layout>
+		</s:List>
+					
+		<views:NavBar id="pagesBar" y="592" width="100%" height="10" gap="11" />
+	</s:Group>
+	
+	<s:Button id="nexPageBtn" skinClass="skins.PageButtonSkin"/>
+	
+</s:HGroup>
