@@ -5,9 +5,6 @@
 			   xmlns:views="mvc.views.*"
 			   initialize="onInit()"
 			   addedToStage="onStage()">
-<!--	<s:layout>
-		<s:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
-	</s:layout>-->
 	<s:states>
 		<s:State name="default"/>
 		<s:State name="loading_state"/>
@@ -16,6 +13,21 @@
 		<s:State name="intro_state"/>
 		<s:State name="screensaver_state"/>
 	</s:states>
+	<s:transitions>
+        <s:Transition fromState="quiz_ready_state" toState="quiz_finish_state">
+            <s:Sequence>
+				<s:Parallel>
+					<s:Fade duration="180" alphaFrom="1" alphaTo="0" target="{quiz}"/>
+					<s:Fade duration="180" alphaFrom="1" alphaTo="0" target="{scanlines}"/>
+				</s:Parallel>
+				<s:Parallel>
+					<s:Fade duration="180" alphaFrom="0" alphaTo="1" target="{scanlines}"/>
+					<s:Fade duration="180" alphaFrom="0" alphaTo="1" target="{scoreScreen}"/>
+				</s:Parallel>
+              
+            </s:Sequence>
+        </s:Transition>
+    </s:transitions>
 	<fx:Script>
 		<![CDATA[
 		import robotlegs.bender.framework.api.IContext;
@@ -121,8 +133,8 @@
 	<s:VGroup width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">
 		<views:Contents includeIn="default" width="100%" height="100%"/>
 		<mx:ProgressBar indeterminate="true" label="Загрузка" includeIn="loading_state"/>
-		<views:Quiz includeIn="quiz_ready_state"/>
-		<views:ScoreScreen includeIn="quiz_finish_state"/>
+		<views:Quiz id="quiz" includeIn="quiz_ready_state"/>
+		<views:ScoreScreen id="scoreScreen" includeIn="quiz_finish_state"/>
 		<views:IntroView width="100%" height="100%" includeIn="intro_state"/>
 		<views:ScreenSaverView width="100%" height="100%" includeIn="screensaver_state"/>
 	</s:VGroup>
