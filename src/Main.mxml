@@ -99,7 +99,12 @@
 		
 		s|Label
 		{
-			fontFamily:SciFiFont
+			fontFamily:SciFiFont;
+		}
+		
+		s|List
+		{
+			fontSize:16;
 		}
 		
 		
@@ -133,7 +138,7 @@
 	
 	<s:VGroup width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">
 		<views:Contents includeIn="default" width="100%" height="100%"/>
-		<mx:ProgressBar indeterminate="true" label="Загрузка" includeIn="loading_state"/>
+		<views:PreloaderView includeIn="loading_state" width="100%" height="100%"/>
 		<views:Quiz id="quiz" includeIn="quiz_ready_state"/>
 		<views:ScoreScreen id="scoreScreen" includeIn="quiz_finish_state"/>
 		<views:IntroView width="100%" height="100%" includeIn="intro_state"/>

@@ -37,7 +37,7 @@ package mvc.commands
 			quizModel.parse(data);
 			
 			var a:*= contextView.view as Main;
-			if (a) a.currentState = "quiz_ready_state";
+		//	if (a) a.currentState = "quiz_ready_state";
 		}
 		
 	}

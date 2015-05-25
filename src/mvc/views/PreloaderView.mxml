@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   xmlns:views="mvc.views.*"
+			   xmlns:skins="skins.*">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<s:BitmapImage source="@Embed(source='../../../lib/assets/main_bg.jpg')" 
+		height="100%" width="100%"
+		scaleMode="zoom"
+		fillMode="scale"/>
+	
+	<s:Rect width="100%" height="100%" alpha=".8">
+		<s:fill>
+			<s:SolidColor color="0x000000"/>
+		</s:fill>
+    </s:Rect>
+	
+	<s:BitmapImage source="@Embed(source='../../../lib/assets/grid_tile.png')" 
+		height="100%" width="100%"
+		scaleMode="zoom"
+		fillMode="repeat"/>
+		
+	<s:VGroup verticalAlign="middle" horizontalAlign="center" width="100%" height="100%">
+		<s:BitmapImage source="@Embed(source='../../../lib/assets/preloader_scanlines.png')"/>
+	</s:VGroup>
+	<s:VGroup verticalAlign="middle" horizontalAlign="center" width="100%" height="100%" gap="24">
+		<skins:LoaderAnimation/>
+		<s:Label text="ЗАГРУЗКА..." color="#00CCFF" fontSize="25"/>
+	</s:VGroup> 
+</s:Group>

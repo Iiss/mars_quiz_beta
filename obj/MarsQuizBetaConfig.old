@@ -26,13 +26,14 @@
     </source-path>
     <library-path append="true">
       <path-element>D:\_mars\mars_quiz_beta\lib\Swiftsuspenders-v2.1.0.swc</path-element>
+      <path-element>D:\_mars\mars_quiz_beta\lib\assets\preloader.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
     <path-element>D:\_mars\mars_quiz_beta\src\Main.mxml</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
-  <default-frame-rate>30</default-frame-rate>
+  <default-frame-rate>25</default-frame-rate>
   <default-size>
     <width>1280</width>
     <height>1024</height>
