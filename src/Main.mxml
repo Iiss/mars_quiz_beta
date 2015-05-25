@@ -94,11 +94,12 @@
 			modalTransparency:1;
 			modalTransparencyBlur:0;
 			modalTransparencyColor:#CCCCCC;
-			fontFamily:SciFiFont
+			
         }
 		
-		s|List{
-		font-size:16;
+		s|Label
+		{
+			fontFamily:SciFiFont
 		}
 		
 		
