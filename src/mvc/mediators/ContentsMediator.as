@@ -48,8 +48,8 @@ package mvc.mediators
 			
 			//MODEL
 			eventMap.mapListener(contentsModel, Event.CHANGE, _onContentsChanged);
-			eventMap.mapListener(view, Event.ENTER_FRAME, _onEnterFrame);
-			eventMap.mapListener(view.stage, MouseEvent.CLICK, _onStageClick);
+		//	eventMap.mapListener(view, Event.ENTER_FRAME, _onEnterFrame);
+		//	eventMap.mapListener(view.stage, MouseEvent.CLICK, _onStageClick);
 			
 			//VIEW
 			eventMap.mapListener(view.contentsList, MouseEvent.CLICK, _onChapterClick);
