@@ -113,6 +113,11 @@ package mvc.models
 			return _totalTime;
 		}
 		
+		public function get running():Boolean
+		{
+			return (_timer != null && _timer.running);
+		}
+		
 		public function stop():void
 		{
 			_stopTimer();
@@ -126,8 +131,13 @@ package mvc.models
 			_time = _totalTime;
 			_startTime = new Date().getTime();
 			
-			_timer = new Timer(UPDATE_INTERVAL);
-			_timer.addEventListener(TimerEvent.TIMER, _onTimer);
+			
+			if (_timer == null)
+			{
+				_timer = new Timer(UPDATE_INTERVAL);
+				_timer.addEventListener(TimerEvent.TIMER, _onTimer);
+			}
+			
 			_timer.start();
 			
 			dispatchEvent(new QuizEvent(QuizEvent.QUIZ_TIMER));

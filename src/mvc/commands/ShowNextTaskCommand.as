@@ -28,7 +28,7 @@ package mvc.commands
 				{
 					quizModel.currentIndex++;
 				}
-				else
+				else if (quizModel.running)
 				{
 					quizModel.stop();
 				}
