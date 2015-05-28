@@ -34,7 +34,7 @@
     <path-element>D:\_mars\mars_quiz_beta\src\Main.mxml</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
-  <default-frame-rate>24</default-frame-rate>
+  <default-frame-rate>30</default-frame-rate>
   <default-size>
     <width>1280</width>
     <height>1024</height>
