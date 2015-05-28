@@ -38,6 +38,7 @@
 		import flash.ui.Keyboard;
 		import mvc.views.SettingsView;
 		import com.flashdynamix.utils.SWFProfiler;
+		import mx.managers.ToolTipManager;
 		
 		protected var context:IContext;
 		private var settingsPop:SettingsView;
@@ -51,6 +52,7 @@
 				.configure(new ContextView(this)));
 				
 			currentState = "default";
+			ToolTipManager.enabled = false;
 		}
 		
 		private function onStage():void
