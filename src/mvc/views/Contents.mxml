@@ -28,7 +28,7 @@
 		<s:BitmapImage source="@Embed(source='../../../lib/assets/MainView_scanlines.png')"/>
 	</s:VGroup>
 	
-	<skins:PlanetAnimation/>
+	<views:PlanetInfo id="planet"/>
 	
 	<s:HGroup verticalAlign="middle" gap="55" paddingTop="100" height="100%" width="100%" horizontalAlign="center">
 		<s:Button id="prevPageBtn" skinClass="skins.PageButtonSkin" scaleX="-1" />

@@ -1,5 +1,6 @@
 package skins 
 {
+	import flash.events.Event;
 	import mx.core.UIComponent;
 	/**
 	 * ...
@@ -15,7 +16,7 @@ package skins
 			explicitHeight = mc.height;
 			explicitWidth = mc.width;
 
-			addChild (mc);
-		}	
+			addChild (mc);	
+		}
 	}
 }

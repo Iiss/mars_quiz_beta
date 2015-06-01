@@ -52,8 +52,7 @@
   <!-- SWC Libraries -->
   <libraryPaths>
     <element path="lib\Swiftsuspenders-v2.1.0.swc" />
-    <element path="lib\assets\preloader.swc" />
-    <element path="lib\assets\planet.swc" />
+    <element path="lib\animations.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>

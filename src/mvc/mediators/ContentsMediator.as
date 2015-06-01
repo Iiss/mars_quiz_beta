@@ -26,12 +26,14 @@ package mvc.mediators
 		public var contentsModel:ContentsModel
 		
 		private static const SCREENSAVER_DELAY:int = 300000;
+		private static const INFO_DELAY:int = 10000;
 		private static const PAGE_SIZE:int = 5;
 		private static var _currentPage:int = 0;
 		private static var _totalPages:int = 0;
 		private var _pagingUI:Array;
 		
 		private var time:int;
+		private var infoTime:int;
 		
 		public function ContentsMediator() 
 		{
@@ -43,18 +45,21 @@ package mvc.mediators
 			super.initialize();
 			
 			time = getTimer();
+			infoTime = getTimer();
 			
 			_pagingUI =[view.nexPageBtn,view.prevPageBtn,view.pagesBar]
 			
 			//MODEL
 			eventMap.mapListener(contentsModel, Event.CHANGE, _onContentsChanged);
-		//	eventMap.mapListener(view, Event.ENTER_FRAME, _onEnterFrame);
+			eventMap.mapListener(view, Event.ENTER_FRAME, _onEnterFrame);
 		//	eventMap.mapListener(view.stage, MouseEvent.CLICK, _onStageClick);
 			
 			//VIEW
 			eventMap.mapListener(view.contentsList, MouseEvent.CLICK, _onChapterClick);
 			eventMap.mapListener(view.prevPageBtn, MouseEvent.CLICK, _showPrevPage);
 			eventMap.mapListener(view.nexPageBtn, MouseEvent.CLICK, _showNextPage);
+			
+			view.planet.showNext();
 		}
 		
 		private function _onChapterClick(e:MouseEvent):void
@@ -138,14 +143,22 @@ package mvc.mediators
 		private function _onStageClick(e:MouseEvent):void
 		{
 			time = getTimer();
+			
 		}
 		
 		private function _onEnterFrame(e:Event):void
 		{
-			if ((getTimer() - time) > SCREENSAVER_DELAY)
+			var now:int = getTimer();
+			/*if ((getTimer() - time) > SCREENSAVER_DELAY)
 			{
 				//call screensaver
 				dispatch(new QuizEvent(QuizEvent.SHOW_SCREENSAVER));
+			}*/
+			
+			if ((now - infoTime) > INFO_DELAY)
+			{
+				view.planet.showNext();
+				infoTime = now;
 			}
 		}
 		

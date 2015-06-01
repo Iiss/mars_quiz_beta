@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   xmlns:skins="skins.*"
+			   xmlns:views="mvc.views.*">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+		import com.greensock.TweenNano;
+		import flash.utils.Timer;
+		import flash.events.TimerEvent;
+		import skins.ConsoleEffect;
+		
+		private var _ind:int = -1;
+		private var _eff:ConsoleEffect = new ConsoleEffect;
+		
+		private var _info1:Array =
+		[
+			{label:"температура", value:"-153...+25°C" },
+			{label:"скорость", value:"24.1 км/с" },
+			{label:"радиус", value:"3397 км" }
+		]
+		
+		private var _info2:Array =
+		[
+			{label:"давление", value:"600 Па" },
+			{label:"масса", value:"0.107M" },
+			{label:"наклон оси", value:"23.9°" }	
+		]
+		
+		private var _index:int = -1;
+		
+		public function showNext(e:*=null):void
+		{
+			label1_lbl.text = "";
+			label2_lbl.text = "";
+			value1_lbl.text = "";
+			value2_lbl.text = "";
+			
+			_ind++;
+			
+			if (_ind >= _info1.length) _ind = 0;
+			
+			_eff.play(
+				25,
+				[label1_lbl, value1_lbl, label2_lbl, value2_lbl],
+				[_info1[_ind].label, _info1[_ind].value, _info2[_ind].label, _info2[_ind].value]
+				);
+		}
+		
+		]]>
+	</fx:Script>
+	<skins:PlanetAnimation/>
+	<s:Label id="label1_lbl" x="354" y="100" fontSize="11" color="#ffffff" alpha=".5"/>
+	<s:Label id="label2_lbl" x="354" y="174" fontSize="11" color="#ffffff" alpha=".5"/>
+	<s:Label id="value1_lbl" x="354" y="120" fontSize="18" color="#ffffff" alpha=".5"/>
+	<s:Label id="value2_lbl" x="354" y="194" fontSize="18" color="#ffffff" alpha=".5"/>
+</s:Group>
