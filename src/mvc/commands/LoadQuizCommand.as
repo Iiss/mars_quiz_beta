@@ -36,7 +36,7 @@ package mvc.commands
 			var data:XML = new XML(result);
 			quizModel.parse(data);
 			
-			var a:*= contextView.view as Main;
+			var a:*= contextView.view as App;
 			if (a) a.currentState = "quiz_ready_state";
 		}
 		

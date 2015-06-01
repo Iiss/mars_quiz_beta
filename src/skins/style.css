@@ -1,0 +1,26 @@
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+		
+@font-face {
+	src: url("../../lib/assets/Bicubik.OTF");
+	fontFamily: "SciFiFont";
+	embedAsCFF: true;
+}
+
+s|Application{
+	backgroundColor:#CCCCCC;
+	modalTransparency:1;
+	modalTransparencyBlur:0;
+	modalTransparencyColor:#CCCCCC;
+	
+}
+
+s|Label
+{
+	fontFamily:SciFiFont;
+}
+
+s|List
+{
+	fontSize:16;
+}

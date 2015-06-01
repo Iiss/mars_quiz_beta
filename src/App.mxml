@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:views="mvc.views.*"
+			   initialize="onInit()"
+			   addedToStage="onStage()">
+	<s:states>
+		<s:State name="default"/>
+		<s:State name="loading_state"/>
+		<s:State name="quiz_ready_state"/>
+		<s:State name="quiz_finish_state"/>
+		<s:State name="intro_state"/>
+		<s:State name="screensaver_state"/>
+	</s:states>
+	<s:transitions>
+        <s:Transition fromState="quiz_ready_state" toState="quiz_finish_state">
+            <s:Sequence>
+				<s:Parallel>
+					<s:Fade duration="180" alphaFrom="1" alphaTo="0" target="{quiz}"/>
+					<s:Fade duration="180" alphaFrom="1" alphaTo="0" target="{scanlines}"/>
+				</s:Parallel>
+				<s:Parallel>
+					<s:Fade duration="180" alphaFrom="0" alphaTo="1" target="{scanlines}"/>
+					<s:Fade duration="180" alphaFrom="0" alphaTo="1" target="{scoreScreen}"/>
+				</s:Parallel>
+              
+            </s:Sequence>
+        </s:Transition>
+    </s:transitions>
+	<fx:Script>
+		<![CDATA[
+		import robotlegs.bender.framework.api.IContext;
+		import bundles.MVCSBundleNoTraceLog;
+		import robotlegs.bender.extensions.contextView.ContextView;
+		import robotlegs.bender.framework.impl.Context;
+		import flash.events.KeyboardEvent;
+		import flash.ui.Keyboard;
+		import mvc.views.SettingsView;
+		import com.flashdynamix.utils.SWFProfiler;
+		import mx.managers.ToolTipManager;
+		import flash.display.StageScaleMode;
+		import flash.display.StageAlign;
+		
+		protected var context:IContext;
+		private var settingsPop:SettingsView;
+		
+		private function onInit():void
+		{
+			//setup context
+			context = Context(new Context()
+				.install(MVCSBundleNoTraceLog)
+				.configure(new AppConfig())
+				.configure(new ContextView(this)));
+				
+			currentState = "default";
+			ToolTipManager.enabled = false;
+		}
+		
+		private function onStage():void
+		{
+			stage.scaleMode = StageScaleMode.NO_SCALE;
+			stage.align = StageAlign.TOP_LEFT;
+			
+			this.stage.addEventListener(KeyboardEvent.KEY_UP, _onKeyUp);
+			
+			//SWFProfiler.init(stage, this);
+			//SWFProfiler.show();
+		}
+		
+		private function _onKeyUp(e:KeyboardEvent):void
+		{
+			switch(e.keyCode)
+			{
+				case 192://~
+					toggleSettings();
+					break;
+			}
+		}
+		
+		private function toggleSettings():void
+		{
+			if (!settingsPop)
+			{
+				settingsPop = new SettingsView();
+			}
+			
+			settingsPop.isShown ? settingsPop.hide() : settingsPop.show(this);
+		}
+		
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:BitmapImage 
+		source="@Embed(source='../lib/assets/question_bg1.jpg')" 
+		width="{scanlines.width}"
+		height="{scanlines.height}"
+		includeIn="quiz_ready_state,quiz_finish_state"/>
+
+	<s:Rect width="100%" height="100%" alpha=".75" includeIn="quiz_ready_state,quiz_finish_state">
+        <s:fill>
+			<s:SolidColor color="0x000000"/>
+		</s:fill>
+    </s:Rect>
+	
+	<s:VGroup id="scanlines"
+		width="{mx.core.FlexGlobals.topLevelApplication.width}"
+		height="{mx.core.FlexGlobals.topLevelApplication.height}"
+		horizontalAlign="center" verticalAlign="middle"
+		paddingTop="280" paddingLeft="40"
+		includeIn="quiz_ready_state,quiz_finish_state">
+		
+		<s:BitmapImage source="@Embed(source='../lib/assets/scanlines.png')"/>
+	</s:VGroup>
+	
+	<s:VGroup width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">
+		<views:Contents includeIn="default" width="100%" height="100%"/>
+		<views:PreloaderView includeIn="loading_state" width="100%" height="100%"/>
+		<views:Quiz id="quiz" includeIn="quiz_ready_state"/>
+		<views:ScoreScreen id="scoreScreen" includeIn="quiz_finish_state"/>
+		<views:IntroView width="100%" height="100%" includeIn="intro_state"/>
+		<views:ScreenSaverView width="100%" height="100%" includeIn="screensaver_state"/>
+	</s:VGroup>
+	
+</s:Group>

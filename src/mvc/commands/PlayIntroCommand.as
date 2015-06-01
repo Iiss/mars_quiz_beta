@@ -18,7 +18,7 @@ package mvc.commands
 		
 		override public function execute():void 
 		{
-			var a:*= contextView.view as Main;
+			var a:*= contextView.view as App;
 			if (a) a.currentState = "intro_state";	
 		}
 		

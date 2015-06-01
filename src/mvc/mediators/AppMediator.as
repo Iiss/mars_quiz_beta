@@ -7,15 +7,15 @@ package mvc.mediators
 	 * ...
 	 * @author liss
 	 */
-	public class MainMediator extends Mediator 
+	public class AppMediator extends Mediator 
 	{
 		[Inject]
-		public var view:Main;
+		public var view:App;
 		
 		[Inject]
 		public var quizModel:QuizModel;
 		
-		public function MainMediator() 
+		public function AppMediator() 
 		{
 			
 		}

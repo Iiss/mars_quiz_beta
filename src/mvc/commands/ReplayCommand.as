@@ -24,7 +24,7 @@ package mvc.commands
 		{
 			quizModel.unlock();
 			
-			var a:*= contextView.view as Main;
+			var a:*= contextView.view as App;
 			if (a) a.currentState = "default";
 			
 			super.execute();

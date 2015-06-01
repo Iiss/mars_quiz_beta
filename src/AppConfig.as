@@ -11,7 +11,7 @@ package
 	import mvc.events.QuizEvent;
 	import mvc.mediators.ContentsMediator;
 	import mvc.mediators.IntroViewMediator;
-	import mvc.mediators.MainMediator;
+	import mvc.mediators.AppMediator;
 	import mvc.mediators.QuizMediator;
 	import mvc.mediators.ScoreScreenMediator;
 	import mvc.mediators.ScreenSaverMediator;
@@ -34,7 +34,7 @@ package
 	 * ...
 	 * @author liss
 	 */
-	public class MainViewConfig implements IConfig
+	public class AppConfig implements IConfig
 	{
 		[Inject]
 		public var injector:IInjector;
@@ -52,7 +52,7 @@ package
 		public var contextView:ContextView;
 		
 		
-		public function MainViewConfig() 
+		public function AppConfig() 
 		{
 			
 		}
@@ -64,7 +64,7 @@ package
 			injector.map(QuizModel).toValue(new QuizModel);
 			
 			//MEDIATORS
-			mediatorMap.map(Main).toMediator(MainMediator);
+			mediatorMap.map(App).toMediator(AppMediator);
 			mediatorMap.map(Contents).toMediator(ContentsMediator);
 			mediatorMap.map(Quiz).toMediator(QuizMediator);
 			mediatorMap.map(ScoreScreen).toMediator(ScoreScreenMediator);
