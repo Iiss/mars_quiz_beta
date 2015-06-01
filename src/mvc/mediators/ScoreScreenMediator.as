@@ -63,7 +63,7 @@ package mvc.mediators
 		{
 			if (getTimer() - time >= RESTART_DELAY)
 			{
-				_replay()
+ 				_replay()
 			};
 		}
 		

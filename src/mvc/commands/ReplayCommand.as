@@ -2,6 +2,7 @@ package mvc.commands
 {
 	import robotlegs.bender.bundles.mvcs.Command;
 	import robotlegs.bender.extensions.contextView.ContextView;
+	import mvc.models.QuizModel;
 	/**
 	 * ...
 	 * @author liss
@@ -11,6 +12,9 @@ package mvc.commands
 		[Inject]
 		public var contextView:ContextView;
 		
+		[Inject]
+		public var quizModel:QuizModel;
+		
 		public function ReplayCommand() 
 		{
 			
@@ -18,6 +22,8 @@ package mvc.commands
 		
 		override public function execute():void 
 		{
+			quizModel.unlock();
+			
 			var a:*= contextView.view as Main;
 			if (a) a.currentState = "default";
 			

@@ -23,6 +23,7 @@ package mvc.models
 		private var _totalTime:int;
 		private var _time:int;
 		private var _startTime:int;
+		private var _lock:Boolean;
 		
 		public function QuizModel() 
 		{
@@ -118,23 +119,34 @@ package mvc.models
 			return (_timer != null && _timer.running);
 		}
 		
+		public function unlock():void
+		{
+			_lock = false;
+		}
+		
 		public function stop():void
 		{
+			_lock=true;
 			_stopTimer();
 			dispatchEvent(new QuizEvent(QuizEvent.QUIZ_FINISHED));
 		}
 		
 		public function start(totalSeconds:int=300):void 
 		{
+			if (_lock) return;
+			
 			_stopTimer();
 			_totalTime = totalSeconds*1000;
 			_time = _totalTime;
 			_startTime = new Date().getTime();
 			
-			
 			if (_timer == null)
 			{
 				_timer = new Timer(UPDATE_INTERVAL);
+			}
+			
+			if (!_timer.hasEventListener(TimerEvent.TIMER))
+			{
 				_timer.addEventListener(TimerEvent.TIMER, _onTimer);
 			}
 			
@@ -161,6 +173,7 @@ package mvc.models
 			{
 				_time = 0;
 				stop();
+				return;
 			}
 			
 			dispatchEvent(new QuizEvent(QuizEvent.QUIZ_TIMER));
