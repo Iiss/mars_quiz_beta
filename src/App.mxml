@@ -75,6 +75,18 @@
 				case 192://~
 					toggleSettings();
 					break;
+				
+				case Keyboard.F:
+					
+					if (CONFIG::terminal == true)
+					{
+						if (e.ctrlKey)
+						{
+							stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+						}
+					}
+					break;
+				
 			}
 		}
 		
@@ -86,6 +98,11 @@
 			}
 			
 			settingsPop.isShown ? settingsPop.hide() : settingsPop.show(this);
+			
+			if (CONFIG::terminal == true)
+			{
+				settingsPop.isShown ? Mouse.show() : Mouse.hide();
+			}
 		}
 		
 		]]>
