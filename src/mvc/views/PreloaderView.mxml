@@ -10,7 +10,6 @@
 	
 	<s:BitmapImage source="@Embed(source='../../../lib/assets/main_bg.jpg')" 
 		height="100%" width="100%"
-		scaleMode="zoom"
 		fillMode="scale"/>
 	
 	<s:Rect width="100%" height="100%" alpha=".8">
@@ -21,7 +20,6 @@
 	
 	<s:BitmapImage source="@Embed(source='../../../lib/assets/grid_tile.png')" 
 		height="100%" width="100%"
-		scaleMode="zoom"
 		fillMode="repeat"/>
 		
 	<s:VGroup verticalAlign="middle" horizontalAlign="center" width="100%" height="100%">

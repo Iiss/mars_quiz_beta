@@ -122,8 +122,6 @@
 		source="@Embed(source='../lib/assets/question_bg1.jpg')" 
 		width="{scanlines.width}"
 		height="{scanlines.height}"
-		scaleMode="zoom"
-		fillMode="scale"
 		includeIn="quiz_ready_state,quiz_finish_state"/>
 
 	<s:Rect width="100%" height="100%" alpha=".75" includeIn="quiz_ready_state,quiz_finish_state">
