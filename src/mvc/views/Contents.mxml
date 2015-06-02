@@ -28,11 +28,19 @@
 	
 	<views:PlanetInfo id="planet"/>
 	
-	<s:BitmapImage id="planet_scale"
-			source="@Embed(source='../../../lib/assets/scale_plain.png')"
-			x="{mx.core.FlexGlobals.topLevelApplication.width-planet_scale.width-20}"
-			y="{.5*(mx.core.FlexGlobals.topLevelApplication.height-planet_scale.height)}" />
-	
+	<s:VGroup id="planet_scale" width="100%" height="100%" gap="0" horizontalAlign="right" paddingRight="20">
+		
+		<s:BitmapImage source="@Embed(source='../../../lib/assets/scale_filler_top.png')"
+			height="100%" 
+			fillMode="repeat" />
+		<s:BitmapImage source="@Embed(source='../../../lib/assets/scale_plain.png')"/>
+			
+		<s:BitmapImage source="@Embed(source='../../../lib/assets/scale_filler_bottom.png')"
+			height="100%"
+			fillMode="repeat" />
+	</s:VGroup>
+			
+			
 	<s:HGroup verticalAlign="middle" gap="55" paddingTop="100" height="100%" width="100%" horizontalAlign="center">
 		<s:Button id="prevPageBtn" skinClass="skins.PageButtonSkin" scaleX="-1" />
 		<s:Group id="listFrame" width="626">
