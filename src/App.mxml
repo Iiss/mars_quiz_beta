@@ -64,8 +64,8 @@
 			
 			this.stage.addEventListener(KeyboardEvent.KEY_UP, _onKeyUp);
 			
-			//SWFProfiler.init(stage, this);
-			//SWFProfiler.show();
+		//	SWFProfiler.init(stage, this);
+		//	SWFProfiler.show();
 		}
 		
 		private function _onKeyUp(e:KeyboardEvent):void

@@ -27,7 +27,9 @@ package mvc.mediators
 		
 		private static const SCREENSAVER_DELAY:int = 300000;
 		private static const INFO_DELAY:int = 10000;
-		private static const PAGE_SIZE:int = 5;
+		
+		private static const PAGE_SIZE:int = CONFIG::pagesize;
+		
 		private static var _currentPage:int = 0;
 		private static var _totalPages:int = 0;
 		private var _pagingUI:Array;
@@ -122,7 +124,8 @@ package mvc.mediators
 			_currentPage = pageNum;
 			view.pagesBar.selectedIndex = _currentPage;
 			
-			view.contentsList.dataProvider = new ArrayList(contentsModel.chapters.source.slice(pageNum*PAGE_SIZE, (pageNum+1)*PAGE_SIZE));
+			view.contentsList.dataProvider = new ArrayList(contentsModel.chapters.source.slice(pageNum * PAGE_SIZE, (pageNum + 1) * PAGE_SIZE));
+			trace('h=' + view.contentsList.height);
 		}
 		
 		private function _showNextPage(e:*=null):void

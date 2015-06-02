@@ -26,7 +26,11 @@
 		<s:BitmapImage source="@Embed(source='../../../lib/assets/MainView_scanlines.png')"/>
 	</s:VGroup>
 	
-	<views:PlanetInfo id="planet"/>
+	<views:PlanetInfo id="planet"
+		x="5"
+		y="5"
+		scaleX="{Math.min(1,mx.core.FlexGlobals.topLevelApplication.height/1024)}" 
+		scaleY="{planet.scaleX}" />
 	
 	<s:VGroup id="planet_scale" width="100%" height="100%" gap="0" horizontalAlign="right" paddingRight="20">
 		
@@ -65,7 +69,7 @@
 				</s:layout>
 			</s:List>
 						
-			<views:NavBar id="pagesBar" y="592" width="100%" height="10" gap="11" />
+			<views:NavBar id="pagesBar" y="492" width="100%" height="10" gap="11" />
 		</s:Group>
 		
 		<s:Button id="nexPageBtn" skinClass="skins.PageButtonSkin"/>
