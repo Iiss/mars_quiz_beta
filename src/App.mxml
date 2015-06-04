@@ -52,7 +52,9 @@
 				.install(MVCSBundleNoTraceLog)
 				.configure(new AppConfig())
 				.configure(new ContextView(this)));
-				
+			
+			resourceManager.localeChain = ["ru_RU"];
+			
 			currentState = "default";
 			ToolTipManager.enabled = false;
 		}
@@ -107,7 +109,9 @@
 		
 		]]>
 	</fx:Script>
-	
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata> 
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>

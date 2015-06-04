@@ -7,6 +7,9 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata>
 	
 	<s:BitmapImage source="@Embed(source='../../../lib/assets/main_bg.jpg')" 
 		height="100%" width="100%"
@@ -27,6 +30,6 @@
 	</s:VGroup>
 	<s:VGroup verticalAlign="middle" horizontalAlign="center" width="100%" height="100%" gap="24">
 		<skins:LoaderAnimation/>
-		<s:Label text="ЗАГРУЗКА..." color="#00CCFF" fontSize="25"/>
+		<s:Label text="{resourceManager.getString('LocalizedStrings','preloaderView.title')}" color="#00CCFF" fontSize="25"/>
 	</s:VGroup> 
 </s:Group>

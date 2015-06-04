@@ -8,6 +8,9 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata>
 	<fx:Script>
 		<![CDATA[
 		import com.greensock.TweenNano;
@@ -18,24 +21,18 @@
 		private var _ind:int = -1;
 		private var _eff:ConsoleEffect = new ConsoleEffect;
 		
-		private var _info1:Array =
-		[
-			{label:"температура", value:"-153...+25°C" },
-			{label:"скорость", value:"24.1 км/с" },
-			{label:"радиус", value:"3397 км" }
-		]
-		
-		private var _info2:Array =
-		[
-			{label:"давление", value:"600 Па" },
-			{label:"масса", value:"0.107M" },
-			{label:"наклон оси", value:"23.9°" }	
-		]
+		private var _info1:Array;
+		private var _info2:Array;
 		
 		private var _index:int = -1;
 		
 		public function showNext(e:*=null):void
 		{
+			if (!_info1)
+			{
+				initInfo();
+			}
+			
 			label1_lbl.text = "";
 			label2_lbl.text = "";
 			value1_lbl.text = "";
@@ -50,6 +47,23 @@
 				[label1_lbl, value1_lbl, label2_lbl, value2_lbl],
 				[_info1[_ind].label, _info1[_ind].value, _info2[_ind].label, _info2[_ind].value]
 				);
+		}
+		
+		private function initInfo():void
+		{
+			_info1 = new Array;
+			_info2 = new Array;
+			
+			var labels1:Array=resourceManager.getString('LocalizedStrings','planetInfo1.labels').split(',');
+			var values1:Array = resourceManager.getString('LocalizedStrings', 'planetInfo1.values').split(',');
+			var labels2:Array=resourceManager.getString('LocalizedStrings','planetInfo2.labels').split(',');
+			var values2:Array=resourceManager.getString('LocalizedStrings','planetInfo2.values').split(',');
+			
+			for (var i:int = 0;i<labels1.length;i++)
+			{
+				_info1.push( { label:labels1[i], value:values1[i] } );
+				_info2.push({label:labels2[i],value:values2[i]});
+			}
 		}
 		
 		]]>

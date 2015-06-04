@@ -7,6 +7,9 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata>
 	<s:BitmapImage source="@Embed(source='../../../lib/assets/main_bg.jpg')" 
 		height="100%" width="100%"
 		fillMode="scale"/>
@@ -50,7 +53,7 @@
 		<s:Group id="listFrame" width="626">
 			<s:BitmapImage source="@Embed(source='../../../lib/assets/header.png')"/>
 			
-			<s:Label text="Выберите категорию" 
+			<s:Label text="{resourceManager.getString('LocalizedStrings','contentsView.title')}"
 				x="77" y="35"
 				fontSize="28" scaleX="1.05" scaleY=".95"
 				color="0xffffff"/>

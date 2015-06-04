@@ -10,7 +10,9 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
-	
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata>
 	<fx:Script>
 		<![CDATA[
 		import flash.display.DisplayObjectContainer;
@@ -51,5 +53,7 @@
 		
 		]]>
 	</fx:Script>
-	<s:CheckBox id="skipIntro_chBox" label="Не показывать видео" change="onSkipIntroChange(event)" />
+	<s:CheckBox id="skipIntro_chBox" 
+		label="{resourceManager.getString('LocalizedStrings','settingsView.skipIntro')}" 
+		change="onSkipIntroChange(event)" />
 </s:HGroup>

@@ -7,6 +7,10 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata>
+	
 	<s:states>
 		<s:State name="default"/>
 		<s:State name="error"/>
@@ -51,7 +55,7 @@
 			paddingTop="4"
 			includeIn="error">
 			
-			<s:Label text="ОШИБКА" 
+			<s:Label text="{resourceManager.getString('LocalizedStrings','quiz.Error')}" 
 				color="0xff0000" 
 				width="100%"
 				fontSize="45"

@@ -6,6 +6,10 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<fx:Metadata>
+		[ResourceBundle("LocalizedStrings")]
+	</fx:Metadata>
+	
 	 <s:Rect width="100%" height="100%">
         <s:fill>
 			<s:SolidColor color="0x000000" />
@@ -13,6 +17,6 @@
     </s:Rect>
 	<s:VideoDisplay id="videoIntro" width="100%" height="100%" />
 	<s:VGroup width="100%" verticalAlign="top" horizontalAlign="right" paddingTop="20" paddingRight="20">
-		<s:Button id="skipBtn" label="Пропустить"/>
+		<s:Button id="skipBtn" label="{resourceManager.getString('LocalizedStrings','introView.skip')}"/>
 	</s:VGroup>
 </s:Group>
