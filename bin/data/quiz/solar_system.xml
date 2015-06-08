@@ -32,7 +32,7 @@
 	</task>
 	<task key="1">
 		<img><![CDATA[data/img/ss_004.jpg]]></img>
-		<question><![CDATA[Самая маленькая из больших планет Солнечной Системе?]]></question>
+		<question><![CDATA[Самая маленькая планета в Солнечной Системе?]]></question>
 		<answers>
 			<answer><![CDATA[Уран]]></answer>
 			<answer><![CDATA[Меркурий]]></answer>
@@ -40,7 +40,7 @@
 			<answer><![CDATA[Нептун]]></answer>
 		</answers>
 	</task>
-	<task key="1">
+	<task key="0">
 		<img><![CDATA[data/img/ss_005.jpg]]></img>
 		<question><![CDATA[Самая горячая планета в Солнечной Системе?]]></question>
 		<answers>
@@ -62,7 +62,7 @@
 	</task>
 	<task key="0">
 		<img><![CDATA[data/img/ss_007.jpg]]></img>
-		<question><![CDATA[Самая далекая от Солнца большая планета?]]></question>
+		<question><![CDATA[Самая далекая от Солнца планета?]]></question>
 		<answers>
 			<answer><![CDATA[Нептун]]></answer>
 			<answer><![CDATA[Уран]]></answer>
@@ -102,7 +102,7 @@
 	</task>
 	<task key="0">
 		<img><![CDATA[data/img/ss_011.png]]></img>
-		<question><![CDATA[Какая из карликовых планет не является транснептуновым объектом?]]></question>
+		<question><![CDATA[Какая из карликовых планет находится в поясе астероидов?]]></question>
 		<answers>
 			<answer><![CDATA[Церера]]></answer>
 			<answer><![CDATA[Плутон]]></answer>
@@ -132,7 +132,7 @@
 	</task>
 	<task key="1">
 		<img><![CDATA[data/img/ss_014.jpg]]></img>
-		<question><![CDATA[Сколько больших планет сейчас считают в Солнечной Системе?]]></question>
+		<question><![CDATA[Сколько планет сейчас официально насчитывается в Солнечной Системе?]]></question>
 		<answers>
 			<answer><![CDATA[Семь]]></answer>
 			<answer><![CDATA[Восемь]]></answer>
@@ -164,15 +164,15 @@
 		<img><![CDATA[data/img/ss_017.jpg]]></img>
 		<question><![CDATA[В какой период осуществлялись запуски по советской космической программе "Луна"?]]></question>
 		<answers>
-			<answer><![CDATA[1966-1968]]></answer>
+			<answer><![CDATA[1950-1976]]></answer>
 			<answer><![CDATA[1958-1976]]></answer>
-			<answer><![CDATA[1961-1975]]></answer>
-			<answer><![CDATA[1961-1965]]></answer>
+			<answer><![CDATA[1970-1975]]></answer>
+			<answer><![CDATA[1958-1990]]></answer>
 		</answers>
 	</task>
 	<task key="3">
 		<img><![CDATA[data/img/ss_018.jpg]]></img>
-		<question><![CDATA[К какой планете НЕ запускались АМС серии Маринер?]]></question>
+		<question><![CDATA[К какой планете НЕ запускались аппараты серии Маринер?]]></question>
 		<answers>
 			<answer><![CDATA[Меркурий]]></answer>
 			<answer><![CDATA[Венера]]></answer>
@@ -214,10 +214,10 @@
 		<img><![CDATA[data/img/ss_022.jpg]]></img>
 		<question><![CDATA[В каком году успешно запущен первый искусственный спутник Луны?]]></question>
 		<answers>
-			<answer><![CDATA[1962]]></answer>
+			<answer><![CDATA[1958]]></answer>
 			<answer><![CDATA[1966]]></answer>
 			<answer><![CDATA[1970]]></answer>
-			<answer><![CDATA[1974]]></answer>
+			<answer><![CDATA[1979]]></answer>
 		</answers>
 	</task>
 </data>
