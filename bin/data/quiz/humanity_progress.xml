@@ -1,553 +1,544 @@
 ﻿<!-- Прогресс человечества -->
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-	<task key="1">
-		<question><![CDATA[Сколько антенн было у первого искусственного спутника Земли?]]></question>
-		<answers>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[6]]></answer>
-			<answer><![CDATA[8]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[В каком году был запущен первый искусственный спутник Земли?]]></question>
-		<answers>
-			<answer><![CDATA[1955 г.]]></answer>
-			<answer><![CDATA[1957 г.]]></answer>
-			<answer><![CDATA[1959 г.]]></answer>
-			<answer><![CDATA[1960 г.]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Космическому кораблю какой страны удалось сделать первый снимок обратной стороны Луны?]]></question>
-		<answers>
-			<answer><![CDATA[СССР]]></answer>
-			<answer><![CDATA[США]]></answer>
-			<answer><![CDATA[Китай]]></answer>
-			<answer><![CDATA[Франция]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Какое млекопитающее первым побывало в космосе?]]></question>
-		<answers>
-			<answer><![CDATA[кот]]></answer>
-			<answer><![CDATA[хомяк]]></answer>
-			<answer><![CDATA[крыса]]></answer>
-			<answer><![CDATA[собака]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Как звали первых собак, вернувшихся из космоса?]]></question>
-		<answers>
-			<answer><![CDATA[Лайка и Жучка]]></answer>
-			<answer><![CDATA[Рекс и Мухтар]]></answer>
-			<answer><![CDATA[Белка и Стрелка]]></answer>
-			<answer><![CDATA[Бобик и Шарик]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Как назывался первый космический корабль, с человеком на борту?]]></question>
-		<answers>
-			<answer><![CDATA[«Восток»]]></answer>
-			<answer><![CDATA[«Восход»]]></answer>
-			<answer><![CDATA[«Союз»]]></answer>
-			<answer><![CDATA[«Салют»]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Как назывался первый многоместный космический корабль?]]></question>
-		<answers>
-			<answer><![CDATA[«Аполлон»]]></answer>
-			<answer><![CDATA[«Восход»]]></answer>
-			<answer><![CDATA[«Буран»]]></answer>
-			<answer><![CDATA[«Союз»]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Кто бы первым человеком, вышедшим в открытый космос?]]></question>
-		<answers>
-			<answer><![CDATA[Алексей Леонов]]></answer>
-			<answer><![CDATA[Павел Беляев]]></answer>
-			<answer><![CDATA[Герман Титов]]></answer>
-			<answer><![CDATA[Владимир Комаров]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Кто был первым человек, погибшим в космосе?]]></question>
-		<answers>
-			<answer><![CDATA[Владимир Комаров]]></answer>
-			<answer><![CDATA[Александр Волков]]></answer>
-			<answer><![CDATA[Виктор Пацаев]]></answer>
-			<answer><![CDATA[Георгий Добровольский]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Представители какой страны первыми побывали на Луне?]]></question>
-		<answers>
-			<answer><![CDATA[СССР]]></answer>
-			<answer><![CDATA[США]]></answer>
-			<answer><![CDATA[Китай]]></answer>
-			<answer><![CDATA[Великобритания]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Как назывался первый космический корабль, доставивший людей на Луну?]]></question>
-		<answers>
-			<answer><![CDATA[«Аполлон 17»]]></answer>
-			<answer><![CDATA[«Лунник»]]></answer>
-			<answer><![CDATA[«Союз 4»]]></answer>
-			<answer><![CDATA[«Энтерпрайз 8»]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Кто был первым человеком, ступившим на поверхность Луны?]]></question>
-		<answers>
-			<answer><![CDATA[Джон Гленн]]></answer>
-			<answer><![CDATA[Нил Армстронг]]></answer>
-			<answer><![CDATA[Джон Челленджер]]></answer>
-			<answer><![CDATA[Герман Титов]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[В каком году проводились исследования Луны при помощи специального робота «Луноход 1»?]]></question>
-		<answers>
-			<answer><![CDATA[1968 г.]]></answer>
-			<answer><![CDATA[1970 г.]]></answer>
-			<answer><![CDATA[1972 г.]]></answer>
-			<answer><![CDATA[1975 г.]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Сколько колес было у аппарата «Луноход 1»?]]></question>
-		<answers>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[8]]></answer>
-			<answer><![CDATA[10]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Сколько аппаратов серии «Луноход» побывало на Луне?]]></question>
-		<answers>
-			<answer><![CDATA[1]]></answer>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[6]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Обломки какого количества космических апаратов покоится на поверхности Луны?]]></question>
-		<answers>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[более 10]]></answer>
-			<answer><![CDATA[более 20]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[В какой стране был изобретен акваланг?]]></question>
-		<answers>
-			<answer><![CDATA[СССР]]></answer>
-			<answer><![CDATA[США]]></answer>
-			<answer><![CDATA[Германия]]></answer>
-			<answer><![CDATA[Франция]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[В каком году был изобретен акваланг?]]></question>
-		<answers>
-			<answer><![CDATA[1920 г.]]></answer>
-			<answer><![CDATA[1930 г.]]></answer>
-			<answer><![CDATA[1943 г.]]></answer>
-			<answer><![CDATA[1950 г.]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Кто является изобретателем акваланга?]]></question>
-		<answers>
-			<answer><![CDATA[Жак Ив Кусто]]></answer>
-			<answer><![CDATA[Ипрон СССР]]></answer>
-			<answer><![CDATA[Хайем Максим]]></answer>
-			<answer><![CDATA[Джон Вестингхауз]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[В каком веке люди достигли северного и южного полюсов?]]></question>
-		<answers>
-			<answer><![CDATA[XVII в.]]></answer>
-			<answer><![CDATA[XIX в.]]></answer>
-			<answer><![CDATA[XX в.]]></answer>
-			<answer><![CDATA[XVII в.]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Кто был первым человеком, достигшим северного полюса?]]></question>
-		<answers>
-			<answer><![CDATA[Фритьоф Нансен]]></answer>
-			<answer><![CDATA[Руаль Амундсен]]></answer>
-			<answer><![CDATA[Семен Челюскин]]></answer>
-			<answer><![CDATA[Роберт Пири]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Кто был первым человеком, достигшим южного полюса?]]></question>
-		<answers>
-			<answer><![CDATA[Фритьоф Нансен]]></answer>
-			<answer><![CDATA[Руаль Амундсен]]></answer>
-			<answer><![CDATA[Роберт Скотт]]></answer>
-			<answer><![CDATA[Георгий Седов]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Свойства какого металла послужили причиной гибели экспедиции Роберта Скотта?]]></question>
-		<answers>
-			<answer><![CDATA[железо]]></answer>
-			<answer><![CDATA[алюминий]]></answer>
-			<answer><![CDATA[олово]]></answer>
-			<answer><![CDATA[свинец]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Что было написано на могиле исследователя Антарктиды Роберта Скотта?]]></question>
-		<answers>
-			<answer><![CDATA[«Я опоздал»]]></answer>
-			<answer><![CDATA[«Ненавижу норвежцев»]]></answer>
-			<answer><![CDATA[«Бороться и искать, найти – и не сдаваться»]]></answer>
-			<answer><![CDATA[«Боже, храни королеву»]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[В каком году первый самолет поднялся в воздух?]]></question>
-		<answers>
-			<answer><![CDATA[1895 г.]]></answer>
-			<answer><![CDATA[1903 г.]]></answer>
-			<answer><![CDATA[1911 г.]]></answer>
-			<answer><![CDATA[1915 г.]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Как звали изобретателей первого самолета?]]></question>
-		<answers>
-			<answer><![CDATA[братья Монгольфье]]></answer>
-			<answer><![CDATA[братья Райт]]></answer>
-			<answer><![CDATA[Николай Жуковский]]></answer>
-			<answer><![CDATA[Константин Циолковский]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[В какой стране был изобретен первый парашют?]]></question>
-		<answers>
-			<answer><![CDATA[Россия]]></answer>
-			<answer><![CDATA[США]]></answer>
-			<answer><![CDATA[Германия]]></answer>
-			<answer><![CDATA[Франция]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Кто был автором теории реактивного движения?]]></question>
-		<answers>
-			<answer><![CDATA[Сергей Королев]]></answer>
-			<answer><![CDATA[Исаак Ньютон]]></answer>
-			<answer><![CDATA[Константин Циолковский]]></answer>
-			<answer><![CDATA[Вернер фон Браун]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[В каком году самолет впервые преодолел звуковой барьер?]]></question>
-		<answers>
-			<answer><![CDATA[1939 г.]]></answer>
-			<answer><![CDATA[1947 г.]]></answer>
-			<answer><![CDATA[1954 г.]]></answer>
-			<answer><![CDATA[1940 г.]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Сколько атомных бомб было взорвано во время Второй мировой войны?]]></question>
-		<answers>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[3]]></answer>
-			<answer><![CDATA[6]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Какая страна первой построила транспортируемую водородную бомбу?]]></question>
-		<answers>
-			<answer><![CDATA[СССР]]></answer>
-			<answer><![CDATA[США]]></answer>
-			<answer><![CDATA[Великобритания]]></answer>
-			<answer><![CDATA[Китай]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[В каком году был построен первый советский ядерный реактор?]]></question>
-		<answers>
-			<answer><![CDATA[1946 г.]]></answer>
-			<answer><![CDATA[1954 г.]]></answer>
-			<answer><![CDATA[1970 г.]]></answer>
-			<answer><![CDATA[1972 г.]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[В каком городе была построена первая в мире атомная электростанция?]]></question>
-		<answers>
-			<answer><![CDATA[Лос Аламос]]></answer>
-			<answer><![CDATA[Бостон]]></answer>
-			<answer><![CDATA[Дубна]]></answer>
-			<answer><![CDATA[Обнинск]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Как назывался первый корабль с атомной энергетической установкой?]]></question>
-		<answers>
-			<answer><![CDATA[«Ленин»]]></answer>
-			<answer><![CDATA[«Арктика»]]></answer>
-			<answer><![CDATA[«Адмирал Нимиц»]]></answer>
-			<answer><![CDATA[«Бисмарк»]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Какой корабль первым достиг северного полюса?]]></question>
-		<answers>
-			<answer><![CDATA[«Арктика»]]></answer>
-			<answer><![CDATA[«Ленин»]]></answer>
-			<answer><![CDATA[«Невада»]]></answer>
-			<answer><![CDATA[«Тирпиц»]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[В каком году надводный корабль первым достиг северного полюса?]]></question>
-		<answers>
-			<answer><![CDATA[1977 г.]]></answer>
-			<answer><![CDATA[1981 г.]]></answer>
-			<answer><![CDATA[1952 г.]]></answer>
-			<answer><![CDATA[1963 г.]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Какая энергия преобразуется в аккумуляторах в электричество?]]></question>
-		<answers>
-			<answer><![CDATA[химическая]]></answer>
-			<answer><![CDATA[тепловая]]></answer>
-			<answer><![CDATA[солнечная]]></answer>
-			<answer><![CDATA[ядерная]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Чем аккумуляторы отличаются от батареек?]]></question>
-		<answers>
-			<answer><![CDATA[они построены на других принципах]]></answer>
-			<answer><![CDATA[подлежат перезарядке]]></answer>
-			<answer><![CDATA[аккумуляторы больше]]></answer>
-			<answer><![CDATA[в аккумуляторах больше электричества]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Что является продуктом сгорания в обычных автомобильных двигателях?]]></question>
-		<answers>
-			<answer><![CDATA[сера и азот]]></answer>
-			<answer><![CDATA[дым и сажа]]></answer>
-			<answer><![CDATA[углекислый газ и вода]]></answer>
-			<answer><![CDATA[углерод и кислород]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Для фотосинтеза и роста зеленых растений необходимы?]]></question>
-		<answers>
-			<answer><![CDATA[сера и азот]]></answer>
-			<answer><![CDATA[дым и сажа]]></answer>
-			<answer><![CDATA[углекислый газ и вода]]></answer>
-			<answer><![CDATA[углерод и кислород]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[При росте растений большую часть вещества для строительства и создания стеблей и древесины дерево берет...]]></question>
-		<answers>
-			<answer><![CDATA[из почвы]]></answer>
-			<answer><![CDATA[из почвенных вод]]></answer>
-			<answer><![CDATA[из солнечной энергии]]></answer>
-			<answer><![CDATA[из воздуха]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Если количество углекислого газа в воздухе увеличится в 5 раз, то растения...]]></question>
-		<answers>
-			<answer><![CDATA[погибнут]]></answer>
-			<answer><![CDATA[перестанут цвести]]></answer>
-			<answer><![CDATA[впадут в анабиоз]]></answer>
-			<answer><![CDATA[будут перерабатывать больше углекислого газа]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Фотосинтез растения возможен только...]]></question>
-		<answers>
-			<answer><![CDATA[при естественном освещении]]></answer>
-			<answer><![CDATA[только при искусственном освещении]]></answer>
-			<answer><![CDATA[и при естественном и при искусственном освещении]]></answer>
-			<answer><![CDATA[не зависят от освещения]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[При работе на Марсе человек скорее всего будет использовать...]]></question>
-		<answers>
-			<answer><![CDATA[тепловую и солнечную энергию]]></answer>
-			<answer><![CDATA[солнечную и ядерную энергию]]></answer>
-			<answer><![CDATA[гидроэнергию и тепловую энергию]]></answer>
-			<answer><![CDATA[гидроэнергию и химическую энергию]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[У планеты Марс количество спутников составляет...]]></question>
-		<answers>
-			<answer><![CDATA[2]]></answer>
-			<answer><![CDATA[3]]></answer>
-			<answer><![CDATA[4]]></answer>
-			<answer><![CDATA[8]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[При работе атомной электростанции производство энергии происходит путем преобразования...]]></question>
-		<answers>
-			<answer><![CDATA[ядерной энергии в электрическую]]></answer>
-			<answer><![CDATA[ядерной энергии - в тепловую, а затем – в электрическую]]></answer>
-			<answer><![CDATA[ядерной энергии в механическую, затем –в тепловую, затем – электрическую]]></answer>
-			<answer><![CDATA[ядерной – в механическую]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Человек весом в 50 кг будет весить на Марсе...]]></question>
-		<answers>
-			<answer><![CDATA[около 50 кг]]></answer>
-			<answer><![CDATA[около 100 кг]]></answer>
-			<answer><![CDATA[около 10 кг]]></answer>
-			<answer><![CDATA[около 20 кг]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Магнитное поле Марса...]]></question>
-		<answers>
-			<answer><![CDATA[гораздо мощнее, чем у Земли]]></answer>
-			<answer><![CDATA[аналогично земному]]></answer>
-			<answer><![CDATA[несколько меньше земного]]></answer>
-			<answer><![CDATA[практически отсутствует]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Спутник Марса Фобос...]]></question>
-		<answers>
-			<answer><![CDATA[больше Луны]]></answer>
-			<answer><![CDATA[меньше Луны]]></answer>
-			<answer><![CDATA[такой же, как Луна]]></answer>
-			<answer><![CDATA[больше Земли]]></answer>
-		</answers>
-	</task>
-	<task key="0">
-		<question><![CDATA[Красноватый цвет поверхности Марса связан с наличием...]]></question>
-		<answers>
-			<answer><![CDATA[соединений железа]]></answer>
-			<answer><![CDATA[жизнедеятельностью бурых водорослей]]></answer>
-			<answer><![CDATA[повышенной температурой]]></answer>
-			<answer><![CDATA[свечением ядра Марса]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Атмосфера Марса в основном состоит из...]]></question>
-		<answers>
-			<answer><![CDATA[азота]]></answer>
-			<answer><![CDATA[кислорода]]></answer>
-			<answer><![CDATA[метана]]></answer>
-			<answer><![CDATA[углекислого газа]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Атмосфера Марса...]]></question>
-		<answers>
-			<answer><![CDATA[более плотная, чем земная]]></answer>
-			<answer><![CDATA[такая же плотная, как земная]]></answer>
-			<answer><![CDATA[немного менее плотная, чем земная]]></answer>
-			<answer><![CDATA[меньше земной по плотности почти в 100 раз]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Дирижабли, наполненные каким газом могут летать над поверхностью Марса?]]></question>
-		<answers>
-			<answer><![CDATA[пропаном]]></answer>
-			<answer><![CDATA[ксеноном]]></answer>
-			<answer><![CDATA[гелием]]></answer>
-			<answer><![CDATA[полет дирижабля в условиях марсианской атмосферы невозможен]]></answer>
-		</answers>
-	</task>
-	<task key="1">
-		<question><![CDATA[Полярные шапки Марса состоят из...]]></question>
-		<answers>
-			<answer><![CDATA[замерзшей воды]]></answer>
-			<answer><![CDATA[сухого льда]]></answer>
-			<answer><![CDATA[замерзшего метана]]></answer>
-			<answer><![CDATA[замерзшего аммиака]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Сухой лед это...]]></question>
-		<answers>
-			<answer><![CDATA[обычный лед с меньшей концентрацией воды]]></answer>
-			<answer><![CDATA[замерзший аммиак]]></answer>
-			<answer><![CDATA[замерзший углекислый газ]]></answer>
-			<answer><![CDATA[замерзший водород]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Какой из металлов, если залить его в расплавленном состоянии в воду, заставит ее замерзнуть?]]></question>
-		<answers>
-			<answer><![CDATA[золото]]></answer>
-			<answer><![CDATA[железо]]></answer>
-			<answer><![CDATA[натрий]]></answer>
-			<answer><![CDATA[ртуть]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Какой металл может расплавиться в руках?]]></question>
-		<answers>
-			<answer><![CDATA[алюминий]]></answer>
-			<answer><![CDATA[железо]]></answer>
-			<answer><![CDATA[натрий]]></answer>
-			<answer><![CDATA[галлий]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Какой из металлов нельзя встретить в самородном виде ни на Земле ни на Марсе?]]></question>
-		<answers>
-			<answer><![CDATA[золото]]></answer>
-			<answer><![CDATA[платину]]></answer>
-			<answer><![CDATA[иридий]]></answer>
-			<answer><![CDATA[натрий]]></answer>
-		</answers>
-	</task>
-	<task key="2">
-		<question><![CDATA[Линия горизонта на Марсе...]]></question>
-		<answers>
-			<answer><![CDATA[такая же, как на Земле]]></answer>
-			<answer><![CDATA[дальше, чем на Земле]]></answer>
-			<answer><![CDATA[ближе, чем на Земле]]></answer>
-			<answer><![CDATA[на Марсе нет горизонта]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Первые атомные двигатели на земных видах транспорта появились...]]></question>
-		<answers>
-			<answer><![CDATA[в 1956 г.]]></answer>
-			<answer><![CDATA[в 1985 г.]]></answer>
-			<answer><![CDATA[в 1992 г.]]></answer>
-			<answer><![CDATA[в 2002 г.]]></answer>
-		</answers>
-	</task>
-	<task key="3">
-		<question><![CDATA[Какой по счету планетой от Солнца является Марс?]]></question>
-		<answers>
-			<answer><![CDATA[2-й]]></answer>
-			<answer><![CDATA[3-й]]></answer>
-			<answer><![CDATA[4-й]]></answer>
-			<answer><![CDATA[6-й]]></answer>
-		</answers>
-	</task>
+<task key="1">
+<question><![CDATA[Сколько антенн было у первого искусственного спутника Земли?]]></question>
+<answers>
+<answer><![CDATA[2]]></answer>
+<answer><![CDATA[4]]></answer>
+<answer><![CDATA[6]]></answer>
+<answer><![CDATA[8]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[В каком году был запущен первый искусственный спутник Земли?]]></question>
+<answers>
+<answer><![CDATA[1955 г.]]></answer>
+<answer><![CDATA[1957 г.]]></answer>
+<answer><![CDATA[1960 г.]]></answer>
+<answer><![CDATA[1962 г.]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Космическому кораблю какой страны удалось сделать первый снимок обратной стороны Луны?]]></question>
+<answers>
+<answer><![CDATA[СССР]]></answer>
+<answer><![CDATA[США]]></answer>
+<answer><![CDATA[Китай]]></answer>
+<answer><![CDATA[Франция]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Какое млекопитающее первым побывало в космосе?]]></question>
+<answers>
+<answer><![CDATA[кот]]></answer>
+<answer><![CDATA[хомяк]]></answer>
+<answer><![CDATA[крыса]]></answer>
+<answer><![CDATA[собака]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Как звали первых собак, вернувшихся из космоса?]]></question>
+<answers>
+<answer><![CDATA[Лайка и Жучка]]></answer>
+<answer><![CDATA[Рекс и Мухтар]]></answer>
+<answer><![CDATA[Белка и Стрелка]]></answer>
+<answer><![CDATA[Бобик и Шарик]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Как назывался первый космический корабль с человеком на борту?]]></question>
+<answers>
+<answer><![CDATA[«Восток»]]></answer>
+<answer><![CDATA[«Восход»]]></answer>
+<answer><![CDATA[«Союз»]]></answer>
+<answer><![CDATA[«Салют»]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Как назывался первый многоместный космический корабль?]]></question>
+<answers>
+<answer><![CDATA[«Аполлон»]]></answer>
+<answer><![CDATA[«Восход»]]></answer>
+<answer><![CDATA[«Буран»]]></answer>
+<answer><![CDATA[«Мир»]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Кто бы первым человеком, вышедшим в открытый космос?]]></question>
+<answers>
+<answer><![CDATA[Алексей Леонов]]></answer>
+<answer><![CDATA[Павел Беляев]]></answer>
+<answer><![CDATA[Герман Титов]]></answer>
+<answer><![CDATA[Владимир Комаров]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Как звали первого человека, погибшего в космосе?]]></question>
+<answers>
+<answer><![CDATA[Владимир Комаров]]></answer>
+<answer><![CDATA[Александр Волков]]></answer>
+<answer><![CDATA[Виктор Пацаев]]></answer>
+<answer><![CDATA[Георгий Добровольский]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Представители какой страны первыми побывали на Луне?]]></question>
+<answers>
+<answer><![CDATA[СССР]]></answer>
+<answer><![CDATA[США]]></answer>
+<answer><![CDATA[Китай]]></answer>
+<answer><![CDATA[Великобритания]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Как назывался первый космический корабль, доставивший людей на Луну?]]></question>
+<answers>
+<answer><![CDATA[«Аполлон 17»]]></answer>
+<answer><![CDATA[«Лунник»]]></answer>
+<answer><![CDATA[«Союз 4»]]></answer>
+<answer><![CDATA[«Энтерпрайз 8»]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Кто был первым человеком, ступившим на поверхность Луны?]]></question>
+<answers>
+<answer><![CDATA[Джон Гленн]]></answer>
+<answer><![CDATA[Нил Армстронг]]></answer>
+<answer><![CDATA[Джон Челленджер]]></answer>
+<answer><![CDATA[Герман Титов]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[В каком году проводились исследования Луны при помощи специального робота «Луноход 1»?]]></question>
+<answers>
+<answer><![CDATA[1958 г.]]></answer>
+<answer><![CDATA[1963 г.]]></answer>
+<answer><![CDATA[1970 г.]]></answer>
+<answer><![CDATA[1980 г.]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Сколько колес было у аппарата «Луноход 1»?]]></question>
+<answers>
+<answer><![CDATA[2]]></answer>
+<answer><![CDATA[3]]></answer>
+<answer><![CDATA[8]]></answer>
+<answer><![CDATA[12]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Сколько аппаратов серии «Луноход» побывало на Луне?]]></question>
+<answers>
+<answer><![CDATA[1]]></answer>
+<answer><![CDATA[2]]></answer>
+<answer><![CDATA[4]]></answer>
+<answer><![CDATA[6]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Обломки какого количества космических апаратов покоятся на поверхности Луны?]]></question>
+<answers>
+<answer><![CDATA[2]]></answer>
+<answer><![CDATA[4]]></answer>
+<answer><![CDATA[более 10]]></answer>
+<answer><![CDATA[более 20]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[В какой стране был изобретен акваланг?]]></question>
+<answers>
+<answer><![CDATA[СССР]]></answer>
+<answer><![CDATA[США]]></answer>
+<answer><![CDATA[Германия]]></answer>
+<answer><![CDATA[Франция]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[В каком году был изобретен акваланг?]]></question>
+<answers>
+<answer><![CDATA[1920 г.]]></answer>
+<answer><![CDATA[1930 г.]]></answer>
+<answer><![CDATA[1943 г.]]></answer>
+<answer><![CDATA[1950 г.]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Кто является изобретателем акваланга?]]></question>
+<answers>
+<answer><![CDATA[Жак Ив Кусто]]></answer>
+<answer><![CDATA[Ипрон СССР]]></answer>
+<answer><![CDATA[Хайем Максим]]></answer>
+<answer><![CDATA[Джон Вестингхауз]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[В каком веке люди достигли северного и южного полюсов?]]></question>
+<answers>
+<answer><![CDATA[XVII в.]]></answer>
+<answer><![CDATA[XVIII в.]]></answer>
+<answer><![CDATA[XIX в.]]></answer>
+<answer><![CDATA[XX в.]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Кто был первым человеком, достигшим северного полюса?]]></question>
+<answers>
+<answer><![CDATA[Фритьоф Нансен]]></answer>
+<answer><![CDATA[Руаль Амундсен]]></answer>
+<answer><![CDATA[Семен Челюскин]]></answer>
+<answer><![CDATA[Роберт Пири]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Кто был первым человеком, достигшим южного полюса?]]></question>
+<answers>
+<answer><![CDATA[Фритьоф Нансен]]></answer>
+<answer><![CDATA[Руаль Амундсен]]></answer>
+<answer><![CDATA[Роберт Скотт]]></answer>
+<answer><![CDATA[Георгий Седов]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Свойства какого металла послужили причиной гибели экспедиции Роберта Скотта?]]></question>
+<answers>
+<answer><![CDATA[железо]]></answer>
+<answer><![CDATA[алюминий]]></answer>
+<answer><![CDATA[олово]]></answer>
+<answer><![CDATA[свинец]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Что было написано на могиле исследователя Антарктиды Роберта Скотта?]]></question>
+<answers>
+<answer><![CDATA[«Я опоздал»]]></answer>
+<answer><![CDATA[«Ненавижу норвежцев»]]></answer>
+<answer><![CDATA[«Бороться и искать, найти – и не сдаваться»]]></answer>
+<answer><![CDATA[«Боже, храни королеву»]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[В каком году первый самолет поднялся в воздух?]]></question>
+<answers>
+<answer><![CDATA[1895 г.]]></answer>
+<answer><![CDATA[1903 г.]]></answer>
+<answer><![CDATA[1917 г.]]></answer>
+<answer><![CDATA[1922 г.]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Как звали изобретателей первого самолета?]]></question>
+<answers>
+<answer><![CDATA[братья Монгольфье]]></answer>
+<answer><![CDATA[братья Райт]]></answer>
+<answer><![CDATA[Николай Жуковский]]></answer>
+<answer><![CDATA[Константин Циолковский]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Кто был автором теории реактивного движения?]]></question>
+<answers>
+<answer><![CDATA[Сергей Королев]]></answer>
+<answer><![CDATA[Исаак Ньютон]]></answer>
+<answer><![CDATA[Константин Циолковский]]></answer>
+<answer><![CDATA[Вернер фон Браун]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[В каком году самолет впервые преодолел звуковой барьер?]]></question>
+<answers>
+<answer><![CDATA[1939 г.]]></answer>
+<answer><![CDATA[1947 г.]]></answer>
+<answer><![CDATA[1960 г.]]></answer>
+<answer><![CDATA[1971 г.]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Сколько атомных бомб было взорвано во время Второй мировой войны?]]></question>
+<answers>
+<answer><![CDATA[1]]></answer>
+<answer><![CDATA[2]]></answer>
+<answer><![CDATA[3]]></answer>
+<answer><![CDATA[6]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Какая страна первой построила транспортируемую водородную бомбу?]]></question>
+<answers>
+<answer><![CDATA[СССР]]></answer>
+<answer><![CDATA[США]]></answer>
+<answer><![CDATA[Великобритания]]></answer>
+<answer><![CDATA[Китай]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[В каком году был построен первый советский ядерный реактор?]]></question>
+<answers>
+<answer><![CDATA[1946 г.]]></answer>
+<answer><![CDATA[1954 г.]]></answer>
+<answer><![CDATA[1970 г.]]></answer>
+<answer><![CDATA[1972 г.]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[В каком городе была построена первая в мире атомная электростанция?]]></question>
+<answers>
+<answer><![CDATA[Лос Аламос]]></answer>
+<answer><![CDATA[Бостон]]></answer>
+<answer><![CDATA[Дубна]]></answer>
+<answer><![CDATA[Обнинск]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Как назывался первый корабль с атомной энергетической установкой?]]></question>
+<answers>
+<answer><![CDATA[«Ленин»]]></answer>
+<answer><![CDATA[«Арктика»]]></answer>
+<answer><![CDATA[«Адмирал Нимиц»]]></answer>
+<answer><![CDATA[«Бисмарк»]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Какой корабль первым достиг северного полюса?]]></question>
+<answers>
+<answer><![CDATA[«Арктика»]]></answer>
+<answer><![CDATA[«Ленин»]]></answer>
+<answer><![CDATA[«Невада»]]></answer>
+<answer><![CDATA[«Тирпиц»]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[В каком году надводный корабль первым достиг северного полюса?]]></question>
+<answers>
+<answer><![CDATA[1977 г.]]></answer>
+<answer><![CDATA[1981 г.]]></answer>
+<answer><![CDATA[1952 г.]]></answer>
+<answer><![CDATA[1963 г.]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Какая энергия преобразуется в аккумуляторах в электричество?]]></question>
+<answers>
+<answer><![CDATA[химическая]]></answer>
+<answer><![CDATA[тепловая]]></answer>
+<answer><![CDATA[солнечная]]></answer>
+<answer><![CDATA[ядерная]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Чем аккумуляторы отличаются от батареек?]]></question>
+<answers>
+<answer><![CDATA[они построены на других принципах]]></answer>
+<answer><![CDATA[подлежат перезарядке]]></answer>
+<answer><![CDATA[аккумуляторы больше]]></answer>
+<answer><![CDATA[в аккумуляторах больше электричества]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Что является продуктом сгорания в обычных автомобильных двигателях?]]></question>
+<answers>
+<answer><![CDATA[сера и азот]]></answer>
+<answer><![CDATA[дым и сажа]]></answer>
+<answer><![CDATA[углекислый газ и вода]]></answer>
+<answer><![CDATA[углерод и кислород]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Для фотосинтеза и роста зеленых растений необходимы]]></question>
+<answers>
+<answer><![CDATA[сера и азот]]></answer>
+<answer><![CDATA[дым и сажа]]></answer>
+<answer><![CDATA[углекислый газ и вода]]></answer>
+<answer><![CDATA[углерод и кислород]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[При росте растений большую часть вещества для строительства и создания стеблей и древесины дерево берет...]]></question>
+<answers>
+<answer><![CDATA[из почвы]]></answer>
+<answer><![CDATA[из почвенных вод]]></answer>
+<answer><![CDATA[из солнечной энергии]]></answer>
+<answer><![CDATA[из воздуха]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Если количество углекислого газа в воздухе увеличится в 5 раз, то растения...]]></question>
+<answers>
+<answer><![CDATA[погибнут]]></answer>
+<answer><![CDATA[перестанут цвести]]></answer>
+<answer><![CDATA[впадут в анабиоз]]></answer>
+<answer><![CDATA[будут перерабатывать больше углекислого газа]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Фотосинтез растения возможен только...]]></question>
+<answers>
+<answer><![CDATA[при естественном освещении]]></answer>
+<answer><![CDATA[только при искусственном освещении]]></answer>
+<answer><![CDATA[и при естественном и при искусственном освещении]]></answer>
+<answer><![CDATA[не зависят от освещения]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[При работе на Марсе человек скорее всего будет использовать...]]></question>
+<answers>
+<answer><![CDATA[тепловую и солнечную энергию]]></answer>
+<answer><![CDATA[солнечную и ядерную энергию]]></answer>
+<answer><![CDATA[гидроэнергию и тепловую энергию]]></answer>
+<answer><![CDATA[гидроэнергию и химическую энергию]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[У планеты Марс количество спутников составляет...]]></question>
+<answers>
+<answer><![CDATA[2]]></answer>
+<answer><![CDATA[3]]></answer>
+<answer><![CDATA[4]]></answer>
+<answer><![CDATA[8]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[При работе атомной электростанции производство энергии происходит путем преобразования...]]></question>
+<answers>
+<answer><![CDATA[ядерной энергии в электрическую]]></answer>
+<answer><![CDATA[ядерной энергии - в тепловую, а затем – в электрическую]]></answer>
+<answer><![CDATA[ядерной энергии в механическую, затем –в тепловую, затем – электрическую]]></answer>
+<answer><![CDATA[ядерной – в механическую]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Человек весом в 50 кг будет весить на Марсе...]]></question>
+<answers>
+<answer><![CDATA[около 50 кг]]></answer>
+<answer><![CDATA[около 100 кг]]></answer>
+<answer><![CDATA[около 10 кг]]></answer>
+<answer><![CDATA[около 20 кг]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Магнитное поле Марса...]]></question>
+<answers>
+<answer><![CDATA[гораздо мощнее, чем у Земли]]></answer>
+<answer><![CDATA[аналогично земному]]></answer>
+<answer><![CDATA[несколько меньше земного]]></answer>
+<answer><![CDATA[практически отсутствует]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Спутник Марса Фобос...]]></question>
+<answers>
+<answer><![CDATA[больше Луны]]></answer>
+<answer><![CDATA[меньше Луны]]></answer>
+<answer><![CDATA[такой же, как Луна]]></answer>
+<answer><![CDATA[больше Земли]]></answer>
+</answers>
+</task>
+<task key="0">
+<question><![CDATA[Красноватый цвет поверхности Марса связан с наличием...]]></question>
+<answers>
+<answer><![CDATA[соединений железа]]></answer>
+<answer><![CDATA[жизнедеятельностью бурых водорослей]]></answer>
+<answer><![CDATA[повышенной температурой]]></answer>
+<answer><![CDATA[свечением ядра Марса]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Атмосфера Марса в основном состоит из...]]></question>
+<answers>
+<answer><![CDATA[азота]]></answer>
+<answer><![CDATA[кислорода]]></answer>
+<answer><![CDATA[метана]]></answer>
+<answer><![CDATA[углекислого газа]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Атмосфера Марса...]]></question>
+<answers>
+<answer><![CDATA[более плотная, чем земная]]></answer>
+<answer><![CDATA[такая же плотная, как земная]]></answer>
+<answer><![CDATA[немного менее плотная, чем земная]]></answer>
+<answer><![CDATA[меньше земной по плотности более чем в 100 раз]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Дирижабли, наполненные каким газом могут летать над поверхностью Марса?]]></question>
+<answers>
+<answer><![CDATA[пропаном]]></answer>
+<answer><![CDATA[ксеноном]]></answer>
+<answer><![CDATA[гелием]]></answer>
+<answer><![CDATA[полет дирижабля в условиях марсианской атмосферы невозможен]]></answer>
+</answers>
+</task>
+<task key="1">
+<question><![CDATA[Полярные шапки Марса состоят  в основном из...]]></question>
+<answers>
+<answer><![CDATA[замерзшей воды]]></answer>
+<answer><![CDATA[сухого льда]]></answer>
+<answer><![CDATA[замерзшего метана]]></answer>
+<answer><![CDATA[замерзшего аммиака]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Сухой лед это...]]></question>
+<answers>
+<answer><![CDATA[обычный лед с меньшей концентрацией воды]]></answer>
+<answer><![CDATA[замерзший аммиак]]></answer>
+<answer><![CDATA[замерзший углекислый газ]]></answer>
+<answer><![CDATA[замерзший водород]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Какой из металлов, если залить его в расплавленном состоянии в воду, заставит ее замерзнуть?]]></question>
+<answers>
+<answer><![CDATA[золото]]></answer>
+<answer><![CDATA[железо]]></answer>
+<answer><![CDATA[натрий]]></answer>
+<answer><![CDATA[ртуть]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Какой металл может расплавиться в руках?]]></question>
+<answers>
+<answer><![CDATA[алюминий]]></answer>
+<answer><![CDATA[железо]]></answer>
+<answer><![CDATA[натрий]]></answer>
+<answer><![CDATA[галлий]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Какой из металлов нельзя встретить в самородном виде ни на Земле ни на Марсе?]]></question>
+<answers>
+<answer><![CDATA[золото]]></answer>
+<answer><![CDATA[платину]]></answer>
+<answer><![CDATA[иридий]]></answer>
+<answer><![CDATA[натрий]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Линия горизонта на Марсе...]]></question>
+<answers>
+<answer><![CDATA[такая же, как на Земле]]></answer>
+<answer><![CDATA[дальше, чем на Земле]]></answer>
+<answer><![CDATA[ближе, чем на Земле]]></answer>
+<answer><![CDATA[на Марсе нет горизонта]]></answer>
+</answers>
+</task>
+<task key="3">
+<question><![CDATA[Первые атомные двигатели на наземных видах транспорта появились...]]></question>
+<answers>
+<answer><![CDATA[в 1956 г.]]></answer>
+<answer><![CDATA[в 1985 г.]]></answer>
+<answer><![CDATA[в 1992 г.]]></answer>
+<answer><![CDATA[в 2002 г.]]></answer>
+</answers>
+</task>
+<task key="2">
+<question><![CDATA[Какой по счету планетой от Солнца является Марс?]]></question>
+<answers>
+<answer><![CDATA[2-й]]></answer>
+<answer><![CDATA[3-й]]></answer>
+<answer><![CDATA[4-й]]></answer>
+<answer><![CDATA[6-й]]></answer>
+</answers>
+</task>
 </data>
