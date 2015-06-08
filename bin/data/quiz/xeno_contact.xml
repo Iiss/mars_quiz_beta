@@ -167,8 +167,8 @@
 	<task key="2">
 		<question><![CDATA[Считается, что в современном русском языке...]]></question>
 		<answers>
-			<answer><![CDATA[20 000 слов]]></answer>
 			<answer><![CDATA[1 000 слов]]></answer>
+			<answer><![CDATA[20 000 слов]]></answer>
 			<answer><![CDATA[800 000 слов]]></answer>
 			<answer><![CDATA[10 000 000 слов]]></answer>
 		</answers>
@@ -227,13 +227,13 @@
 			<answer><![CDATA[коза]]></answer>
 		</answers>
 	</task>
-	<task key="3">
+	<task key="2">
 		<question><![CDATA[Кошка была одомашнена человеком...]]></question>
 		<answers>
-			<answer><![CDATA[2000 лет назад]]></answer>
-			<answer><![CDATA[4000 лет назад]]></answer>
-			<answer><![CDATA[5000 лет назад]]></answer>
-			<answer><![CDATA[10000 лет назад]]></answer>
+			<answer><![CDATA[1500-2000 лет назад]]></answer>
+			<answer><![CDATA[3000-4000 лет назад]]></answer>
+			<answer><![CDATA[5000-10000 лет назад]]></answer>
+			<answer><![CDATA[15000-20000 лет назад]]></answer>
 		</answers>
 	</task>
 	<task key="3">
@@ -290,22 +290,13 @@
 			<answer><![CDATA[орган]]></answer>
 		</answers>
 	</task>
-	<task key="1">
-		<question><![CDATA[Для передачи информации на дальние расстояния люди использовали...]]></question>
-		<answers>
-			<answer><![CDATA[мандолину]]></answer>
-			<answer><![CDATA[свирель]]></answer>
-			<answer><![CDATA[домбру]]></answer>
-			<answer><![CDATA[контрабас]]></answer>
-		</answers>
-	</task>
 	<task key="2">
-		<question><![CDATA[Для передачи информации на дальние расстояния люди использовали...]]></question>
+		<question><![CDATA[Какая птица используется людьми в качестве почтовой?]]></question>
 		<answers>
-			<answer><![CDATA[соловьев]]></answer>
-			<answer><![CDATA[воробьев]]></answer>
-			<answer><![CDATA[голубей]]></answer>
-			<answer><![CDATA[попугаев]]></answer>
+			<answer><![CDATA[соловей]]></answer>
+			<answer><![CDATA[воробей]]></answer>
+			<answer><![CDATA[голубь]]></answer>
+			<answer><![CDATA[попугай]]></answer>
 		</answers>
 	</task>
 	<task key="2">
@@ -371,13 +362,13 @@
 			<answer><![CDATA[12]]></answer>
 		</answers>
 	</task>
-	<task key="2">
+	<task key="1">
 		<question><![CDATA[Римских цифр...]]></question>
 		<answers>
-			<answer><![CDATA[4]]></answer>
 			<answer><![CDATA[5]]></answer>
 			<answer><![CDATA[7]]></answer>
 			<answer><![CDATA[10]]></answer>
+			<answer><![CDATA[15]]></answer>
 		</answers>
 	</task>
 	<task key="0">
@@ -401,9 +392,9 @@
 	<task key="3">
 		<question><![CDATA[Чем шахматы, придуманные Робертом Фишером, отличаются от обычных?]]></question>
 		<answers>
-			<answer><![CDATA[цветом фигур]]></answer>
-			<answer><![CDATA[количеством фигур]]></answer>
-			<answer><![CDATA[размером доски]]></answer>
+			<answer><![CDATA[большим количеством игроков]]></answer>
+			<answer><![CDATA[случайным количеством фигур]]></answer>
+			<answer><![CDATA[нестандартными вариантами хода]]></answer>
 			<answer><![CDATA[фигуры выставляются в случайном порядке]]></answer>
 		</answers>
 	</task>
@@ -479,17 +470,8 @@
 			<answer><![CDATA[1903 г.]]></answer>
 		</answers>
 	</task>
-	<task key="1">
-		<question><![CDATA[Впервые беспроводную связь установил...]]></question>
-		<answers>
-			<answer><![CDATA[Никола Тесла]]></answer>
-			<answer><![CDATA[Александр Попов]]></answer>
-			<answer><![CDATA[Пьер Кюри]]></answer>
-			<answer><![CDATA[Гульельмо Маркони]]></answer>
-		</answers>
-	</task>
 	<task key="3">
-		<question><![CDATA[Судя по описанию Уэллса раса марсиан принадлежала к...]]></question>
+		<question><![CDATA[Судя по описанию Уэллса, раса марсиан принадлежала к...]]></question>
 		<answers>
 			<answer><![CDATA[птицам]]></answer>
 			<answer><![CDATA[насекомым]]></answer>
