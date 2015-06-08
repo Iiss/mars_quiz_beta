@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="2">
+		<img><![CDATA[data/img/mars/m001.jpg]]></img>
+		<question><![CDATA[Планета Марс по размеру:]]></question>
+		<answers>
+			<answer><![CDATA[Самая маленькая в Солнечной Системе]]></answer>
+			<answer><![CDATA[Самая большая среди планет земной группы]]></answer>
+			<answer><![CDATA[Предпоследняя по размеру в Солнечной Системе]]></answer>
+			<answer><![CDATA[Такая же, как Земля]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<img><![CDATA[data/img/mars/m002.jpg]]></img>
+		<question><![CDATA[Планета Марс по счету от Солнца:]]></question>
+		<answers>
+			<answer><![CDATA[Вторая]]></answer>
+			<answer><![CDATA[Третья]]></answer>
+			<answer><![CDATA[Четвертая]]></answer>
+			<answer><![CDATA[Пятая]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m003.jpg]]></img>
+		<question><![CDATA[Площадь поверхности Марса по сравнению с поверхностью суши Земли:]]></question>
+		<answers>
+			<answer><![CDATA[Вдвое меньше]]></answer>
+			<answer><![CDATA[Сопоставима по площади]]></answer>
+			<answer><![CDATA[Вдвое больше]]></answer>
+			<answer><![CDATA[В полтора раза больше]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m004.jpg]]></img>
+		<question><![CDATA[Экваториальный радиус Марса:]]></question>
+		<answers>
+			<answer><![CDATA[3397 км]]></answer>
+			<answer><![CDATA[2439 км]]></answer>
+			<answer><![CDATA[4793 км]]></answer>
+			<answer><![CDATA[3937 км]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m005.jpg]]></img>
+		<question><![CDATA[Период обращения вокруг Солнца, земных суток:]]></question>
+		<answers>
+			<answer><![CDATA[578]]></answer>
+			<answer><![CDATA[687]]></answer>
+			<answer><![CDATA[768]]></answer>
+			<answer><![CDATA[876]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<img><![CDATA[data/img/mars/m006.jpg]]></img>
+		<question><![CDATA[Среднее расстояние от Марса до Солнца, млн.км:]]></question>
+		<answers>
+			<answer><![CDATA[328]]></answer>
+			<answer><![CDATA[401]]></answer>
+			<answer><![CDATA[228]]></answer>
+			<answer><![CDATA[167]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m007-008.jpg]]></img>
+		<question><![CDATA[Минимальное расстояние от Земли до Марса, млн.км:]]></question>
+		<answers>
+			<answer><![CDATA[55,75]]></answer>
+			<answer><![CDATA[75,5]]></answer>
+			<answer><![CDATA[85,35]]></answer>
+			<answer><![CDATA[112,57]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m007-008.jpg]]></img>
+		<question><![CDATA[Максимальное расстояние между Землей и Марсом, млн.км:]]></question>
+		<answers>
+			<answer><![CDATA[401]]></answer>
+			<answer><![CDATA[228]]></answer>
+			<answer><![CDATA[455]]></answer>
+			<answer><![CDATA[306]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m009-010.jpg]]></img>
+		<question><![CDATA[Противостоянием называется период, когда Земля и Марс:]]></question>
+		<answers>
+			<answer><![CDATA[Максимально сближаются друг с другом]]></answer>
+			<answer><![CDATA[Максимально удалены друг от друга]]></answer>
+			<answer><![CDATA[Находятся на противоположных сторонах от Солнца]]></answer>
+			<answer><![CDATA[Равноудалены от Солнца]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<img><![CDATA[data/img/mars/m009-010.jpg]]></img>
+		<question><![CDATA[Противостояния Земли и Марса случаются каждые:]]></question>
+		<answers>
+			<answer><![CDATA[27 лет]]></answer>
+			<answer><![CDATA[7 лет]]></answer>
+			<answer><![CDATA[26 месяцев]]></answer>
+			<answer><![CDATA[17 месяцев]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m011.jpg]]></img>
+		<question><![CDATA[Сутки на Марсе:]]></question>
+		<answers>
+			<answer><![CDATA[на 39 минут короче земных]]></answer>
+			<answer><![CDATA[на 39 минут длиннее земных]]></answer>
+			<answer><![CDATA[на 139 минут короче земных]]></answer>
+			<answer><![CDATA[на 139 минут длиннее земных]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m012.jpg]]></img>
+		<question><![CDATA[Климат Марса по сравнению с земным:]]></question>
+		<answers>
+			<answer><![CDATA[Холоднее и суше]]></answer>
+			<answer><![CDATA[Жарче и суше]]></answer>
+			<answer><![CDATA[Холоднее и влажнее]]></answer>
+			<answer><![CDATA[Жарче и влажнее]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<img><![CDATA[data/img/mars/m013.jpg]]></img>
+		<question><![CDATA[Облака на Марсе:]]></question>
+		<answers>
+			<answer><![CDATA[Никогда нет, потому что нет воды]]></answer>
+			<answer><![CDATA[Частые, разнообразные по типу]]></answer>
+			<answer><![CDATA[Редкие, но разнообразные по типу]]></answer>
+			<answer><![CDATA[Редкие и только одного типа]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m014.jpg]]></img>
+		<question><![CDATA[Сколько естественных спутников у Марса?]]></question>
+		<answers>
+			<answer><![CDATA[Ни одного]]></answer>
+			<answer><![CDATA[Два]]></answer>
+			<answer><![CDATA[Четыре]]></answer>
+			<answer><![CDATA[Больше десяти]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m015.jpg]]></img>
+		<question><![CDATA[Есть ли на Марсе смена времен года?]]></question>
+		<answers>
+			<answer><![CDATA[Нет]]></answer>
+			<answer><![CDATA[Есть, аналогичная Земле]]></answer>
+			<answer><![CDATA[Есть два времени года]]></answer>
+			<answer><![CDATA[Времена года слабо отличаются]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m016.jpg]]></img>
+		<question><![CDATA[Какого цвета небо на Марсе на закате и восходе?]]></question>
+		<answers>
+			<answer><![CDATA[Розово-голубое]]></answer>
+			<answer><![CDATA[Бело-зеленое]]></answer>
+			<answer><![CDATA[Розово-алое]]></answer>
+			<answer><![CDATA[Серо-голубое]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m017.jpg]]></img>
+		<question><![CDATA[Какого цвета небо на Марсе в полдень?]]></question>
+		<answers>
+			<answer><![CDATA[Алого]]></answer>
+			<answer><![CDATA[Оранжевого]]></answer>
+			<answer><![CDATA[Зеленого]]></answer>
+			<answer><![CDATA[Черного]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<img><![CDATA[data/img/mars/m018.jpg]]></img>
+		<question><![CDATA[Есть ли у Марса магнитное поле?]]></question>
+		<answers>
+			<answer><![CDATA[Нет и никогда не было]]></answer>
+			<answer><![CDATA[Есть, сильнее, чем у Земли]]></answer>
+			<answer><![CDATA[Есть, очень слабое]]></answer>
+			<answer><![CDATA[Было в древности, сейчас остаточная намагниченность]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/mars/m019.jpg]]></img>
+		<question><![CDATA[Как называются спутники Марса?]]></question>
+		<answers>
+			<answer><![CDATA[Фобос и Деймос]]></answer>
+			<answer><![CDATA[Каллисто и Европа]]></answer>
+			<answer><![CDATA[Веста и Церера]]></answer>
+			<answer><![CDATA[Ио и Клио]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/mars/m020.jpg]]></img>
+		<question><![CDATA[Температура на Марсе изменяется в диапазоне (по Цельсию):]]></question>
+		<answers>
+			<answer><![CDATA[от -200 до +5]]></answer>
+			<answer><![CDATA[от -150 до +30]]></answer>
+			<answer><![CDATA[от -130 до +50]]></answer>
+			<answer><![CDATA[от -100 до +20]]></answer>
+		</answers>
+	</task>
+</data>

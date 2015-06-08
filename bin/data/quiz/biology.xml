@@ -1,0 +1,571 @@
+﻿<!--Викторина «Жизнь на Земле и в Космосе» (викторина для космобиологов)-->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="2">
+		<question><![CDATA[Какое из животных Земли самое большое?]]></question>
+		<answers>
+			<answer><![CDATA[кашалот]]></answer>
+			<answer><![CDATA[гигантский кальмар]]></answer>
+			<answer><![CDATA[синий кит]]></answer>
+			<answer><![CDATA[нильский крокодил]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Кто является самым крупным хищником на Земле?]]></question>
+		<answers>
+			<answer><![CDATA[белый медведь]]></answer>
+			<answer><![CDATA[анаконда]]></answer>
+			<answer><![CDATA[китовая акула]]></answer>
+			<answer><![CDATA[кашалот]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[У какой из земных птиц самый большой размах крыльев?]]></question>
+		<answers>
+			<answer><![CDATA[аист]]></answer>
+			<answer><![CDATA[андский кондор]]></answer>
+			<answer><![CDATA[альбатрос]]></answer>
+			<answer><![CDATA[стерх]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какая из земных птиц самая большая?]]></question>
+		<answers>
+			<answer><![CDATA[эму]]></answer>
+			<answer><![CDATA[африканский страус]]></answer>
+			<answer><![CDATA[гигантский пеликан]]></answer>
+			<answer><![CDATA[фламинго]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Кто из земных млекопитающих самый маленький?]]></question>
+		<answers>
+			<answer><![CDATA[полевая мышь]]></answer>
+			<answer><![CDATA[буразобка]]></answer>
+			<answer><![CDATA[крот]]></answer>
+			<answer><![CDATA[землеройка]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[До какой глубины может нырять императорский пингвин?]]></question>
+		<answers>
+			<answer><![CDATA[50 м]]></answer>
+			<answer><![CDATA[100 м]]></answer>
+			<answer><![CDATA[200 м]]></answer>
+			<answer><![CDATA[свыше 500 м]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какая из птиц способна летать хвостом вперед?]]></question>
+		<answers>
+			<answer><![CDATA[стриж]]></answer>
+			<answer><![CDATA[альбатрос]]></answer>
+			<answer><![CDATA[павлин]]></answer>
+			<answer><![CDATA[колибри]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Сколько сердец у обыкновенного осьминога?]]></question>
+		<answers>
+			<answer><![CDATA[одно]]></answer>
+			<answer><![CDATA[два]]></answer>
+			<answer><![CDATA[три]]></answer>
+			<answer><![CDATA[у осьминога нет сердца]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Какое дерево самое высокое в мире?]]></question>
+		<answers>
+			<answer><![CDATA[эвкалипт]]></answer>
+			<answer><![CDATA[баобаб]]></answer>
+			<answer><![CDATA[секвойя]]></answer>
+			<answer><![CDATA[дуб]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какой высоты достигает самое высокое дерево на Земле - секвойя Гиперион?]]></question>
+		<answers>
+			<answer><![CDATA[50 м]]></answer>
+			<answer><![CDATA[90 м]]></answer>
+			<answer><![CDATA[100 м]]></answer>
+			<answer><![CDATA[свыше 110 м]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какое максимальное расстояние может пролететь странствующий альбатрос без посадки?]]></question>
+		<answers>
+			<answer><![CDATA[100 км]]></answer>
+			<answer><![CDATA[200 км]]></answer>
+			<answer><![CDATA[500 км]]></answer>
+			<answer><![CDATA[свыше 1000 км]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Где живут самые северные в мире пингвины?]]></question>
+		<answers>
+			<answer><![CDATA[в Антарктиде]]></answer>
+			<answer><![CDATA[в Южной Америке]]></answer>
+			<answer><![CDATA[в Африке]]></answer>
+			<answer><![CDATA[на Галапагосских островах]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какое животное является самым крупным грызуном на Земле?]]></question>
+		<answers>
+			<answer><![CDATA[бобр]]></answer>
+			<answer><![CDATA[капибара]]></answer>
+			<answer><![CDATA[барсук]]></answer>
+			<answer><![CDATA[тапир]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какое животное не умеет прыгать?]]></question>
+		<answers>
+			<answer><![CDATA[жираф]]></answer>
+			<answer><![CDATA[слон]]></answer>
+			<answer><![CDATA[носорог]]></answer>
+			<answer><![CDATA[кенгуру]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Кто является рекордсменом мира по прыжкам в длину среди млекопитающих?]]></question>
+		<answers>
+			<answer><![CDATA[кенгуру]]></answer>
+			<answer><![CDATA[тигр]]></answer>
+			<answer><![CDATA[человек]]></answer>
+			<answer><![CDATA[жираф]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Что хранит верблюд в своих горбах?]]></question>
+		<answers>
+			<answer><![CDATA[воду]]></answer>
+			<answer><![CDATA[желчь]]></answer>
+			<answer><![CDATA[жир]]></answer>
+			<answer><![CDATA[мясо]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какая из человекообразных обезьян самая крупная?]]></question>
+		<answers>
+			<answer><![CDATA[орангутанг]]></answer>
+			<answer><![CDATA[горилла]]></answer>
+			<answer><![CDATA[гиббон]]></answer>
+			<answer><![CDATA[шимпанзе]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Сколько видов пингвинов насчитывается в мире?]]></question>
+		<answers>
+			<answer><![CDATA[2]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[18]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какова максимальная высота, на которой замечена птица?]]></question>
+		<answers>
+			<answer><![CDATA[4 км]]></answer>
+			<answer><![CDATA[5 км]]></answer>
+			<answer><![CDATA[7 км]]></answer>
+			<answer><![CDATA[11 км]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какова максимальная глубина, на которой обнаружена рыба?]]></question>
+		<answers>
+			<answer><![CDATA[5 км]]></answer>
+			<answer><![CDATA[8 км]]></answer>
+			<answer><![CDATA[10 км]]></answer>
+			<answer><![CDATA[11 км]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Листья самой большой пальмы достигают длины...]]></question>
+		<answers>
+			<answer><![CDATA[8 м]]></answer>
+			<answer><![CDATA[10 м]]></answer>
+			<answer><![CDATA[25 м]]></answer>
+			<answer><![CDATA[30 м]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Стрекательные щупальца медузы-цианеи достигают длины...]]></question>
+		<answers>
+			<answer><![CDATA[8 м]]></answer>
+			<answer><![CDATA[20 м]]></answer>
+			<answer><![CDATA[35 м]]></answer>
+			<answer><![CDATA[42 м]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Самая большая рыба на земле...]]></question>
+		<answers>
+			<answer><![CDATA[гигантская акула]]></answer>
+			<answer><![CDATA[китовая акула]]></answer>
+			<answer><![CDATA[тигровая акула]]></answer>
+			<answer><![CDATA[касатка]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Самое быстроходное из морских животных – касатка может развить скорость...]]></question>
+		<answers>
+			<answer><![CDATA[35 км/ч]]></answer>
+			<answer><![CDATA[45 км/ч]]></answer>
+			<answer><![CDATA[55 км/ч]]></answer>
+			<answer><![CDATA[70 км/ч]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Пол крокодила зависит от...]]></question>
+		<answers>
+			<answer><![CDATA[времени кладки яиц]]></answer>
+			<answer><![CDATA[размеров самки крокодила]]></answer>
+			<answer><![CDATA[температуры окружающей среды]]></answer>
+			<answer><![CDATA[места кладки яиц]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Длина самой большой измеренной анаконды достигала...]]></question>
+		<answers>
+			<answer><![CDATA[5 м]]></answer>
+			<answer><![CDATA[10 м]]></answer>
+			<answer><![CDATA[14 м]]></answer>
+			<answer><![CDATA[25 м]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Длина самого большого измеренного нильского крокодила достигала...]]></question>
+		<answers>
+			<answer><![CDATA[3 м]]></answer>
+			<answer><![CDATA[5 м]]></answer>
+			<answer><![CDATA[6 м]]></answer>
+			<answer><![CDATA[8 м]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Кашалот может находиться под водой без воздуха в течение...]]></question>
+		<answers>
+			<answer><![CDATA[10 мин]]></answer>
+			<answer><![CDATA[20 мин]]></answer>
+			<answer><![CDATA[1 ч]]></answer>
+			<answer><![CDATA[1,5 ч]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Единственное насекомое, которое может вертеть головой, это...]]></question>
+		<answers>
+			<answer><![CDATA[богомол]]></answer>
+			<answer><![CDATA[стрекоза]]></answer>
+			<answer><![CDATA[муравей]]></answer>
+			<answer><![CDATA[саранча]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Размах крыльев самой большой мухи достигает...]]></question>
+		<answers>
+			<answer><![CDATA[5 см]]></answer>
+			<answer><![CDATA[10 см]]></answer>
+			<answer><![CDATA[15 см]]></answer>
+			<answer><![CDATA[20 см]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Размах крыльев самой большой бабочки достигает...]]></question>
+		<answers>
+			<answer><![CDATA[25 см]]></answer>
+			<answer><![CDATA[27 см]]></answer>
+			<answer><![CDATA[31 см]]></answer>
+			<answer><![CDATA[37 см]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Самым быстролетающим насекомым является...]]></question>
+		<answers>
+			<answer><![CDATA[стрекоза]]></answer>
+			<answer><![CDATA[комар]]></answer>
+			<answer><![CDATA[муха]]></answer>
+			<answer><![CDATA[саранча]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Размах крыльев у самой большой стрекозы достигает...]]></question>
+		<answers>
+			<answer><![CDATA[10 см]]></answer>
+			<answer><![CDATA[15 см]]></answer>
+			<answer><![CDATA[19 см]]></answer>
+			<answer><![CDATA[30 см]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Размах крыльев у самого большого ископаемого насекомого в мире, стрекозы, жившей в палеозое, достигал...]]></question>
+		<answers>
+			<answer><![CDATA[0,9 м]]></answer>
+			<answer><![CDATA[1 м]]></answer>
+			<answer><![CDATA[1,2 м]]></answer>
+			<answer><![CDATA[1,5 м]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Самая большая протяженность тела имеется у...]]></question>
+		<answers>
+			<answer><![CDATA[жирафа]]></answer>
+			<answer><![CDATA[синего кита]]></answer>
+			<answer><![CDATA[медузы-цианеи]]></answer>
+			<answer><![CDATA[анаконды]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Сколько конечностей у каракатицы?]]></question>
+		<answers>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[6]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[10]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Креветка с каким названием существует на самом деле?]]></question>
+		<answers>
+			<answer><![CDATA[креветка-боксер]]></answer>
+			<answer><![CDATA[креветка-борец]]></answer>
+			<answer><![CDATA[креветка-каратист]]></answer>
+			<answer><![CDATA[креветка-прыгун]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Основным опылителем ананасов являются...]]></question>
+		<answers>
+			<answer><![CDATA[бабочки]]></answer>
+			<answer><![CDATA[стрекозы]]></answer>
+			<answer><![CDATA[летучие мыши]]></answer>
+			<answer><![CDATA[колибри]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[У какого растения нет корней?]]></question>
+		<answers>
+			<answer><![CDATA[папоротники]]></answer>
+			<answer><![CDATA[хвощи]]></answer>
+			<answer><![CDATA[мхи]]></answer>
+			<answer><![CDATA[плауны]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[На каком из островов нет змей?]]></question>
+		<answers>
+			<answer><![CDATA[Исландия]]></answer>
+			<answer><![CDATA[Ирландия]]></answer>
+			<answer><![CDATA[Великобритания]]></answer>
+			<answer><![CDATA[Мальта]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Сколько видов змей живет на Гавайях?]]></question>
+		<answers>
+			<answer><![CDATA[2]]></answer>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[42]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Два вида птиц с ядовитым клювом живут на острове...]]></question>
+		<answers>
+			<answer><![CDATA[Мадагаскар]]></answer>
+			<answer><![CDATA[Новая Гвинея]]></answer>
+			<answer><![CDATA[Суматра]]></answer>
+			<answer><![CDATA[Тайвань]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Единственное сумчатое животное, живущее не в Австралии, это...]]></question>
+		<answers>
+			<answer><![CDATA[койот]]></answer>
+			<answer><![CDATA[опоссум]]></answer>
+			<answer><![CDATA[капибара]]></answer>
+			<answer><![CDATA[скунс]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[У кого из самых крупных кошачьих хищников самый короткий хвост?]]></question>
+		<answers>
+			<answer><![CDATA[гепард]]></answer>
+			<answer><![CDATA[рысь]]></answer>
+			<answer><![CDATA[леопард]]></answer>
+			<answer><![CDATA[гепард]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Кто из крупных кошачьих живет севернее остальных?]]></question>
+		<answers>
+			<answer><![CDATA[рысь]]></answer>
+			<answer><![CDATA[амурский тигр]]></answer>
+			<answer><![CDATA[барс]]></answer>
+			<answer><![CDATA[гепард]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Где возможно сосуществование тигра и льва в живой природе?]]></question>
+		<answers>
+			<answer><![CDATA[Африка]]></answer>
+			<answer><![CDATA[Южная Америка]]></answer>
+			<answer><![CDATA[Индия]]></answer>
+			<answer><![CDATA[Дальний Восток]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Потомство льва и тигрицы называется?]]></question>
+		<answers>
+			<answer><![CDATA[лигр]]></answer>
+			<answer><![CDATA[тигролев]]></answer>
+			<answer><![CDATA[тлев]]></answer>
+			<answer><![CDATA[такого не может быть]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Единственный из кошачьих, не умеющий убирать когти, это...]]></question>
+		<answers>
+			<answer><![CDATA[ирбис]]></answer>
+			<answer><![CDATA[пума]]></answer>
+			<answer><![CDATA[оцелот]]></answer>
+			<answer><![CDATA[гепард]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какое из указанных животных не относится к собачьим?]]></question>
+		<answers>
+			<answer><![CDATA[шакал]]></answer>
+			<answer><![CDATA[гиена]]></answer>
+			<answer><![CDATA[койот]]></answer>
+			<answer><![CDATA[динго]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Основной пищей большой панды является...]]></question>
+		<answers>
+			<answer><![CDATA[эвкалипт]]></answer>
+			<answer><![CDATA[бамбук]]></answer>
+			<answer><![CDATA[мясо]]></answer>
+			<answer><![CDATA[бананы]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Основной пищей коалы является...]]></question>
+		<answers>
+			<answer><![CDATA[бамбук]]></answer>
+			<answer><![CDATA[эвкалипт]]></answer>
+			<answer><![CDATA[кенгуру]]></answer>
+			<answer><![CDATA[овощи и фрукты]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Отличительной чертой гималайских медведей являются...]]></question>
+		<answers>
+			<answer><![CDATA[желтые уши]]></answer>
+			<answer><![CDATA[пятно на груди в виде подковы]]></answer>
+			<answer><![CDATA[полосатый окрас шкуры]]></answer>
+			<answer><![CDATA[пятнистая голова]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Размер с цветка самого маленького цветущего растения...]]></question>
+		<answers>
+			<answer><![CDATA[1 мм]]></answer>
+			<answer><![CDATA[5 мм]]></answer>
+			<answer><![CDATA[8 мм]]></answer>
+			<answer><![CDATA[1 см]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[В Антарктиде существует...]]></question>
+		<answers>
+			<answer><![CDATA[2 цветковых растения]]></answer>
+			<answer><![CDATA[5 цветковых растений]]></answer>
+			<answer><![CDATA[8 цветковых растений]]></answer>
+			<answer><![CDATA[0 цветковых растений]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Время цветения антарктического лютика...]]></question>
+		<answers>
+			<answer><![CDATA[1 сутки]]></answer>
+			<answer><![CDATA[3 суток]]></answer>
+			<answer><![CDATA[8 суток]]></answer>
+			<answer><![CDATA[11 суток]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Время жизни бабочки-поденки в состоянии бабочки имеет продолжительность...]]></question>
+		<answers>
+			<answer><![CDATA[5 часов]]></answer>
+			<answer><![CDATA[10 часов]]></answer>
+			<answer><![CDATA[20 часов]]></answer>
+			<answer><![CDATA[40 часов]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Бабочка, не имеющая рта и пищеварительного тракта, называется...]]></question>
+		<answers>
+			<answer><![CDATA[махаон]]></answer>
+			<answer><![CDATA[капустница]]></answer>
+			<answer><![CDATA[мертвая голова]]></answer>
+			<answer><![CDATA[поденка]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[У какого из животных самое большое соотношение веса мозга к весу тела?]]></question>
+		<answers>
+			<answer><![CDATA[дельфин]]></answer>
+			<answer><![CDATA[слон]]></answer>
+			<answer><![CDATA[муравей]]></answer>
+			<answer><![CDATA[человек]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[В Южной Америке существует бабочка, пахнущая...]]></question>
+		<answers>
+			<answer><![CDATA[коньяком]]></answer>
+			<answer><![CDATA[сигарами]]></answer>
+			<answer><![CDATA[шоколадом]]></answer>
+			<answer><![CDATA[кофе]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Самым быстроходным из пресмыкающихся является...]]></question>
+		<answers>
+			<answer><![CDATA[нильский крокодил]]></answer>
+			<answer><![CDATA[анаконда]]></answer>
+			<answer><![CDATA[морская черепаха]]></answer>
+			<answer><![CDATA[черная мамба]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какое самое распространенное дерево на территории России...]]></question>
+		<answers>
+			<answer><![CDATA[ель]]></answer>
+			<answer><![CDATA[сосна]]></answer>
+			<answer><![CDATA[береза]]></answer>
+			<answer><![CDATA[лиственница]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какое свежесрубленное дерево тонет в воде?]]></question>
+		<answers>
+			<answer><![CDATA[дуб]]></answer>
+			<answer><![CDATA[самшит]]></answer>
+			<answer><![CDATA[баобаб]]></answer>
+			<answer><![CDATA[эвкалипт]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[В какой климатической зоне у деревьев нет годовых колец?]]></question>
+		<answers>
+			<answer><![CDATA[в тундре]]></answer>
+			<answer><![CDATA[в тайге]]></answer>
+			<answer><![CDATA[в экваториальных лесах]]></answer>
+			<answer><![CDATA[в пампасах]]></answer>
+		</answers>
+	</task>
+</data>

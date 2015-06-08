@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="0">
+		<img><![CDATA[data/img/ss_001.jpg]]></img>
+		<question><![CDATA[Какое небесное тело понизили в статусе до карликовой планеты?]]></question>
+		<answers>
+			<answer><![CDATA[Плутон]]></answer>
+			<answer><![CDATA[Нептун]]></answer>
+			<answer><![CDATA[Церера]]></answer>
+			<answer><![CDATA[Веста]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<img><![CDATA[data/img/ss_002.jpg]]></img>
+		<question><![CDATA[Какой астероид повысили до статуса карликовой планеты?]]></question>
+		<answers>
+			<answer><![CDATA[Веста]]></answer>
+			<answer><![CDATA[Гигея]]></answer>
+			<answer><![CDATA[Паллада]]></answer>
+			<answer><![CDATA[Церера]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<img><![CDATA[data/img/ss_003.jpg]]></img>
+		<question><![CDATA[Самый большой спутник в Солнечной Системе?]]></question>
+		<answers>
+			<answer><![CDATA[Луна]]></answer>
+			<answer><![CDATA[Титан]]></answer>
+			<answer><![CDATA[Ганимед]]></answer>
+			<answer><![CDATA[Европа]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_004.jpg]]></img>
+		<question><![CDATA[Самая маленькая из больших планет Солнечной Системе?]]></question>
+		<answers>
+			<answer><![CDATA[Уран]]></answer>
+			<answer><![CDATA[Меркурий]]></answer>
+			<answer><![CDATA[Плутон]]></answer>
+			<answer><![CDATA[Нептун]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_005.jpg]]></img>
+		<question><![CDATA[Самая горячая планета в Солнечной Системе?]]></question>
+		<answers>
+			<answer><![CDATA[Венера]]></answer>
+			<answer><![CDATA[Земля]]></answer>
+			<answer><![CDATA[Меркурий]]></answer>
+			<answer><![CDATA[Юпитер]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_006.jpg]]></img>
+		<question><![CDATA[Самая большая планета в Солнечной Системе?]]></question>
+		<answers>
+			<answer><![CDATA[Юпитер]]></answer>
+			<answer><![CDATA[Сатурн]]></answer>
+			<answer><![CDATA[Нептун]]></answer>
+			<answer><![CDATA[Уран]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_007.jpg]]></img>
+		<question><![CDATA[Самая далекая от Солнца большая планета?]]></question>
+		<answers>
+			<answer><![CDATA[Нептун]]></answer>
+			<answer><![CDATA[Уран]]></answer>
+			<answer><![CDATA[Плутон]]></answer>
+			<answer><![CDATA[Сатурн]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_008.jpg]]></img>
+		<question><![CDATA[Какова масса всех объектов астероидного пояса по отношению к массе Луны?]]></question>
+		<answers>
+			<answer><![CDATA[4%]]></answer>
+			<answer><![CDATA[40%]]></answer>
+			<answer><![CDATA[0,4%]]></answer>
+			<answer><![CDATA[400%]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_009.jpg]]></img>
+		<question><![CDATA[Между какими планетами располагается астероидный пояс?]]></question>
+		<answers>
+			<answer><![CDATA[Земля и Марс]]></answer>
+			<answer><![CDATA[Марс и Юпитер]]></answer>
+			<answer><![CDATA[Марс и Сатурн]]></answer>
+			<answer><![CDATA[Юпитер и Сатурн]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_010.jpg]]></img>
+		<question><![CDATA[Самая близкая к Солнцу планета:]]></question>
+		<answers>
+			<answer><![CDATA[Меркурий]]></answer>
+			<answer><![CDATA[Венера]]></answer>
+			<answer><![CDATA[Марс]]></answer>
+			<answer><![CDATA[Плутон]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_011.png]]></img>
+		<question><![CDATA[Какая из карликовых планет не является транснептуновым объектом?]]></question>
+		<answers>
+			<answer><![CDATA[Церера]]></answer>
+			<answer><![CDATA[Плутон]]></answer>
+			<answer><![CDATA[Макемаке]]></answer>
+			<answer><![CDATA[Эридна]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_012.jpg]]></img>
+		<question><![CDATA[Что из перечисленного ниже не содержит небесных тел?]]></question>
+		<answers>
+			<answer><![CDATA[Пояс Ван Аллена]]></answer>
+			<answer><![CDATA[Астероидный пояс]]></answer>
+			<answer><![CDATA[Пояс Койпера]]></answer>
+			<answer><![CDATA[Облако Оорта]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_013.jpg]]></img>
+		<question><![CDATA[Гипотетические астероиды внутри орбиты Меркурия называются:]]></question>
+		<answers>
+			<answer><![CDATA[Вулканоиды]]></answer>
+			<answer><![CDATA[Цербероиды]]></answer>
+			<answer><![CDATA[Альбедоиды]]></answer>
+			<answer><![CDATA[Гименоиды]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_014.jpg]]></img>
+		<question><![CDATA[Сколько больших планет сейчас считают в Солнечной Системе?]]></question>
+		<answers>
+			<answer><![CDATA[Семь]]></answer>
+			<answer><![CDATA[Восемь]]></answer>
+			<answer><![CDATA[Девять]]></answer>
+			<answer><![CDATA[Десять]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_015.jpg]]></img>
+		<question><![CDATA[В каком рукаве Млечного Пути движется Солнце?]]></question>
+		<answers>
+			<answer><![CDATA[Рукав Стрельца]]></answer>
+			<answer><![CDATA[Рукав Ориона]]></answer>
+			<answer><![CDATA[Рукав Лебедя]]></answer>
+			<answer><![CDATA[Рукав Центавра]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<img><![CDATA[data/img/ss_016.jpg]]></img>
+		<question><![CDATA[Аппараты какой серии автоматических межпланетных станций не опускались на поверхность Луны?]]></question>
+		<answers>
+			<answer><![CDATA[Пионер]]></answer>
+			<answer><![CDATA[Луна]]></answer>
+			<answer><![CDATA[Рейнджер]]></answer>
+			<answer><![CDATA[Сервейер]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_017.jpg]]></img>
+		<question><![CDATA[В какой период осуществлялись запуски по советской космической программе "Луна"?]]></question>
+		<answers>
+			<answer><![CDATA[1966-1968]]></answer>
+			<answer><![CDATA[1958-1976]]></answer>
+			<answer><![CDATA[1961-1975]]></answer>
+			<answer><![CDATA[1961-1965]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<img><![CDATA[data/img/ss_018.jpg]]></img>
+		<question><![CDATA[К какой планете НЕ запускались АМС серии Маринер?]]></question>
+		<answers>
+			<answer><![CDATA[Меркурий]]></answer>
+			<answer><![CDATA[Венера]]></answer>
+			<answer><![CDATA[Марс]]></answer>
+			<answer><![CDATA[Юпитер]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<img><![CDATA[data/img/ss_019.jpg]]></img>
+		<question><![CDATA[Первый искусственный спутник Луны:]]></question>
+		<answers>
+			<answer><![CDATA[Луна-1]]></answer>
+			<answer><![CDATA[Луна-3]]></answer>
+			<answer><![CDATA[Луна-7]]></answer>
+			<answer><![CDATA[Луна-10]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<img><![CDATA[data/img/ss_020.jpg]]></img>
+		<question><![CDATA[Какие исследования НЕ относятся к осуществляемым автоматическими межпланетными станциями?]]></question>
+		<answers>
+			<answer><![CDATA[Исследование с пролетной траектории]]></answer>
+			<answer><![CDATA[Искусственный спутник]]></answer>
+			<answer><![CDATA[Спускаемый аппарат]]></answer>
+			<answer><![CDATA[Пилотируемая экспедиция]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<img><![CDATA[data/img/ss_021.jpg]]></img>
+		<question><![CDATA[На какой автоматической межпланетной станции было отправлено "межзвездное письмо" Карла Сагана?]]></question>
+		<answers>
+			<answer><![CDATA[Вояджер-1]]></answer>
+			<answer><![CDATA[Пионер-11]]></answer>
+			<answer><![CDATA[Пионер-10]]></answer>
+			<answer><![CDATA[Вояджер-2]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<img><![CDATA[data/img/ss_022.jpg]]></img>
+		<question><![CDATA[В каком году успешно запущен первый искусственный спутник Луны?]]></question>
+		<answers>
+			<answer><![CDATA[1962]]></answer>
+			<answer><![CDATA[1966]]></answer>
+			<answer><![CDATA[1970]]></answer>
+			<answer><![CDATA[1974]]></answer>
+		</answers>
+	</task>
+</data>

@@ -1,0 +1,536 @@
+<!--Готов ли ты к контакту с инопланетным разумом?-->
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="2">
+		<question><![CDATA[Каким цветом рисовал свои алые розы известный врач и художник Дальтон?]]></question>
+		<answers>
+			<answer><![CDATA[розовым]]></answer>
+			<answer><![CDATA[алым]]></answer>
+			<answer><![CDATA[синим]]></answer>
+			<answer><![CDATA[желтым]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Каково максимальное количество знаков на китайской печатной машинке?]]></question>
+		<answers>
+			<answer><![CDATA[33]]></answer>
+			<answer><![CDATA[1200]]></answer>
+			<answer><![CDATA[5700]]></answer>
+			<answer><![CDATA[2700]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какое из видов животных правительство Индии признало разумными?]]></question>
+		<answers>
+			<answer><![CDATA[коров]]></answer>
+			<answer><![CDATA[обезьян]]></answer>
+			<answer><![CDATA[слонов]]></answer>
+			<answer><![CDATA[дельфинов]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Правительство какого из государства Земли наделило правами разумных существ
+дельфинов?]]></question>
+		<answers>
+			<answer><![CDATA[России]]></answer>
+			<answer><![CDATA[Китая]]></answer>
+			<answer><![CDATA[США]]></answer>
+			<answer><![CDATA[Индии]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Лошадь Умный Ганс из Мюнхена прославилась тем, что...]]></question>
+		<answers>
+			<answer><![CDATA[прожила 60 лет]]></answer>
+			<answer><![CDATA[спасла много людей]]></answer>
+			<answer><![CDATA[решала математические задачи]]></answer>
+			<answer><![CDATA[всегда находила дорогу домой]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Самые крупные искусственные сооружения, построенные на Земле, сделаны...]]></question>
+		<answers>
+			<answer><![CDATA[термитами]]></answer>
+			<answer><![CDATA[полипами]]></answer>
+			<answer><![CDATA[людьми]]></answer>
+			<answer><![CDATA[муравьями]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Пчелы «танцуют», чтобы...]]></question>
+		<answers>
+			<answer><![CDATA[отряхнуться от пыльцы]]></answer>
+			<answer><![CDATA[выразить радость]]></answer>
+			<answer><![CDATA[передать информацию]]></answer>
+			<answer><![CDATA[облегчить полет]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Кто из насекомых способен обучать друг друга?]]></question>
+		<answers>
+			<answer><![CDATA[мухи]]></answer>
+			<answer><![CDATA[бабочки]]></answer>
+			<answer><![CDATA[жуки]]></answer>
+			<answer><![CDATA[шмели]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какое количество команд способна различить собака?]]></question>
+		<answers>
+			<answer><![CDATA[около 10]]></answer>
+			<answer><![CDATA[около 50]]></answer>
+			<answer><![CDATA[около 100]]></answer>
+			<answer><![CDATA[около 1000]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какую из обезьян научили печатать на компьютере со специальным интерфейсом?]]></question>
+		<answers>
+			<answer><![CDATA[шимпанзе]]></answer>
+			<answer><![CDATA[бонобо]]></answer>
+			<answer><![CDATA[орангутанг]]></answer>
+			<answer><![CDATA[горилла]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Когда горилла высовывает язык, она выражает...]]></question>
+		<answers>
+			<answer><![CDATA[радость]]></answer>
+			<answer><![CDATA[ярость]]></answer>
+			<answer><![CDATA[страх]]></answer>
+			<answer><![CDATA[удивление]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какая из человеческих эмоций наиболее кратковременна?]]></question>
+		<answers>
+			<answer><![CDATA[страх]]></answer>
+			<answer><![CDATA[удивление]]></answer>
+			<answer><![CDATA[радость]]></answer>
+			<answer><![CDATA[горе]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Письменность Брайля для слепых появилась в...]]></question>
+		<answers>
+			<answer><![CDATA[XX веке]]></answer>
+			<answer><![CDATA[XIX веке]]></answer>
+			<answer><![CDATA[XV веке]]></answer>
+			<answer><![CDATA[XVII веке]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[На брайлевских печатных машинках для слепых...]]></question>
+		<answers>
+			<answer><![CDATA[100 клавиш]]></answer>
+			<answer><![CDATA[33 клавиши]]></answer>
+			<answer><![CDATA[7 клавиш]]></answer>
+			<answer><![CDATA[12 клавиш]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Русский алфавит для глухих Дактиль насчитывает...]]></question>
+		<answers>
+			<answer><![CDATA[10 жестов]]></answer>
+			<answer><![CDATA[33 жеста]]></answer>
+			<answer><![CDATA[1000 жестов]]></answer>
+			<answer><![CDATA[100 жестов]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Основными каналами получения информации у слепоглухих людей является...]]></question>
+		<answers>
+			<answer><![CDATA[вкус]]></answer>
+			<answer><![CDATA[обоняние]]></answer>
+			<answer><![CDATA[осязание]]></answer>
+			<answer><![CDATA[телепатия]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Дельфины при передаче информации пользуются...]]></question>
+		<answers>
+			<answer><![CDATA[ультрафиолетом]]></answer>
+			<answer><![CDATA[ультразвуком]]></answer>
+			<answer><![CDATA[инфразвуком]]></answer>
+			<answer><![CDATA[свистом]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Ученые предполагают, что в языке дельфинов...]]></question>
+		<answers>
+			<answer><![CDATA[20 слов]]></answer>
+			<answer><![CDATA[более 100 слов]]></answer>
+			<answer><![CDATA[более 500 слов]]></answer>
+			<answer><![CDATA[более 5000 слов]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Считается, что в современном русском языке...]]></question>
+		<answers>
+			<answer><![CDATA[20 000 слов]]></answer>
+			<answer><![CDATA[1 000 слов]]></answer>
+			<answer><![CDATA[800 000 слов]]></answer>
+			<answer><![CDATA[10 000 000 слов]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Считается, что сейчас на Земле существует...]]></question>
+		<answers>
+			<answer><![CDATA[200 разных языков]]></answer>
+			<answer><![CDATA[1000 разных языков]]></answer>
+			<answer><![CDATA[2500 разных языков]]></answer>
+			<answer><![CDATA[более 100 000 разных языков]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Гулливер, герой романа Свифта, вступил в контакт с...]]></question>
+		<answers>
+			<answer><![CDATA[1 разумной расой]]></answer>
+			<answer><![CDATA[2 разумными расами]]></answer>
+			<answer><![CDATA[3 разумными расами]]></answer>
+			<answer><![CDATA[4 разумными расами]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[В Древней Греции человека, не разговаривающего по-эллински, называли...]]></question>
+		<answers>
+			<answer><![CDATA[троглодитом]]></answer>
+			<answer><![CDATA[варваром]]></answer>
+			<answer><![CDATA[вандалом]]></answer>
+			<answer><![CDATA[питекантропом]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[В Средневековой России человека, не говорящего по-русски, называли...]]></question>
+		<answers>
+			<answer><![CDATA[басурманом]]></answer>
+			<answer><![CDATA[немцем]]></answer>
+			<answer><![CDATA[фризом]]></answer>
+			<answer><![CDATA[бесом]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[По легенде Бог, чтобы люди не построили Вавилонскую башню...]]></question>
+		<answers>
+			<answer><![CDATA[устроил землетрясение]]></answer>
+			<answer><![CDATA[устроил потоп]]></answer>
+			<answer><![CDATA[смешал все языки]]></answer>
+			<answer><![CDATA[разбил башню молнией]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Первым животным, прирученным человеком, была...]]></question>
+		<answers>
+			<answer><![CDATA[собака]]></answer>
+			<answer><![CDATA[корова]]></answer>
+			<answer><![CDATA[кошка]]></answer>
+			<answer><![CDATA[коза]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Кошка была одомашнена человеком...]]></question>
+		<answers>
+			<answer><![CDATA[2000 лет назад]]></answer>
+			<answer><![CDATA[4000 лет назад]]></answer>
+			<answer><![CDATA[5000 лет назад]]></answer>
+			<answer><![CDATA[10000 лет назад]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Беременность слонихи продолжается...]]></question>
+		<answers>
+			<answer><![CDATA[3 месяца]]></answer>
+			<answer><![CDATA[10 месяцев]]></answer>
+			<answer><![CDATA[12 месяцев]]></answer>
+			<answer><![CDATA[22 месяца]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Муравьи передают информацию при помощи...]]></question>
+		<answers>
+			<answer><![CDATA[зрения]]></answer>
+			<answer><![CDATA[осязания]]></answer>
+			<answer><![CDATA[слуха]]></answer>
+			<answer><![CDATA[обоняния]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Вкусовые рецепторы у бабочки расположены...]]></question>
+		<answers>
+			<answer><![CDATA[на лапках]]></answer>
+			<answer><![CDATA[на крыльях]]></answer>
+			<answer><![CDATA[на усиках]]></answer>
+			<answer><![CDATA[на языке]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Рецепторы человека, отвечающие за определение сладкого вкуса, расположены...]]></question>
+		<answers>
+			<answer><![CDATA[на кончике языка]]></answer>
+			<answer><![CDATA[по краям языка]]></answer>
+			<answer><![CDATA[на небе и губах]]></answer>
+			<answer><![CDATA[на всей поверхности языка]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Рецепторы человека, отвечающие за определение соленого вкуса, расположены...]]></question>
+		<answers>
+			<answer><![CDATA[на кончике языка]]></answer>
+			<answer><![CDATA[по краям языка]]></answer>
+			<answer><![CDATA[на небе и губах]]></answer>
+			<answer><![CDATA[на всей поверхности языка]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Для передачи информации на дальние расстояния люди использовали...]]></question>
+		<answers>
+			<answer><![CDATA[гитару]]></answer>
+			<answer><![CDATA[скрипку]]></answer>
+			<answer><![CDATA[барабан]]></answer>
+			<answer><![CDATA[орган]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Для передачи информации на дальние расстояния люди использовали...]]></question>
+		<answers>
+			<answer><![CDATA[мандолину]]></answer>
+			<answer><![CDATA[свирель]]></answer>
+			<answer><![CDATA[домбру]]></answer>
+			<answer><![CDATA[контрабас]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Для передачи информации на дальние расстояния люди использовали...]]></question>
+		<answers>
+			<answer><![CDATA[соловьев]]></answer>
+			<answer><![CDATA[воробьев]]></answer>
+			<answer><![CDATA[голубей]]></answer>
+			<answer><![CDATA[попугаев]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[В качестве основного органа осязания змеи используют...]]></question>
+		<answers>
+			<answer><![CDATA[хвост]]></answer>
+			<answer><![CDATA[зубы]]></answer>
+			<answer><![CDATA[язык]]></answer>
+			<answer><![CDATA[тело]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Автором рассказа «Как было написано первое письмо» является...]]></question>
+		<answers>
+			<answer><![CDATA[Лев Толстой]]></answer>
+			<answer><![CDATA[Александр Пушкин]]></answer>
+			<answer><![CDATA[Редьярд Киплинг]]></answer>
+			<answer><![CDATA[Уильям Шекспир]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Первые компьютеры (ЭВМ) появились...]]></question>
+		<answers>
+			<answer><![CDATA[в Японии]]></answer>
+			<answer><![CDATA[в США]]></answer>
+			<answer><![CDATA[в Германии]]></answer>
+			<answer><![CDATA[в России]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Шахматный компьютер Deep Blue обыграл чемпиона мира Каспарова в...]]></question>
+		<answers>
+			<answer><![CDATA[1985 г.]]></answer>
+			<answer><![CDATA[1997 г.]]></answer>
+			<answer><![CDATA[2000 г.]]></answer>
+			<answer><![CDATA[2005 г.]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[В настоящее время в мире существует...]]></question>
+		<answers>
+			<answer><![CDATA[более 20 языков программирования]]></answer>
+			<answer><![CDATA[более 50 языков программирования]]></answer>
+			<answer><![CDATA[более 100 языков программирования]]></answer>
+			<answer><![CDATA[более 500 языков программирования]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Первым вычислительным устройством, на котором можно было совершить операцию умножения, был...]]></question>
+		<answers>
+			<answer><![CDATA[калькулятор]]></answer>
+			<answer><![CDATA[арифмометр]]></answer>
+			<answer><![CDATA[логарифмическая линейка]]></answer>
+			<answer><![CDATA[абак]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Арабских цифр...]]></question>
+		<answers>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[10]]></answer>
+			<answer><![CDATA[12]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Римских цифр...]]></question>
+		<answers>
+			<answer><![CDATA[4]]></answer>
+			<answer><![CDATA[5]]></answer>
+			<answer><![CDATA[7]]></answer>
+			<answer><![CDATA[10]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[В современной двоичной системе исчисления используются цифры...]]></question>
+		<answers>
+			<answer><![CDATA[0 и 1]]></answer>
+			<answer><![CDATA[1 и 2]]></answer>
+			<answer><![CDATA[2 и 3]]></answer>
+			<answer><![CDATA[0 и 2]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[При возникновении шахмат право первого хода определялось...]]></question>
+		<answers>
+			<answer><![CDATA[по цвету фигур]]></answer>
+			<answer><![CDATA[по сторонам света]]></answer>
+			<answer><![CDATA[по титулам участников]]></answer>
+			<answer><![CDATA[бросанием игральных костей]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Чем шахматы, придуманные Робертом Фишером, отличаются от обычных?]]></question>
+		<answers>
+			<answer><![CDATA[цветом фигур]]></answer>
+			<answer><![CDATA[количеством фигур]]></answer>
+			<answer><![CDATA[размером доски]]></answer>
+			<answer><![CDATA[фигуры выставляются в случайном порядке]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Сколько вариантов первого хода есть в современных шахматах?]]></question>
+		<answers>
+			<answer><![CDATA[2]]></answer>
+			<answer><![CDATA[8]]></answer>
+			<answer><![CDATA[16]]></answer>
+			<answer><![CDATA[20]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Первый газетный комикс появился в...]]></question>
+		<answers>
+			<answer><![CDATA[XIX веке]]></answer>
+			<answer><![CDATA[XX веке]]></answer>
+			<answer><![CDATA[XVIII веке]]></answer>
+			<answer><![CDATA[XVI веке]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[На сербском языке название одной из известных сказок звучит как «Пепелюха». На Русском эта сказка называется...]]></question>
+		<answers>
+			<answer><![CDATA[«Красная Шапочка»]]></answer>
+			<answer><![CDATA[«Золушка»]]></answer>
+			<answer><![CDATA[«Колобок»]]></answer>
+			<answer><![CDATA[«Курочка Ряба»]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[У человека 10 пальцев на руках. Сколько пальцев на 50 руках?]]></question>
+		<answers>
+			<answer><![CDATA[50]]></answer>
+			<answer><![CDATA[100]]></answer>
+			<answer><![CDATA[250]]></answer>
+			<answer><![CDATA[500]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какой орган по мнению Аристотеля служил только для охлаждения крови и желчи?]]></question>
+		<answers>
+			<answer><![CDATA[сердце]]></answer>
+			<answer><![CDATA[легкие]]></answer>
+			<answer><![CDATA[печень]]></answer>
+			<answer><![CDATA[мозг]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[В какой среде звук передается быстрее?]]></question>
+		<answers>
+			<answer><![CDATA[в вакууме]]></answer>
+			<answer><![CDATA[в воздухе]]></answer>
+			<answer><![CDATA[в воде]]></answer>
+			<answer><![CDATA[в металле]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какой прибор послужил предшественником телеграфа?]]></question>
+		<answers>
+			<answer><![CDATA[телефон]]></answer>
+			<answer><![CDATA[гелиограф]]></answer>
+			<answer><![CDATA[рация]]></answer>
+			<answer><![CDATA[барабан]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Телеграфное сообщение между Европой и Америкой было установлено в...]]></question>
+		<answers>
+			<answer><![CDATA[1780 г.]]></answer>
+			<answer><![CDATA[1800 г.]]></answer>
+			<answer><![CDATA[1856 г.]]></answer>
+			<answer><![CDATA[1903 г.]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Впервые беспроводную связь установил...]]></question>
+		<answers>
+			<answer><![CDATA[Никола Тесла]]></answer>
+			<answer><![CDATA[Александр Попов]]></answer>
+			<answer><![CDATA[Пьер Кюри]]></answer>
+			<answer><![CDATA[Гульельмо Маркони]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Судя по описанию Уэллса раса марсиан принадлежала к...]]></question>
+		<answers>
+			<answer><![CDATA[птицам]]></answer>
+			<answer><![CDATA[насекомым]]></answer>
+			<answer><![CDATA[млекопитающим]]></answer>
+			<answer><![CDATA[беспозвоночным]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Какое животное предугадало результаты почти всех матчей Чемпионата мира по футболу 2010 г.?]]></question>
+		<answers>
+			<answer><![CDATA[попугай]]></answer>
+			<answer><![CDATA[собака]]></answer>
+			<answer><![CDATA[осьминог]]></answer>
+			<answer><![CDATA[медуза]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какое из беспозвоночных животных подлежит дрессировке?]]></question>
+		<answers>
+			<answer><![CDATA[медуза]]></answer>
+			<answer><![CDATA[каракатица]]></answer>
+			<answer><![CDATA[кальмар]]></answer>
+			<answer><![CDATA[осьминог]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Слово «эволюция» было придумано для описания...]]></question>
+		<answers>
+			<answer><![CDATA[развития человечества]]></answer>
+			<answer><![CDATA[развития Вселенной]]></answer>
+			<answer><![CDATA[природы]]></answer>
+			<answer><![CDATA[процессов развития в яйце]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Материалом, служащим для создания полупроводников, является...]]></question>
+		<answers>
+			<answer><![CDATA[углерод]]></answer>
+			<answer><![CDATA[железо]]></answer>
+			<answer><![CDATA[золото]]></answer>
+			<answer><![CDATA[кремний]]></answer>
+		</answers>
+	</task>
+</data>
