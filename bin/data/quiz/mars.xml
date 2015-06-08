@@ -30,12 +30,12 @@
 			<answer><![CDATA[В полтора раза больше]]></answer>
 		</answers>
 	</task>
-	<task key="0">
+	<task key="1">
 		<img><![CDATA[data/img/mars/m004.jpg]]></img>
 		<question><![CDATA[Экваториальный радиус Марса:]]></question>
 		<answers>
-			<answer><![CDATA[3397 км]]></answer>
 			<answer><![CDATA[2439 км]]></answer>
+			<answer><![CDATA[3397 км]]></answer>
 			<answer><![CDATA[4793 км]]></answer>
 			<answer><![CDATA[3937 км]]></answer>
 		</answers>
@@ -44,20 +44,20 @@
 		<img><![CDATA[data/img/mars/m005.jpg]]></img>
 		<question><![CDATA[Период обращения вокруг Солнца, земных суток:]]></question>
 		<answers>
-			<answer><![CDATA[578]]></answer>
+			<answer><![CDATA[412]]></answer>
 			<answer><![CDATA[687]]></answer>
-			<answer><![CDATA[768]]></answer>
-			<answer><![CDATA[876]]></answer>
+			<answer><![CDATA[790]]></answer>
+			<answer><![CDATA[931]]></answer>
 		</answers>
 	</task>
 	<task key="2">
 		<img><![CDATA[data/img/mars/m006.jpg]]></img>
 		<question><![CDATA[Среднее расстояние от Марса до Солнца, млн.км:]]></question>
 		<answers>
-			<answer><![CDATA[328]]></answer>
-			<answer><![CDATA[401]]></answer>
+			<answer><![CDATA[58]]></answer>
+			<answer><![CDATA[170]]></answer>
 			<answer><![CDATA[228]]></answer>
-			<answer><![CDATA[167]]></answer>
+			<answer><![CDATA[401]]></answer>
 		</answers>
 	</task>
 	<task key="0">
@@ -70,14 +70,14 @@
 			<answer><![CDATA[112,57]]></answer>
 		</answers>
 	</task>
-	<task key="0">
+	<task key="2">
 		<img><![CDATA[data/img/mars/m007-008.jpg]]></img>
 		<question><![CDATA[Максимальное расстояние между Землей и Марсом, млн.км:]]></question>
 		<answers>
-			<answer><![CDATA[401]]></answer>
+			<answer><![CDATA[150]]></answer>
 			<answer><![CDATA[228]]></answer>
-			<answer><![CDATA[455]]></answer>
-			<answer><![CDATA[306]]></answer>
+			<answer><![CDATA[401]]></answer>
+			<answer><![CDATA[650]]></answer>
 		</answers>
 	</task>
 	<task key="0">
@@ -97,7 +97,7 @@
 			<answer><![CDATA[27 лет]]></answer>
 			<answer><![CDATA[7 лет]]></answer>
 			<answer><![CDATA[26 месяцев]]></answer>
-			<answer><![CDATA[17 месяцев]]></answer>
+			<answer><![CDATA[7 месяцев]]></answer>
 		</answers>
 	</task>
 	<task key="1">
@@ -124,7 +124,7 @@
 		<img><![CDATA[data/img/mars/m013.jpg]]></img>
 		<question><![CDATA[Облака на Марсе:]]></question>
 		<answers>
-			<answer><![CDATA[Никогда нет, потому что нет воды]]></answer>
+			<answer><![CDATA[Отсутствуют, потому что нет воды]]></answer>
 			<answer><![CDATA[Частые, разнообразные по типу]]></answer>
 			<answer><![CDATA[Редкие, но разнообразные по типу]]></answer>
 			<answer><![CDATA[Редкие и только одного типа]]></answer>
@@ -147,24 +147,24 @@
 			<answer><![CDATA[Нет]]></answer>
 			<answer><![CDATA[Есть, аналогичная Земле]]></answer>
 			<answer><![CDATA[Есть два времени года]]></answer>
-			<answer><![CDATA[Времена года слабо отличаются]]></answer>
+			<answer><![CDATA[Времена года слабо отличаются друг от друга]]></answer>
 		</answers>
 	</task>
 	<task key="0">
 		<img><![CDATA[data/img/mars/m016.jpg]]></img>
 		<question><![CDATA[Какого цвета небо на Марсе на закате и восходе?]]></question>
 		<answers>
-			<answer><![CDATA[Розово-голубое]]></answer>
-			<answer><![CDATA[Бело-зеленое]]></answer>
+			<answer><![CDATA[Голубое]]></answer>
+			<answer><![CDATA[Белое]]></answer>
 			<answer><![CDATA[Розово-алое]]></answer>
-			<answer><![CDATA[Серо-голубое]]></answer>
+			<answer><![CDATA[Серо-коричневое]]></answer>
 		</answers>
 	</task>
 	<task key="1">
 		<img><![CDATA[data/img/mars/m017.jpg]]></img>
 		<question><![CDATA[Какого цвета небо на Марсе в полдень?]]></question>
 		<answers>
-			<answer><![CDATA[Алого]]></answer>
+			<answer><![CDATA[Голубого]]></answer>
 			<answer><![CDATA[Оранжевого]]></answer>
 			<answer><![CDATA[Зеленого]]></answer>
 			<answer><![CDATA[Черного]]></answer>
@@ -176,7 +176,7 @@
 		<answers>
 			<answer><![CDATA[Нет и никогда не было]]></answer>
 			<answer><![CDATA[Есть, сильнее, чем у Земли]]></answer>
-			<answer><![CDATA[Есть, очень слабое]]></answer>
+			<answer><![CDATA[Есть, немного слабее земного]]></answer>
 			<answer><![CDATA[Было в древности, сейчас остаточная намагниченность]]></answer>
 		</answers>
 	</task>
@@ -196,8 +196,8 @@
 		<answers>
 			<answer><![CDATA[от -200 до +5]]></answer>
 			<answer><![CDATA[от -150 до +30]]></answer>
-			<answer><![CDATA[от -130 до +50]]></answer>
-			<answer><![CDATA[от -100 до +20]]></answer>
+			<answer><![CDATA[от -100 до +50]]></answer>
+			<answer><![CDATA[от -130 до -10]]></answer>
 		</answers>
 	</task>
 </data>
