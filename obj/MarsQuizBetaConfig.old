@@ -8,15 +8,15 @@
   <compiler>
     <define append="true">
       <name>CONFIG::debug</name>
-      <value>true</value>
-    </define>
-    <define append="true">
-      <name>CONFIG::release</name>
       <value>false</value>
     </define>
     <define append="true">
+      <name>CONFIG::release</name>
+      <value>true</value>
+    </define>
+    <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'04.06.2015'</value>
+      <value>'18.06.2015'</value>
     </define>
     <define append="true">
       <name>CONFIG::terminal</name>
@@ -26,7 +26,9 @@
       <name>CONFIG::pagesize</name>
       <value>4</value>
     </define>
-    <verbose-stacktraces>true</verbose-stacktraces>
+    <optimize>true</optimize>
+    <omit-trace-statements>true</omit-trace-statements>
+    <verbose-stacktraces>false</verbose-stacktraces>
     <source-path append="true">
       <path-element>D:\_mars\mars_quiz_beta\src</path-element>
       <path-element>D:\_mars\mars_quiz_beta\lib</path-element>

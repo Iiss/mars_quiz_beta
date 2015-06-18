@@ -42,7 +42,7 @@
     <option linkReport="" />
     <option loadExterns="" />
     <option staticLinkRSL="True" />
-    <option additional="-locale ru_RU en_US -source-path locales/{locale}&#xA;-source-path+=lib" />
+    <option additional="-locale ru_RU en_US -source-path locales/{locale}&#xA;-source-path+=lib&#xA;-use-network=false" />
     <option compilerConstants="CONFIG::terminal,false&#xA;CONFIG::pagesize,4" />
     <option minorVersion="" />
   </build>
