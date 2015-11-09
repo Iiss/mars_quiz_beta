@@ -13,7 +13,7 @@ package services
 		public static function get skipIntro():Boolean
 		{
 			Data.load(FILE);
-			return Data.readBool(SKIP_INTRO, false);
+			return Data.readBool(SKIP_INTRO, true);
 		}
 		
 		public static function set skipIntro(value:Boolean):void

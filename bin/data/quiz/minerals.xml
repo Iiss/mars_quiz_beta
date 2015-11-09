@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="1">
+		<question><![CDATA[Кристаллы поваренной соли имеют форму:]]></question>
+		<answers>
+			<answer><![CDATA[Цилиндра]]></answer>
+			<answer><![CDATA[Куба]]></answer>
+			<answer><![CDATA[Шара]]></answer>
+			<answer><![CDATA[Геоида]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Какая из пород обладает наибольшей плотностью?]]></question>
+		<answers>
+			<answer><![CDATA[Базальт]]></answer>
+			<answer><![CDATA[Песчаник]]></answer>
+			<answer><![CDATA[Глина]]></answer>
+			<answer><![CDATA[Гипс]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Содержащий уран минерал карнотит имеет цвет:]]></question>
+		<answers>
+			<answer><![CDATA[Розовый]]></answer>
+			<answer><![CDATA[Синий]]></answer>
+			<answer><![CDATA[Желтый]]></answer>
+			<answer><![CDATA[Черный]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Наибольшей твердостью обладают:]]></question>
+		<answers>
+			<answer><![CDATA[Гипсы]]></answer>
+			<answer><![CDATA[Кварцы]]></answer>
+			<answer><![CDATA[Алмазы]]></answer>
+			<answer><![CDATA[Сталь]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Растворы солей меди имеют оттенок:]]></question>
+		<answers>
+			<answer><![CDATA[Синий]]></answer>
+			<answer><![CDATA[Красный]]></answer>
+			<answer><![CDATA[Черный]]></answer>
+			<answer><![CDATA[Белый]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Металлическим блеском обладают породы, содержащие:]]></question>
+		<answers>
+			<answer><![CDATA[Магнетит]]></answer>
+			<answer><![CDATA[Алюминий]]></answer>
+			<answer><![CDATA[Уран]]></answer>
+			<answer><![CDATA[Гипс]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Что измеряет шкала Мооса?]]></question>
+		<answers>
+			<answer><![CDATA[Плотность]]></answer>
+			<answer><![CDATA[Твердость]]></answer>
+			<answer><![CDATA[Электропроводность]]></answer>
+			<answer><![CDATA[Упругость]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Какой из представленных материалов обладает самой высокой электропроводностью?]]></question>
+		<answers>
+			<answer><![CDATA[Магнетит]]></answer>
+			<answer><![CDATA[Базальт]]></answer>
+			<answer><![CDATA[Гипс]]></answer>
+			<answer><![CDATA[Песок]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Какая из горных пород наиболее пористая?]]></question>
+		<answers>
+			<answer><![CDATA[Песчаник]]></answer>
+			<answer><![CDATA[Базальт]]></answer>
+			<answer><![CDATA[Передотит]]></answer>
+			<answer><![CDATA[Магнетит]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Какой из минералов обладает наибольшими магнитными свойствами?]]></question>
+		<answers>
+			<answer><![CDATA[Передотит]]></answer>
+			<answer><![CDATA[Лед]]></answer>
+			<answer><![CDATA[Гипс]]></answer>
+			<answer><![CDATA[Песчаник]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Наименьшей температурой плавления обладает:]]></question>
+		<answers>
+			<answer><![CDATA[Песчаник]]></answer>
+			<answer><![CDATA[Базальт]]></answer>
+			<answer><![CDATA[Магнетит]]></answer>
+			<answer><![CDATA[Лед]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Наименьшей твердостью обладает:]]></question>
+		<answers>
+			<answer><![CDATA[Гипс]]></answer>
+			<answer><![CDATA[Магнетит]]></answer>
+			<answer><![CDATA[Передотит]]></answer>
+			<answer><![CDATA[Кварц]]></answer>
+		</answers>
+	</task>
+</data>

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="2">
+		<question><![CDATA[Компас на Марсе будет показывать:]]></question>
+		<answers>
+			<answer><![CDATA[на север]]></answer>
+			<answer><![CDATA[на юг]]></answer>
+			<answer><![CDATA[на ближайшее железорудное тело]]></answer>
+			<answer><![CDATA[на Землю]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Нейтрон заряжен:]]></question>
+		<answers>
+			<answer><![CDATA[Отрицательно]]></answer>
+			<answer><![CDATA[Нейтрально]]></answer>
+			<answer><![CDATA[Положительно]]></answer>
+			<answer><![CDATA[Может быть заряжен как положительно, так и отрицательно]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Гравиметр измеряет:]]></question>
+		<answers>
+			<answer><![CDATA[Массу Марса]]></answer>
+			<answer><![CDATA[Универсальную гравитационную постоянную]]></answer>
+			<answer><![CDATA[Изменение гравитации]]></answer>
+			<answer><![CDATA[Ускорение свободного падения]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Маятник на Марсе будет качаться:]]></question>
+		<answers>
+			<answer><![CDATA[Быстрее, чем на Земле]]></answer>
+			<answer><![CDATA[Не будет качаться]]></answer>
+			<answer><![CDATA[Так же как на Земле]]></answer>
+			<answer><![CDATA[Медленнее, чем на Земле]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Маятниковые часы на Марсе:]]></question>
+		<answers>
+			<answer><![CDATA[Будут идти точно]]></answer>
+			<answer><![CDATA[Не будут идти]]></answer>
+			<answer><![CDATA[Будут спешить]]></answer>
+			<answer><![CDATA[Будут отставать]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какими методами можно вести поиск полезных ископаемых с большой дистанции?]]></question>
+		<answers>
+			<answer><![CDATA[Геологическими]]></answer>
+			<answer><![CDATA[Геофизическими]]></answer>
+			<answer><![CDATA[Лабораторными]]></answer>
+			<answer><![CDATA[Геохимическими]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Повышенным магнитным полем обладают залежи:]]></question>
+		<answers>
+			<answer><![CDATA[Песков]]></answer>
+			<answer><![CDATA[Железных руд]]></answer>
+			<answer><![CDATA[Нефти]]></answer>
+			<answer><![CDATA[Фосфатов]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[От нейтронного излучения лучше всего защищает:]]></question>
+		<answers>
+			<answer><![CDATA[Слой стали]]></answer>
+			<answer><![CDATA[Слой воды]]></answer>
+			<answer><![CDATA[Слой свинца]]></answer>
+			<answer><![CDATA[Слой меди]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Какое свойство горной породы влияет на гравитационное поле?]]></question>
+		<answers>
+			<answer><![CDATA[Радиоактивность]]></answer>
+			<answer><![CDATA[Плотность]]></answer>
+			<answer><![CDATA[Цвет]]></answer>
+			<answer><![CDATA[Магнитная восприимчивость]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Соединения какого металла окрашивают Марс в красноватый цвет?]]></question>
+		<answers>
+			<answer><![CDATA[Магния]]></answer>
+			<answer><![CDATA[Алюминия]]></answer>
+			<answer><![CDATA[Железа]]></answer>
+			<answer><![CDATA[Титана]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[К каким породам принадлежит базальт?]]></question>
+		<answers>
+			<answer><![CDATA[Магматическим (вулканическим)]]></answer>
+			<answer><![CDATA[Метеоритным]]></answer>
+			<answer><![CDATA[Метеморфическим (измененным)]]></answer>
+			<answer><![CDATA[Осадочным]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[К каким породам принадлежит гипс?]]></question>
+		<answers>
+			<answer><![CDATA[Магматическим (вулканическим)]]></answer>
+			<answer><![CDATA[Метеоритным]]></answer>
+			<answer><![CDATA[Метеморфическим (измененным)]]></answer>
+			<answer><![CDATA[Осадочным]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Какой из геофизических методов используется для поиска урана и тория?]]></question>
+		<answers>
+			<answer><![CDATA[Радиометрия]]></answer>
+			<answer><![CDATA[Гравиразведка]]></answer>
+			<answer><![CDATA[Электроразведка]]></answer>
+			<answer><![CDATA[Магниторазведка]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Вода на Марсе приемущественно существует:]]></question>
+		<answers>
+			<answer><![CDATA[В виде газа]]></answer>
+			<answer><![CDATA[В виде льда]]></answer>
+			<answer><![CDATA[В виде жидкости]]></answer>
+			<answer><![CDATA[Не присутствует на Марсе]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Сухой лед это:]]></question>
+		<answers>
+			<answer><![CDATA[Замерзшая вода]]></answer>
+			<answer><![CDATA[Известковые соединения]]></answer>
+			<answer><![CDATA[Замерзший азот]]></answer>
+			<answer><![CDATA[Замерзший углекислый газ]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Полярные шапки Марса состоят:]]></question>
+		<answers>
+			<answer><![CDATA[Из замерзшей воды]]></answer>
+			<answer><![CDATA[Из кристаллов разных солей]]></answer>
+			<answer><![CDATA[Из сухого льда]]></answer>
+			<answer><![CDATA[Полярные шапки отсутствуют на Марсе]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Какой из металлов лучше всего проводит электрический ток?]]></question>
+		<answers>
+			<answer><![CDATA[Железо]]></answer>
+			<answer><![CDATA[Медь]]></answer>
+			<answer><![CDATA[Серебро]]></answer>
+			<answer><![CDATA[Золото]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какой из материалов лучше всего удерживает тепло?]]></question>
+		<answers>
+			<answer><![CDATA[Железо]]></answer>
+			<answer><![CDATA[Бетон]]></answer>
+			<answer><![CDATA[Базальт]]></answer>
+			<answer><![CDATA[Пенопласт]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Песок в основном состоит из оксидов:]]></question>
+		<answers>
+			<answer><![CDATA[Алюминия]]></answer>
+			<answer><![CDATA[Магния]]></answer>
+			<answer><![CDATA[Водорода]]></answer>
+			<answer><![CDATA[Кремния]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Водонепроницаемой породой является:]]></question>
+		<answers>
+			<answer><![CDATA[Песок]]></answer>
+			<answer><![CDATA[Глина]]></answer>
+			<answer><![CDATA[Фосфориты]]></answer>
+			<answer><![CDATA[Известняки]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[В самородном виде на поверхности Марса может находиться:]]></question>
+		<answers>
+			<answer><![CDATA[Натрий]]></answer>
+			<answer><![CDATA[Магний]]></answer>
+			<answer><![CDATA[Алюминий]]></answer>
+			<answer><![CDATA[Золото]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[В качестве минеральных удобрений для роста растений необходимы:]]></question>
+		<answers>
+			<answer><![CDATA[Силикаты]]></answer>
+			<answer><![CDATA[Сульфаты]]></answer>
+			<answer><![CDATA[Нитраты]]></answer>
+			<answer><![CDATA[Хлориды]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[В качестве ядерного топлива могут использоваться соединения:]]></question>
+		<answers>
+			<answer><![CDATA[Железа]]></answer>
+			<answer><![CDATA[Меди]]></answer>
+			<answer><![CDATA[Урана]]></answer>
+			<answer><![CDATA[Радия]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Для залежей железных руд характерны высокие показатели:]]></question>
+		<answers>
+			<answer><![CDATA[Магнитной проницаемости и радиоактивности]]></answer>
+			<answer><![CDATA[Магнитной проницаемости и гравитации]]></answer>
+			<answer><![CDATA[Гравитации и радиации]]></answer>
+			<answer><![CDATA[Все три показателя будут низкими]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Геофизические методы стали применяться для поиска полезных ископаемых в:]]></question>
+		<answers>
+			<answer><![CDATA[XVII в.]]></answer>
+			<answer><![CDATA[XIX в.]]></answer>
+			<answer><![CDATA[XX в.]]></answer>
+			<answer><![CDATA[XXI в.]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Огромную пещеру под поверхностью Марса можно обнаружить методами:]]></question>
+		<answers>
+			<answer><![CDATA[Магниторазведки]]></answer>
+			<answer><![CDATA[Гравиразведки]]></answer>
+			<answer><![CDATA[Радиометрии]]></answer>
+			<answer><![CDATA[Ее не обнаружить этими методами]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Точность какого метода будут понижать металлические конструкции станции:]]></question>
+		<answers>
+			<answer><![CDATA[Магниторазведка]]></answer>
+			<answer><![CDATA[Гравиразведка]]></answer>
+			<answer><![CDATA[Радиометрия]]></answer>
+			<answer><![CDATA[Никакого]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Какой из старинных приборов можно считать прототипом современных магнитометров?]]></question>
+		<answers>
+			<answer><![CDATA[Буссоль]]></answer>
+			<answer><![CDATA[Астролябию]]></answer>
+			<answer><![CDATA[Компас]]></answer>
+			<answer><![CDATA[Клепсидру]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какой из старинных механизмов положен в основу гравиразведки?]]></question>
+		<answers>
+			<answer><![CDATA[Рычаг]]></answer>
+			<answer><![CDATA[Катапульта]]></answer>
+			<answer><![CDATA[Ворот]]></answer>
+			<answer><![CDATA[Маятник]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Какой из инструментов может помочь геофизику провести сейсморазведку?]]></question>
+		<answers>
+			<answer><![CDATA[Лопата]]></answer>
+			<answer><![CDATA[Грабли]]></answer>
+			<answer><![CDATA[Кувалда]]></answer>
+			<answer><![CDATA[Пила]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Какие полезные ископаемые встречаются на Земле и не встречаются на Марсе?]]></question>
+		<answers>
+			<answer><![CDATA[Базальты]]></answer>
+			<answer><![CDATA[Песчаники]]></answer>
+			<answer><![CDATA[Бокситы]]></answer>
+			<answer><![CDATA[Мрамор]]></answer>
+		</answers>
+	</task>
+</data>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="2">
+	  <question><![CDATA[Какая из рыб погубила больше всего человеческих жизней?]]></question>
+	  <answers>
+		<answer><![CDATA[белая акула]]></answer>
+		<answer><![CDATA[электрический скат]]></answer>
+		<answer><![CDATA[рыба-фугу]]></answer>
+		<answer><![CDATA[пиранья]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[Какую максимальную температуру может выдержать организм человека?]]></question>
+	  <answers>
+		<answer><![CDATA[41 °C]]></answer>
+		<answer><![CDATA[42 °C]]></answer>
+		<answer><![CDATA[45 °C]]></answer>
+		<answer><![CDATA[46 °C]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[При обработке раны йодом необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[вылить йод прямо на рану]]></answer>
+		<answer><![CDATA[обработать йодом поверхность вокруг раны ]]></answer>
+		<answer><![CDATA[дать пострадавшему выпить йода]]></answer>
+		<answer><![CDATA[не применять йод]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[При тепловом ударе необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[поместить пострадавшего в темное место]]></answer>
+		<answer><![CDATA[дать выпить подсоленной воды ]]></answer>
+		<answer><![CDATA[снять с пострадавшего одежду]]></answer>
+		<answer><![CDATA[положить лед на голову пострадавшего]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[После большой физической нагрузки, например, бега, для быстрого восстановления человек должен:]]></question>
+	  <answers>
+		<answer><![CDATA[лечь и закрыть глаза]]></answer>
+		<answer><![CDATA[попрыгать на месте]]></answer>
+		<answer><![CDATA[некоторое время медленно ходить и восстанавливать дыхание]]></answer>
+		<answer><![CDATA[сесть и медленно дышать]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[После длительного голодания человеку лучше съесть:]]></question>
+	  <answers>
+		<answer><![CDATA[кремовый торт]]></answer>
+		<answer><![CDATA[немного бульона]]></answer>
+		<answer><![CDATA[несколько гамбургеров]]></answer>
+		<answer><![CDATA[тарелку макарон]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[При работе в условиях повышенной температуры человек должен регулярно выпивать:]]></question>
+	  <answers>
+		<answer><![CDATA[бутылку кока-колы]]></answer>
+		<answer><![CDATA[стакан подсоленной или минеральной воды]]></answer>
+		<answer><![CDATA[3 литра холодной воды]]></answer>
+		<answer><![CDATA[2 чашки кофе]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[При оказании помощи утопающему на берегу, прежде всего необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[сделать искусственное дыхание]]></answer>
+		<answer><![CDATA[осмотреть и проверить жизненные функции]]></answer>
+		<answer><![CDATA[вылить воду из легких]]></answer>
+		<answer><![CDATA[сделать массаж сердца]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Оказывая помощь человеку пострадавшему от электрического тока прежде всего необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[осмотреть и проверить жизненные функции]]></answer>
+		<answer><![CDATA[сделать искусственное дыхание]]></answer>
+		<answer><![CDATA[проверить не находиться ли пострадавший под током и при необходимости отключить ток]]></answer>
+		<answer><![CDATA[сделать массаж сердца]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Кессонная болезнь, возникающая при быстром подъеме аквалангиста с большой глубины, связана с:]]></question>
+	  <answers>
+		<answer><![CDATA[избытком кислорода]]></answer>
+		<answer><![CDATA[со скачком давления на барабанные перепонки]]></answer>
+		<answer><![CDATA[закипанием в крови растворенного азота]]></answer>
+		<answer><![CDATA[недостатком кислорода]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Какой из данных человеческих органов самый тяжелый?]]></question>
+	  <answers>
+		<answer><![CDATA[печень]]></answer>
+		<answer><![CDATA[кожа]]></answer>
+		<answer><![CDATA[сердце]]></answer>
+		<answer><![CDATA[легкие]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Рецепторы сладкого вкуса расположены у человека:]]></question>
+	  <answers>
+		<answer><![CDATA[на всем языке]]></answer>
+		<answer><![CDATA[по краям языка]]></answer>
+		<answer><![CDATA[на кончике]]></answer>
+		<answer><![CDATA[снизу языка]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[В каком органе человека вырабатывается витамин D? ]]></question>
+	  <answers>
+		<answer><![CDATA[печень]]></answer>
+		<answer><![CDATA[почка]]></answer>
+		<answer><![CDATA[кожа]]></answer>
+		<answer><![CDATA[легкие]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Какой цвет глаз является наиболее редким?]]></question>
+	  <answers>
+		<answer><![CDATA[серый]]></answer>
+		<answer><![CDATA[голубой]]></answer>
+		<answer><![CDATA[зеленый]]></answer>
+		<answer><![CDATA[карий]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Когда  впервые была проведена операция по пересадке человеческого сердца?]]></question>
+	  <answers>
+		<answer><![CDATA[1920 г.]]></answer>
+		<answer><![CDATA[1945 г.]]></answer>
+		<answer><![CDATA[1967 г.]]></answer>
+		<answer><![CDATA[1985 г.]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[Когда впервые была проведена операция по пересадке человеческого языка?]]></question>
+	  <answers>
+		<answer><![CDATA[1960 г.]]></answer>
+		<answer><![CDATA[1982 г.]]></answer>
+		<answer><![CDATA[1984 г.]]></answer>
+		<answer><![CDATA[2004 г.]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Когда впервые был кремирован человек?]]></question>
+	  <answers>
+		<answer><![CDATA[1940 г.]]></answer>
+		<answer><![CDATA[1967 г.]]></answer>
+		<answer><![CDATA[1990 г.]]></answer>
+		<answer><![CDATA[2005 г.]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[Сколько процентов составляет смертность от заболевания бешенством в отсутствие прививок и лечения?]]></question>
+	  <answers>
+		<answer><![CDATA[10%]]></answer>
+		<answer><![CDATA[30%]]></answer>
+		<answer><![CDATA[60%]]></answer>
+		<answer><![CDATA[100%]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[В каком году впервые была проведена вакцинация от оспы?]]></question>
+	  <answers>
+		<answer><![CDATA[1812 г.]]></answer>
+		<answer><![CDATA[1889 г.]]></answer>
+		<answer><![CDATA[1920 г.]]></answer>
+		<answer><![CDATA[1930 г.]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Реакция манту проверяет сопротивляемость человеческого организма этому заболеванию:]]></question>
+	  <answers>
+		<answer><![CDATA[грипп]]></answer>
+		<answer><![CDATA[оспа]]></answer>
+		<answer><![CDATA[туберкулез]]></answer>
+		<answer><![CDATA[пневмония]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Прививка АКДС защищает человеческий организм от:]]></question>
+	  <answers>
+		<answer><![CDATA[кори, дизентерии, стоматита]]></answer>
+		<answer><![CDATA[коклюша, дифтерии, столбняка]]></answer>
+		<answer><![CDATA[кариеса, дисбактериоза, сколиоза]]></answer>
+		<answer><![CDATA[краснухи, дерматита, столбняка]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Человеку с 3 группой крови можно переливать:]]></question>
+	  <answers>
+		<answer><![CDATA[только 3 группу крови]]></answer>
+		<answer><![CDATA[только 1 и 3 группу крови]]></answer>
+		<answer><![CDATA[1, 2, 3 группу крови]]></answer>
+		<answer><![CDATA[любую группу крови]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Человеку, имеющему положительный резус-фактор крови, можно переливать кровь:]]></question>
+	  <answers>
+		<answer><![CDATA[только с положительным резус-фактором]]></answer>
+		<answer><![CDATA[и с положительным, и с отрицательным резус-фактором]]></answer>
+		<answer><![CDATA[только с отрицательным резус-фактором]]></answer>
+		<answer><![CDATA[можно переливать только плазму крови]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Окончательно существующие группы крови были открыты в:]]></question>
+	  <answers>
+		<answer><![CDATA[1900 г.]]></answer>
+		<answer><![CDATA[1910 г.]]></answer>
+		<answer><![CDATA[1926 г.]]></answer>
+		<answer><![CDATA[1935 г.]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Наличие резус-фактора в крови человека было открыто в:]]></question>
+	  <answers>
+		<answer><![CDATA[1920 г.]]></answer>
+		<answer><![CDATA[1930 г.]]></answer>
+		<answer><![CDATA[1940 г.]]></answer>
+		<answer><![CDATA[1950 г.]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Иммунной, т.е. переливаемой любому человеку, является кровь с:]]></question>
+	  <answers>
+		<answer><![CDATA[1 группой  и положительным резус-фактором]]></answer>
+		<answer><![CDATA[1 группой и отрицательным резус-фактором]]></answer>
+		<answer><![CDATA[4 группой  и положительным резус-фактором]]></answer>
+		<answer><![CDATA[4 группой и отрицательным резус-фактором]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[На ярком свету зрачок человека:]]></question>
+	  <answers>
+		<answer><![CDATA[расширяется]]></answer>
+		<answer><![CDATA[сужается]]></answer>
+		<answer><![CDATA[занимает всю радужную оболочку]]></answer>
+		<answer><![CDATA[остается неизменным]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[Сетчатка глаза состоит из:]]></question>
+	  <answers>
+		<answer><![CDATA[2 слоев]]></answer>
+		<answer><![CDATA[4 слоев]]></answer>
+		<answer><![CDATA[6 слоев]]></answer>
+		<answer><![CDATA[10 слоев]]></answer>
+	  </answers>
+	</task>
+	<task key="0">
+	  <question><![CDATA[При резком скачке атмосферного давления человеку необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[открыть рот]]></answer>
+		<answer><![CDATA[закрыть рот]]></answer>
+		<answer><![CDATA[глубоко вдохнуть]]></answer>
+		<answer><![CDATA[крепко зажмуриться]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[У здорового человека наличествует:]]></question>
+	  <answers>
+		<answer><![CDATA[14 фаланг пальцев рук]]></answer>
+		<answer><![CDATA[16 фаланг пальцев рук]]></answer>
+		<answer><![CDATA[20 фаланг пальцев рук]]></answer>
+		<answer><![CDATA[28 фаланг пальцев рук]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Эпидермис кожи человека состоит из:]]></question>
+	  <answers>
+		<answer><![CDATA[2 слоев]]></answer>
+		<answer><![CDATA[3 слоев]]></answer>
+		<answer><![CDATA[5 слоев]]></answer>
+		<answer><![CDATA[10 слоев]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[При большой физической нагрузке в мышцах человека образуется:]]></question>
+	  <answers>
+		<answer><![CDATA[угольная кислота]]></answer>
+		<answer><![CDATA[соляная кислота]]></answer>
+		<answer><![CDATA[молочная кислота]]></answer>
+		<answer><![CDATA[щавелевая кислота]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Массаж мышц после длительной физической нагрузки производиться:]]></question>
+	  <answers>
+		<answer><![CDATA[для ликвидации полученных травм]]></answer>
+		<answer><![CDATA[для обеспечения доступа крови и кислорода]]></answer>
+		<answer><![CDATA[для обеспечения прохождения нервного сигнала]]></answer>
+		<answer><![CDATA[для повышения температуры мышц]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Опасной для человека концентрацией углекислого газа является концентрация в:]]></question>
+	  <answers>
+		<answer><![CDATA[1%]]></answer>
+		<answer><![CDATA[2%]]></answer>
+		<answer><![CDATA[5%]]></answer>
+		<answer><![CDATA[10%]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[При аварии в самолете или космическом корабле, связанной с потерей воздуха, необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[помочь соседу, а потом надеть кислородную маску на себя]]></answer>
+		<answer><![CDATA[крепко зажмуриться]]></answer>
+		<answer><![CDATA[надеть кислородную маску, а затем оказать помощь другим]]></answer>
+		<answer><![CDATA[задержать дыхание]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Находясь в задымленном или загазованном помещении, чтобы снизить возможность отравления, необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[не дышать]]></answer>
+		<answer><![CDATA[работать с закрытыми глазами]]></answer>
+		<answer><![CDATA[дышать через влажную салфетку или платок]]></answer>
+		<answer><![CDATA[не обращать внимание на загазованность]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Обожженную руку надо поливать:]]></question>
+	  <answers>
+		<answer><![CDATA[горячей водой]]></answer>
+		<answer><![CDATA[спиртом]]></answer>
+		<answer><![CDATA[холодной водой]]></answer>
+		<answer><![CDATA[маслом]]></answer>
+	  </answers>
+	</task>
+	<task key="0">
+	  <question><![CDATA[В бедре человека находится:]]></question>
+	  <answers>
+		<answer><![CDATA[1 кость]]></answer>
+		<answer><![CDATA[2 кости]]></answer>
+		<answer><![CDATA[3 кости]]></answer>
+		<answer><![CDATA[4 кости]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[После электрического или болевого шока пострадавшего надо поместить:]]></question>
+	  <answers>
+		<answer><![CDATA[ровно на поверхности]]></answer>
+		<answer><![CDATA[так, чтобы голова была выше туловища]]></answer>
+		<answer><![CDATA[так, чтобы ноги были выше головы]]></answer>
+		<answer><![CDATA[лицом вниз]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[Сколько в организме человека спинномозговых нервов?]]></question>
+	  <answers>
+		<answer><![CDATA[3]]></answer>
+		<answer><![CDATA[5]]></answer>
+		<answer><![CDATA[12]]></answer>
+		<answer><![CDATA[31]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[При обильной кровопотере человеку надо:]]></question>
+	  <answers>
+		<answer><![CDATA[не давать пить]]></answer>
+		<answer><![CDATA[дать как можно больше питья]]></answer>
+		<answer><![CDATA[обильно накормить]]></answer>
+		<answer><![CDATA[не предпринимать никаких действий]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Увидев человека, находящегося без сознания, нужно:]]></question>
+	  <answers>
+		<answer><![CDATA[перевернуть его на бок]]></answer>
+		<answer><![CDATA[проверить пульс и дыхание]]></answer>
+		<answer><![CDATA[потрясти его, приводя в сознание]]></answer>
+		<answer><![CDATA[вколоть необходимые лекарства]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Рекорд задержки дыхания человеком составляет:]]></question>
+	  <answers>
+		<answer><![CDATA[3 мин.]]></answer>
+		<answer><![CDATA[5 мин.]]></answer>
+		<answer><![CDATA[12 мин.]]></answer>
+		<answer><![CDATA[50 мин.]]></answer>
+	  </answers>
+	</task>
+	<task key="0">
+	  <question><![CDATA[В нормальном состоянии пульс человека колеблется в диапазоне:]]></question>
+	  <answers>
+		<answer><![CDATA[от 50 до 80 ударов в минуту]]></answer>
+		<answer><![CDATA[от 20 до 30 ударов в минуту]]></answer>
+		<answer><![CDATA[от 90 до 100 ударов в минуту]]></answer>
+		<answer><![CDATA[от 150 до 200 ударов в минуту]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[В организме взрослого человека примерно:]]></question>
+	  <answers>
+		<answer><![CDATA[3 литра крови]]></answer>
+		<answer><![CDATA[5 литров крови]]></answer>
+		<answer><![CDATA[10 литров крови]]></answer>
+		<answer><![CDATA[12 литров крови]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Мозг человека составляет:]]></question>
+	  <answers>
+		<answer><![CDATA[1% от общей массы тела]]></answer>
+		<answer><![CDATA[2% от общей массы тела]]></answer>
+		<answer><![CDATA[10% от общей массы тела]]></answer>
+		<answer><![CDATA[15% от общей массы тела]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[У человека имеется:]]></question>
+	  <answers>
+		<answer><![CDATA[4 пары ребер]]></answer>
+		<answer><![CDATA[8 пар ребер]]></answer>
+		<answer><![CDATA[12 пар ребер]]></answer>
+		<answer><![CDATA[15 пар ребер]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Какая из мышц человека наименее подвержена утомлению?]]></question>
+	  <answers>
+		<answer><![CDATA[бедренная]]></answer>
+		<answer><![CDATA[спинная]]></answer>
+		<answer><![CDATA[сердечная]]></answer>
+		<answer><![CDATA[язык]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Сколько кругов кровообращения у человека?]]></question>
+	  <answers>
+		<answer><![CDATA[1]]></answer>
+		<answer><![CDATA[2]]></answer>
+		<answer><![CDATA[3]]></answer>
+		<answer><![CDATA[4]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Из скольких камер состоит сердце человека?]]></question>
+	  <answers>
+		<answer><![CDATA[2]]></answer>
+		<answer><![CDATA[3]]></answer>
+		<answer><![CDATA[4]]></answer>
+		<answer><![CDATA[6]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Из скольких костей состоит лицевой отдел человека?]]></question>
+	  <answers>
+		<answer><![CDATA[4]]></answer>
+		<answer><![CDATA[8]]></answer>
+		<answer><![CDATA[15]]></answer>
+		<answer><![CDATA[20]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Кровоснабжением мозга занимается:]]></question>
+	  <answers>
+		<answer><![CDATA[1 артерия]]></answer>
+		<answer><![CDATA[2 артерии]]></answer>
+		<answer><![CDATA[4 артерии]]></answer>
+		<answer><![CDATA[6 артерий]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[Сколько шейных позвонков у человека?]]></question>
+	  <answers>
+		<answer><![CDATA[3]]></answer>
+		<answer><![CDATA[5]]></answer>
+		<answer><![CDATA[7]]></answer>
+		<answer><![CDATA[12]]></answer>
+	  </answers>
+	</task>
+	<task key="3">
+	  <question><![CDATA[У человека к парным органам относится:]]></question>
+	  <answers>
+		<answer><![CDATA[печень]]></answer>
+		<answer><![CDATA[желудок]]></answer>
+		<answer><![CDATA[селезенка]]></answer>
+		<answer><![CDATA[почка]]></answer>
+	  </answers>
+	</task>
+	<task key="0">
+	  <question><![CDATA[При отравлении необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[дать человеку как можно больше питья]]></answer>
+		<answer><![CDATA[не давать пить]]></answer>
+		<answer><![CDATA[обильно накормить]]></answer>
+		<answer><![CDATA[не предпринимать никаких действий]]></answer>
+	  </answers>
+	</task>
+	<task key="2">
+	  <question><![CDATA[При подозрении на перелом или вывих руки необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[туго перебинтовать руку]]></answer>
+		<answer><![CDATA[подвесить руку на косынку]]></answer>
+		<answer><![CDATA[наложить шину]]></answer>
+		<answer><![CDATA[не трогать поврежденную конечность]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[При подозрении на травму шеи необходимо:]]></question>
+	  <answers>
+		<answer><![CDATA[повернуть голову на бок]]></answer>
+		<answer><![CDATA[надеть фиксирующий воротник]]></answer>
+		<answer><![CDATA[прибинтовать голову к плечу]]></answer>
+		<answer><![CDATA[поместить больного в сидячее положение]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Сколько костей находится в голени у человека?]]></question>
+	  <answers>
+		<answer><![CDATA[1]]></answer>
+		<answer><![CDATA[2]]></answer>
+		<answer><![CDATA[3]]></answer>
+		<answer><![CDATA[4]]></answer>
+	  </answers>
+	</task>
+	<task key="1">
+	  <question><![CDATA[Человек при нормальной температуре и влажности способен обходиться без воды в течение:]]></question>
+	  <answers>
+		<answer><![CDATA[1 суток]]></answer>
+		<answer><![CDATA[3 суток]]></answer>
+		<answer><![CDATA[8 суток]]></answer>
+		<answer><![CDATA[10 суток]]></answer>
+	  </answers>
+	</task>
+	<task key="0">
+	  <question><![CDATA[Человек начинает испытывать жажду при потере:]]></question>
+	  <answers>
+		<answer><![CDATA[1% жидкости]]></answer>
+		<answer><![CDATA[5% жидкости]]></answer>
+		<answer><![CDATA[10% жидкости]]></answer>
+		<answer><![CDATA[20% жидкости]]></answer>
+	  </answers>
+	</task>
+</data>
