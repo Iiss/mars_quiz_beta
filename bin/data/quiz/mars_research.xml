@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<task key="0">
+		<question><![CDATA[Капля воды в невесомости принимает форму]]></question>
+		<answers>
+			<answer><![CDATA[Шара]]></answer>
+			<answer><![CDATA[Куба]]></answer>
+			<answer><![CDATA[Цилиндра]]></answer>
+			<answer><![CDATA[Капли]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[В жару +45°C мыльный пузырь будет лететь]]></question>
+		<answers>
+			<answer><![CDATA[Вверх]]></answer>
+			<answer><![CDATA[Вниз]]></answer>
+			<answer><![CDATA[Не надуется]]></answer>
+			<answer><![CDATA[Сразу лопнет]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Если бы лед был тяжелее воды, озера в России зимой]]></question>
+		<answers>
+			<answer><![CDATA[Не образовались бы]]></answer>
+			<answer><![CDATA[Промерзли бы до дна]]></answer>
+			<answer><![CDATA[Не замерзали бы]]></answer>
+			<answer><![CDATA[Лед скапливался бы на дне]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Какая сила позволяет водомерке держаться на поверхности воды?]]></question>
+		<answers>
+			<answer><![CDATA[Сила тяжести]]></answer>
+			<answer><![CDATA[Сила упругости]]></answer>
+			<answer><![CDATA[Сила поверхностного натяжения]]></answer>
+			<answer><![CDATA[Электромагнитная сила]]></answer>
+		</answers>
+	</task>
+	<task key="2">
+		<question><![CDATA[Научное утверждение, не требующее доказательств, называется]]></question>
+		<answers>
+			<answer><![CDATA[Теорема]]></answer>
+			<answer><![CDATA[Апория]]></answer>
+			<answer><![CDATA[Аксиома]]></answer>
+			<answer><![CDATA[Гипотенуза]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Влияние какого фактора на человека невозможно исследовать на Земле?]]></question>
+		<answers>
+			<answer><![CDATA[Освещенность]]></answer>
+			<answer><![CDATA[Пониженная гравитация]]></answer>
+			<answer><![CDATA[Низкое давление]]></answer>
+			<answer><![CDATA[Другая атмосфера]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Метод исследования объекта по частям называется]]></question>
+		<answers>
+			<answer><![CDATA[Анализ]]></answer>
+			<answer><![CDATA[Синтез]]></answer>
+			<answer><![CDATA[Генезис]]></answer>
+			<answer><![CDATA[Казус]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Объект, аналоги которого отсутствуют, называется]]></question>
+		<answers>
+			<answer><![CDATA[Алгоритм]]></answer>
+			<answer><![CDATA[Уникум]]></answer>
+			<answer><![CDATA[Реприза]]></answer>
+			<answer><![CDATA[Феномен]]></answer>
+		</answers>
+	</task>
+	<task key="1">
+		<question><![CDATA[Объект, свойства которого отличаются от свойств окружающих объектов, называется]]></question>
+		<answers>
+			<answer><![CDATA[Феномен]]></answer>
+			<answer><![CDATA[Аномалия]]></answer>
+			<answer><![CDATA[Явление]]></answer>
+			<answer><![CDATA[Постулат]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[Свет представляет собой]]></question>
+		<answers>
+			<answer><![CDATA[Радиоизлучение]]></answer>
+			<answer><![CDATA[Корпускулярное излучение]]></answer>
+			<answer><![CDATA[B-излучение]]></answer>
+			<answer><![CDATA[Электромагнитное излучение]]></answer>
+		</answers>
+	</task>
+	<task key="0">
+		<question><![CDATA[Воздушный шар, надутый гелием, на Марсе]]></question>
+		<answers>
+			<answer><![CDATA[Взлетит вверх]]></answer>
+			<answer><![CDATA[Не взлетит]]></answer>
+			<answer><![CDATA[Не надуется]]></answer>
+			<answer><![CDATA[Сразу лопнет]]></answer>
+		</answers>
+	</task>
+	<task key="3">
+		<question><![CDATA[На муравья ставят цветную метку для того, чтобы исследовать его методом]]></question>
+		<answers>
+			<answer><![CDATA[Аналогии]]></answer>
+			<answer><![CDATA[Анализа]]></answer>
+			<answer><![CDATA[Эксперимента]]></answer>
+			<answer><![CDATA[Наблюдения]]></answer>
+		</answers>
+	</task>
+</data>
